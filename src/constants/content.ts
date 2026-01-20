@@ -1,23 +1,28 @@
 import {
-  Zap,
-  Wifi,
   BadgeDollarSign,
-  Building2,
-  Tags,
-  Target,
   BarChart3,
   Bell,
+  Building2,
+  Banknote,
+  ClipboardList,
   FlaskConical,
+  History,
   Lock,
   Palette,
-  History,
+  Tags,
+  Target,
+  Wifi,
+  WifiOff,
+  Zap,
+  Clock,
   type LucideIcon,
 } from "lucide-react";
 
 export const siteConfig = {
   name: "Money Tracker",
   url: "https://moneytracker.mg",
-  playStoreUrl: "https://play.google.com/store/apps/details?id=com.moneytracker.app",
+  playStoreUrl:
+    "https://play.google.com/store/apps/details?id=com.moneytracker.app",
   appStoreUrl: "https://apps.apple.com/app/money-tracker",
 };
 
@@ -46,29 +51,46 @@ export const hero = {
   },
 };
 
-export const problem = {
+interface PainPoint {
+  icon: LucideIcon;
+  title: string;
+  description: string;
+}
+
+interface Benefit {
+  icon: LucideIcon;
+  title: string;
+  description: string;
+  outcome: string;
+}
+
+export const problem: {
+  headline: string;
+  painPoints: PainPoint[];
+  agitation: string;
+} = {
   headline: "Vous ne savez jamais où passe votre argent ?",
   painPoints: [
     {
-      icon: "💸",
+      icon: Banknote,
       title: "Votre salaire arrive... et s'évapore",
       description:
         "Vous retirez de l'argent au distributeur. Une semaine plus tard, votre portefeuille est vide. Où est passé cet argent ? Impossible de savoir.",
     },
     {
-      icon: "📊",
+      icon: BarChart3,
       title: "Excel ? Trop lent. Les apps bancaires ? Inutiles.",
       description:
         "Les apps bancaires ne montrent que les retraits ATM - pas ce que vous faites ensuite avec cet argent.",
     },
     {
-      icon: "📶",
+      icon: WifiOff,
       title: "La plupart des apps ne fonctionnent pas sans internet",
       description:
         "À Madagascar, la connexion est instable et coûteuse. Les apps qui nécessitent internet ? Impossibles à utiliser.",
     },
     {
-      icon: "⏰",
+      icon: Clock,
       title: "Trop de champs à remplir",
       description:
         "Qui a le temps de catégoriser 50 champs pour une baguette ? Les apps de finance sont conçues pour des comptables.",
@@ -78,34 +100,38 @@ export const problem = {
     "Le résultat ? Vous travaillez dur, mais vous n'arrivez jamais à économiser. Chaque mois, c'est la même histoire : l'argent file entre vos doigts comme du sable. Ce n'est pas un problème de volonté. C'est un problème d'outil.",
 };
 
-export const solution = {
+export const solution: {
+  headline: string;
+  valueProposition: string;
+  benefits: Benefit[];
+} = {
   headline: "Money Tracker : Simple, Rapide, et 100% Offline",
   valueProposition:
     "Money Tracker est la première application de suivi des dépenses conçue pour les économies en cash comme Madagascar. Notre promesse : enregistrer une dépense en moins de 10 secondes, sans jamais avoir besoin d'internet.",
   benefits: [
     {
-      icon: "📊",
+      icon: BarChart3,
       title: "Voyez Où Va Votre Argent",
       description:
         "En un coup d'œil, comprenez vos dépenses du jour, de la semaine, du mois. Des graphiques simples qui révèlent vos habitudes.",
       outcome: "Fini les mystères financiers",
     },
     {
-      icon: "⚡",
+      icon: Zap,
       title: "10 Secondes, Pas Une De Plus",
       description:
         "Montant → Catégorie → Enregistré. C'est tout. Pas de champs inutiles, pas de questions superflues.",
       outcome: "Une habitude qui tient dans la durée",
     },
     {
-      icon: "📡",
+      icon: Wifi,
       title: "Fonctionne Partout, Même Sans Internet",
       description:
         "Au marché, en brousse, dans le taxi-be : votre app fonctionne. Vos données restent sur votre téléphone, en sécurité.",
       outcome: "Plus d'excuse pour ne pas noter",
     },
     {
-      icon: "💱",
+      icon: BadgeDollarSign,
       title: "MGA, EUR, USD - Tout En Un",
       description:
         "Gérez plusieurs devises avec conversion automatique. Parfait pour les voyageurs et expatriés.",
@@ -124,42 +150,50 @@ export const features: Feature[] = [
   {
     icon: Zap,
     title: "Entrée en 10 Secondes",
-    description: "Montant → Catégorie → Note → Enregistré. L'interface la plus rapide du marché.",
+    description:
+      "Montant → Catégorie → Note → Enregistré. L'interface la plus rapide du marché.",
   },
   {
     icon: Wifi,
     title: "100% Offline",
-    description: "Aucune connexion internet requise. Vos données sont stockées localement en toute sécurité.",
+    description:
+      "Aucune connexion internet requise. Vos données sont stockées localement en toute sécurité.",
   },
   {
     icon: BadgeDollarSign,
     title: "Support Multi-Devises",
-    description: "Ariary (MGA), Euro (EUR), Dollar (USD) avec conversion automatique.",
+    description:
+      "Ariary (MGA), Euro (EUR), Dollar (USD) avec conversion automatique.",
   },
   {
     icon: Building2,
     title: "Gestion de Comptes",
-    description: "Gérez jusqu'à 3 comptes (portefeuille, épargne, mobile money) avec transferts.",
+    description:
+      "Gérez jusqu'à 3 comptes (portefeuille, épargne, mobile money) avec transferts.",
   },
   {
     icon: Tags,
     title: "Catégories sur Mesure",
-    description: "8 catégories par défaut + 3 personnalisables. Couleurs et icônes uniques.",
+    description:
+      "8 catégories par défaut + 3 personnalisables. Couleurs et icônes uniques.",
   },
   {
     icon: Target,
     title: "Planifications",
-    description: "Créez des budgets avec deadlines et suivez vos objectifs financiers.",
+    description:
+      "Créez des budgets avec deadlines et suivez vos objectifs financiers.",
   },
   {
     icon: BarChart3,
     title: "Graphiques Clairs",
-    description: "Camembert des dépenses, historique filtrable par jour/semaine/mois.",
+    description:
+      "Camembert des dépenses, historique filtrable par jour/semaine/mois.",
   },
   {
     icon: Bell,
     title: "Notifications",
-    description: "Rappels configurables (1h, 2h, 4h) pour ne jamais oublier une dépense.",
+    description:
+      "Rappels configurables (1h, 2h, 4h) pour ne jamais oublier une dépense.",
   },
   {
     icon: FlaskConical,
@@ -169,17 +203,20 @@ export const features: Feature[] = [
   {
     icon: Lock,
     title: "Masquage du Solde",
-    description: "Cachez votre solde en un clic pour protéger votre vie privée.",
+    description:
+      "Cachez votre solde en un clic pour protéger votre vie privée.",
   },
   {
     icon: Palette,
     title: "4 Thèmes de Couleur",
-    description: "Turquoise, Bleu, Violet, Orange. Personnalisez selon vos préférences.",
+    description:
+      "Turquoise, Bleu, Violet, Orange. Personnalisez selon vos préférences.",
   },
   {
     icon: History,
     title: "Transactions Illimitées",
-    description: "Pagination infinie, groupement par date, suppression récupérable.",
+    description:
+      "Pagination infinie, groupement par date, suppression récupérable.",
   },
 ];
 
@@ -213,12 +250,36 @@ export const testimonials = [
 export const comparison = {
   headline: "Pourquoi Money Tracker ?",
   criteria: [
-    { label: "Temps d'entrée", traditional: "30-60 secondes", moneyTracker: "< 10 secondes" },
-    { label: "Internet requis", traditional: "Oui, toujours", moneyTracker: "Non (100% offline)" },
-    { label: "Multi-devises", traditional: "Limité ou payant", moneyTracker: "MGA, EUR, USD inclus" },
-    { label: "Planification", traditional: "Rare ou complexe", moneyTracker: "Intégrée et simple" },
-    { label: "Prix", traditional: "Freemium avec pubs", moneyTracker: "100% Gratuit, sans pub" },
-    { label: "Vie privée", traditional: "Données sur serveurs", moneyTracker: "Stockage local uniquement" },
+    {
+      label: "Temps d'entrée",
+      traditional: "30-60 secondes",
+      moneyTracker: "< 10 secondes",
+    },
+    {
+      label: "Internet requis",
+      traditional: "Oui, toujours",
+      moneyTracker: "Non (100% offline)",
+    },
+    {
+      label: "Multi-devises",
+      traditional: "Limité ou payant",
+      moneyTracker: "MGA, EUR, USD inclus",
+    },
+    {
+      label: "Planification",
+      traditional: "Rare ou complexe",
+      moneyTracker: "Intégrée et simple",
+    },
+    {
+      label: "Prix",
+      traditional: "Freemium avec pubs",
+      moneyTracker: "100% Gratuit, sans pub",
+    },
+    {
+      label: "Vie privée",
+      traditional: "Données sur serveurs",
+      moneyTracker: "Stockage local uniquement",
+    },
   ],
 };
 
@@ -267,8 +328,10 @@ export const faq = [
 
 export const cta = {
   headline: "Prêt à Reprendre le Contrôle ?",
-  subheadline: "Soyez parmi les premiers à découvrir Money Tracker et commencez à voir où va réellement votre argent.",
-  tagline: "Gratuit. Sans publicité. Fonctionne hors ligne. Conçu pour Madagascar.",
+  subheadline:
+    "Soyez parmi les premiers à découvrir Money Tracker et commencez à voir où va réellement votre argent.",
+  tagline:
+    "Gratuit. Sans publicité. Fonctionne hors ligne. Conçu pour Madagascar.",
   guarantees: [
     "Notification dès le lancement",
     "Accès anticipé exclusif",
@@ -291,7 +354,8 @@ export const newsletter = {
 };
 
 export const footer = {
-  description: "Application mobile de suivi des dépenses offline-first pour Madagascar. Bientôt disponible.",
+  description:
+    "Application mobile de suivi des dépenses offline-first pour Madagascar. Bientôt disponible.",
   columns: [
     {
       title: "Produit",
@@ -303,9 +367,7 @@ export const footer = {
     },
     {
       title: "Support",
-      links: [
-        { name: "Contact", href: "mailto:support@moneytracker.mg" },
-      ],
+      links: [{ name: "Contact", href: "mailto:support@moneytracker.mg" }],
     },
     {
       title: "Légal",
@@ -319,5 +381,5 @@ export const footer = {
     { name: "Facebook", href: "#" },
     { name: "Twitter", href: "#" },
   ],
-  copyright: "© 2026 Money Tracker. Conçu avec ❤️ à Madagascar.",
+  copyright: "© 2026 Money Tracker. Conçu avec ❤️ par Raymond Dzery Hago.",
 };

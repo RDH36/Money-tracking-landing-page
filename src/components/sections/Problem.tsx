@@ -15,15 +15,20 @@ export function Problem() {
           </FadeIn>
 
           <StaggerContainer className="grid sm:grid-cols-2 gap-6 mb-12">
-            {problem.painPoints.map((point, index) => (
-              <StaggerItem key={index}>
-                <div className="bg-white rounded-xl p-6 border border-gray-200 h-full">
-                  <span className="text-4xl mb-4 block">{point.icon}</span>
-                  <h3 className="text-lg font-semibold text-gray-900 mb-2">{point.title}</h3>
-                  <p className="text-gray-600">{point.description}</p>
-                </div>
-              </StaggerItem>
-            ))}
+            {problem.painPoints.map((point, index) => {
+              const Icon = point.icon;
+              return (
+                <StaggerItem key={index}>
+                  <div className="bg-white rounded-xl p-6 border border-gray-200 h-full">
+                    <div className="w-12 h-12 bg-red-50 rounded-lg flex items-center justify-center mb-4">
+                      <Icon className="w-6 h-6 text-red-500" />
+                    </div>
+                    <h3 className="text-lg font-semibold text-gray-900 mb-2">{point.title}</h3>
+                    <p className="text-gray-600">{point.description}</p>
+                  </div>
+                </StaggerItem>
+              );
+            })}
           </StaggerContainer>
 
           <FadeIn delay={0.4}>

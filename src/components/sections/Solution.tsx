@@ -16,18 +16,23 @@ export function Solution() {
           </FadeIn>
 
           <StaggerContainer className="grid sm:grid-cols-2 gap-8">
-            {solution.benefits.map((benefit, index) => (
-              <StaggerItem key={index}>
-                <ScaleOnHover>
-                  <div className="bg-gray-50 rounded-xl p-8 border border-gray-100 h-full hover:border-primary/30 transition-colors">
-                    <span className="text-4xl mb-4 block">{benefit.icon}</span>
-                    <h3 className="text-xl font-semibold text-gray-900 mb-3">{benefit.title}</h3>
-                    <p className="text-gray-600 mb-4">{benefit.description}</p>
-                    <p className="text-sm font-medium text-primary">→ {benefit.outcome}</p>
-                  </div>
-                </ScaleOnHover>
-              </StaggerItem>
-            ))}
+            {solution.benefits.map((benefit, index) => {
+              const Icon = benefit.icon;
+              return (
+                <StaggerItem key={index}>
+                  <ScaleOnHover>
+                    <div className="bg-gray-50 rounded-xl p-8 border border-gray-100 h-full hover:border-primary/30 transition-colors">
+                      <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center mb-4">
+                        <Icon className="w-6 h-6 text-primary" />
+                      </div>
+                      <h3 className="text-xl font-semibold text-gray-900 mb-3">{benefit.title}</h3>
+                      <p className="text-gray-600 mb-4">{benefit.description}</p>
+                      <p className="text-sm font-medium text-primary">→ {benefit.outcome}</p>
+                    </div>
+                  </ScaleOnHover>
+                </StaggerItem>
+              );
+            })}
           </StaggerContainer>
         </div>
       </div>
