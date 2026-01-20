@@ -251,7 +251,7 @@ export const faq = [
   {
     question: "Sur quelles plateformes l'app sera-t-elle disponible ?",
     answer:
-      "Money Tracker sera disponible sur Android (Google Play Store) et iOS (App Store) dès le lancement.",
+      "Money Tracker sera disponible sur Android (Google Play Store) au lancement. Une version iOS (App Store) est prévue pour plus tard.",
   },
   {
     question: "Comment être informé du lancement ?",
