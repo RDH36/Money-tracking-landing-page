@@ -114,18 +114,7 @@ export function Hero() {
               >
                 <a href={siteConfig.playStoreUrl} target="_blank" rel="noopener noreferrer">
                   <Download className="w-5 h-5 mr-2" />
-                  Google Play
-                </a>
-              </Button>
-              <Button
-                size="lg"
-                variant="outline"
-                className="px-6 py-6"
-                asChild
-              >
-                <a href={siteConfig.appStoreUrl} target="_blank" rel="noopener noreferrer">
-                  <Download className="w-5 h-5 mr-2" />
-                  App Store
+                  Télécharger sur Google Play
                 </a>
               </Button>
             </motion.div>
@@ -145,7 +134,7 @@ export function Hero() {
                 <span className="ml-1">{hero.stats.rating}</span>
               </span>
               <span className="text-gray-300">|</span>
-              <span>{hero.stats.downloads} téléchargements</span>
+              <span>{hero.stats.downloads} téléchargements sur Play Store</span>
             </motion.div>
             */}
 
