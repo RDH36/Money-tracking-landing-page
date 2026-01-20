@@ -32,7 +32,7 @@ export function Navigation() {
               </a>
             ))}
             <Button asChild className="bg-primary hover:bg-primary/90">
-              <a href="#download">Télécharger</a>
+              <a href="#newsletter">Être notifié</a>
             </Button>
           </div>
 
@@ -61,8 +61,8 @@ export function Navigation() {
                 </a>
               ))}
               <Button asChild className="bg-primary hover:bg-primary/90 w-full">
-                <a href="#download" onClick={() => setIsOpen(false)}>
-                  Télécharger
+                <a href="#newsletter" onClick={() => setIsOpen(false)}>
+                  Être notifié
                 </a>
               </Button>
             </div>

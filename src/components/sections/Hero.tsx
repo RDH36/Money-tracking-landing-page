@@ -2,8 +2,9 @@
 
 import { useRef } from "react";
 import { motion, useScroll, useTransform } from "framer-motion";
-import { CheckCircle, Star } from "lucide-react";
-import { DownloadButtons } from "@/components/DownloadButtons";
+import { CheckCircle, Bell } from "lucide-react";
+import { Button } from "@/components/ui/button";
+import { Badge } from "@/components/ui/badge";
 import { hero } from "@/constants/content";
 
 export function Hero() {
@@ -79,28 +80,23 @@ export function Hero() {
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6, delay: 0.5 }}
+              className="flex flex-col sm:flex-row items-start sm:items-center gap-4"
             >
-              <DownloadButtons />
+              <Button
+                size="lg"
+                className="bg-primary hover:bg-primary/90 text-white px-8 py-6 text-base font-semibold shadow-lg hover:shadow-xl transition-all group"
+                asChild
+              >
+                <a href="#newsletter">
+                  <Bell className="w-5 h-5 mr-3 group-hover:scale-110 transition-transform" />
+                  Être notifié du lancement
+                </a>
+              </Button>
+              <Badge variant="secondary" className="text-sm px-3 py-1">
+                Bientôt disponible
+              </Badge>
             </motion.div>
 
-            {/* Social Proof */}
-            <motion.div
-              className="mt-8 flex flex-wrap items-center gap-6 text-sm text-gray-600"
-              initial={{ opacity: 0 }}
-              animate={{ opacity: 1 }}
-              transition={{ duration: 0.6, delay: 0.7 }}
-            >
-              <span className="flex items-center gap-1">
-                <span className="flex text-yellow-500">
-                  {[...Array(5)].map((_, i) => (
-                    <Star key={i} className="w-4 h-4 fill-current" />
-                  ))}
-                </span>
-                <span className="ml-1">{hero.stats.rating}</span>
-              </span>
-              <span className="text-gray-300">|</span>
-              <span>{hero.stats.downloads} téléchargements</span>
-            </motion.div>
           </motion.div>
 
           {/* Screenshot */}
