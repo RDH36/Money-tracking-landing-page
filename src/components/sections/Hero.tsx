@@ -109,21 +109,23 @@ export function Hero() {
           >
             <div className="relative">
               {/* Phone Mockup */}
-              <div className="relative mx-auto w-[280px] h-[580px] bg-gray-900 rounded-[3rem] p-3 shadow-2xl">
-                <div className="absolute top-0 left-1/2 -translate-x-1/2 w-32 h-6 bg-gray-900 rounded-b-2xl" />
-                <div className="w-full h-full bg-gradient-to-br from-primary/20 to-primary/5 rounded-[2.5rem] overflow-hidden flex items-center justify-center">
-                  <div className="text-center p-6">
-                    <div className="w-16 h-16 bg-primary rounded-2xl mx-auto mb-4 flex items-center justify-center">
-                      <span className="text-white font-bold text-2xl">M</span>
-                    </div>
-                    <p className="text-gray-600 font-medium">Money Tracker</p>
-                    <p className="text-sm text-gray-400 mt-2">Screenshot à venir</p>
-                  </div>
+              <div className="relative mx-auto w-[280px] h-[580px] bg-gray-900 rounded-[3rem] p-2 shadow-2xl">
+                <div className="absolute top-0 left-1/2 -translate-x-1/2 w-32 h-6 bg-gray-900 rounded-b-2xl z-10" />
+                <div className="w-full h-full rounded-[2.5rem] overflow-hidden">
+                  <img
+                    src="/screen.jpg"
+                    alt="Money Tracker Dashboard"
+                    className="w-full h-full object-cover object-top"
+                  />
                 </div>
               </div>
               {/* Floating Badge */}
               <div className="absolute -right-4 top-20 bg-white rounded-lg shadow-lg px-4 py-2 border border-gray-100">
                 <p className="text-sm font-semibold text-primary">100% Offline</p>
+              </div>
+              {/* Second Badge */}
+              <div className="absolute -left-4 bottom-32 bg-white rounded-lg shadow-lg px-4 py-2 border border-gray-100">
+                <p className="text-sm font-semibold text-green-600">Multi-devises</p>
               </div>
             </div>
           </motion.div>
