@@ -25,7 +25,6 @@ export const navigation = [
   { name: "Accueil", href: "#" },
   { name: "Fonctionnalités", href: "#features" },
   { name: "FAQ", href: "#faq" },
-  { name: "Télécharger", href: "#download" },
 ];
 
 export const hero = {
@@ -225,53 +224,54 @@ export const comparison = {
 
 export const faq = [
   {
-    question: "L'application est-elle vraiment gratuite ?",
+    question: "Quand l'application sera-t-elle disponible ?",
     answer:
-      "Oui. Money Tracker est 100% gratuit sans publicité. Toutes les fonctionnalités sont accessibles sans payer. Nous prévoyons une version Premium optionnelle avec synchronisation cloud, mais l'app de base restera toujours gratuite.",
+      "Money Tracker est actuellement en développement. Inscrivez-vous à notre newsletter pour être notifié dès le lancement et bénéficier d'un accès anticipé.",
   },
   {
-    question: "Puis-je utiliser l'app sans connexion internet ?",
+    question: "L'application sera-t-elle gratuite ?",
     answer:
-      "Absolument. C'est notre différence principale. Money Tracker fonctionne entièrement hors ligne. Enregistrement, consultation, graphiques - tout marche sans internet.",
+      "Oui. Money Tracker sera 100% gratuit sans publicité. Toutes les fonctionnalités seront accessibles sans payer. Nous prévoyons une version Premium optionnelle avec synchronisation cloud, mais l'app de base restera toujours gratuite.",
   },
   {
-    question: "Mes données sont-elles sécurisées ?",
+    question: "Pourrai-je utiliser l'app sans connexion internet ?",
     answer:
-      "Oui. Toutes vos données sont stockées localement sur votre téléphone dans une base SQLite sécurisée. Aucune donnée n'est envoyée à des serveurs externes. Nous n'avons pas accès à vos informations financières.",
+      "Absolument. C'est notre différence principale. Money Tracker fonctionnera entièrement hors ligne. Enregistrement, consultation, graphiques - tout marchera sans internet.",
   },
   {
-    question: "Quelles devises sont supportées ?",
+    question: "Mes données seront-elles sécurisées ?",
     answer:
-      "Actuellement : Ariary malgache (MGA), Euro (EUR), et Dollar américain (USD). La conversion automatique entre devises est incluse.",
+      "Oui. Toutes vos données seront stockées localement sur votre téléphone dans une base SQLite sécurisée. Aucune donnée ne sera envoyée à des serveurs externes. Nous n'aurons pas accès à vos informations financières.",
   },
   {
-    question: "Combien de comptes puis-je créer ?",
+    question: "Quelles devises seront supportées ?",
     answer:
-      "Vous avez 1 compte principal par défaut + jusqu'à 2 comptes personnalisés (total : 3 comptes). Suffisant pour séparer portefeuille, épargne, et mobile money.",
+      "Au lancement : Ariary malgache (MGA), Euro (EUR), et Dollar américain (USD). La conversion automatique entre devises sera incluse.",
   },
   {
-    question: "Puis-je récupérer une transaction supprimée ?",
+    question: "Sur quelles plateformes l'app sera-t-elle disponible ?",
     answer:
-      'Les suppressions sont "douces" - les données sont marquées comme supprimées mais restent dans la base. Une fonctionnalité de récupération sera ajoutée dans une prochaine mise à jour.',
+      "Money Tracker sera disponible sur Android (Google Play Store) et iOS (App Store) dès le lancement.",
   },
   {
-    question: "L'app est-elle disponible sur iPhone ?",
-    answer: "Oui. Money Tracker est disponible sur iOS (App Store) et Android (Google Play Store).",
+    question: "Comment être informé du lancement ?",
+    answer:
+      "Inscrivez-vous à notre newsletter ci-dessus. Vous recevrez un email dès que l'application sera disponible, ainsi que des conseils exclusifs pour mieux gérer votre argent.",
   },
   {
     question: "Comment fonctionne la planification budgétaire ?",
     answer:
-      "Créez une planification avec un montant cible et une deadline. Ajoutez des articles avec leurs montants. L'app suit votre progression. Quand vous êtes prêt, convertissez la planification en transactions réelles en un tap.",
+      "Vous pourrez créer une planification avec un montant cible et une deadline. Ajoutez des articles avec leurs montants. L'app suivra votre progression. Quand vous serez prêt, convertissez la planification en transactions réelles en un tap.",
   },
 ];
 
 export const cta = {
   headline: "Prêt à Reprendre le Contrôle ?",
-  subheadline: "Téléchargez Money Tracker maintenant et commencez à voir où va réellement votre argent.",
+  subheadline: "Soyez parmi les premiers à découvrir Money Tracker et commencez à voir où va réellement votre argent.",
   tagline: "Gratuit. Sans publicité. Fonctionne hors ligne. Conçu pour Madagascar.",
   guarantees: [
-    "Installation en 1 minute",
-    "Aucune carte de crédit requise",
+    "Notification dès le lancement",
+    "Accès anticipé exclusif",
     "Gratuit à vie (fonctionnalités de base)",
     "Vos données restent sur votre téléphone",
   ],
@@ -291,22 +291,20 @@ export const newsletter = {
 };
 
 export const footer = {
-  description: "Application mobile de suivi des dépenses offline-first pour Madagascar.",
+  description: "Application mobile de suivi des dépenses offline-first pour Madagascar. Bientôt disponible.",
   columns: [
     {
       title: "Produit",
       links: [
         { name: "Fonctionnalités", href: "#features" },
         { name: "FAQ", href: "#faq" },
-        { name: "Télécharger", href: "#download" },
+        { name: "Newsletter", href: "#newsletter" },
       ],
     },
     {
       title: "Support",
       links: [
-        { name: "Documentation", href: "#" },
         { name: "Contact", href: "mailto:support@moneytracker.mg" },
-        { name: "Signaler un bug", href: "#" },
       ],
     },
     {
@@ -320,7 +318,6 @@ export const footer = {
   social: [
     { name: "Facebook", href: "#" },
     { name: "Twitter", href: "#" },
-    { name: "GitHub", href: "#" },
   ],
   copyright: "© 2026 Money Tracker. Conçu avec ❤️ à Madagascar.",
 };
