@@ -2,9 +2,11 @@
 
 import { useRef } from "react";
 import { motion, useScroll, useTransform } from "framer-motion";
+// TODO: Décommenter après le lancement - import { CheckCircle, Star, Download } from "lucide-react";
 import { CheckCircle, Bell } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
+// TODO: Décommenter après le lancement - import { siteConfig } from "@/constants/content";
 import { hero } from "@/constants/content";
 
 export function Hero() {
@@ -76,6 +78,7 @@ export function Hero() {
               ))}
             </motion.ul>
 
+            {/* PRE-LAUNCH: Newsletter CTA */}
             <motion.div
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
@@ -96,6 +99,55 @@ export function Hero() {
                 Bientôt disponible
               </Badge>
             </motion.div>
+
+            {/* TODO: POST-LAUNCH - Décommenter et supprimer la section PRE-LAUNCH ci-dessus
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.6, delay: 0.5 }}
+              className="flex flex-wrap gap-4"
+            >
+              <Button
+                size="lg"
+                className="bg-gray-900 hover:bg-gray-800 text-white px-6 py-6"
+                asChild
+              >
+                <a href={siteConfig.playStoreUrl} target="_blank" rel="noopener noreferrer">
+                  <Download className="w-5 h-5 mr-2" />
+                  Google Play
+                </a>
+              </Button>
+              <Button
+                size="lg"
+                variant="outline"
+                className="px-6 py-6"
+                asChild
+              >
+                <a href={siteConfig.appStoreUrl} target="_blank" rel="noopener noreferrer">
+                  <Download className="w-5 h-5 mr-2" />
+                  App Store
+                </a>
+              </Button>
+            </motion.div>
+
+            <motion.div
+              className="mt-8 flex flex-wrap items-center gap-6 text-sm text-gray-600"
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              transition={{ duration: 0.6, delay: 0.7 }}
+            >
+              <span className="flex items-center gap-1">
+                <span className="flex text-yellow-500">
+                  {[...Array(5)].map((_, i) => (
+                    <Star key={i} className="w-4 h-4 fill-current" />
+                  ))}
+                </span>
+                <span className="ml-1">{hero.stats.rating}</span>
+              </span>
+              <span className="text-gray-300">|</span>
+              <span>{hero.stats.downloads} téléchargements</span>
+            </motion.div>
+            */}
 
           </motion.div>
 

@@ -29,9 +29,15 @@ export function Navigation() {
                 {item.name}
               </a>
             ))}
+            {/* PRE-LAUNCH */}
             <Button asChild className="bg-primary hover:bg-primary/90">
               <a href="#newsletter">Être notifié</a>
             </Button>
+            {/* TODO: POST-LAUNCH - Décommenter et supprimer le bouton PRE-LAUNCH ci-dessus
+            <Button asChild className="bg-primary hover:bg-primary/90">
+              <a href="#download">Télécharger</a>
+            </Button>
+            */}
           </div>
 
           {/* Mobile Menu Button */}
@@ -58,11 +64,19 @@ export function Navigation() {
                   {item.name}
                 </a>
               ))}
+              {/* PRE-LAUNCH */}
               <Button asChild className="bg-primary hover:bg-primary/90 w-full">
                 <a href="#newsletter" onClick={() => setIsOpen(false)}>
                   Être notifié
                 </a>
               </Button>
+              {/* TODO: POST-LAUNCH - Décommenter et supprimer le bouton PRE-LAUNCH ci-dessus
+              <Button asChild className="bg-primary hover:bg-primary/90 w-full">
+                <a href="#download" onClick={() => setIsOpen(false)}>
+                  Télécharger
+                </a>
+              </Button>
+              */}
             </div>
           </div>
         )}
