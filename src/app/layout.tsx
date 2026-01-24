@@ -10,7 +10,7 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://mitsitsy.mg"),
+  metadataBase: new URL("https://mitsitsy.app"),
   title: {
     default: "Mitsitsy - Suivi des Dépenses Offline | Madagascar",
     template: "%s | Mitsitsy",
@@ -31,7 +31,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "fr_FR",
-    url: "https://mitsitsy.mg",
+    url: "https://mitsitsy.app",
     title: "Mitsitsy - Suivi des Dépenses Offline pour Madagascar",
     description:
       "Application mobile gratuite de suivi des dépenses. 100% offline, multi-devises.",

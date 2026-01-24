@@ -6,6 +6,6 @@ export default function robots(): MetadataRoute.Robots {
       userAgent: "*",
       allow: "/",
     },
-    sitemap: "https://mitsitsy.mg/sitemap.xml",
+    sitemap: "https://mitsitsy.app/sitemap.xml",
   };
 }

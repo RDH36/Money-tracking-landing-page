@@ -20,7 +20,7 @@ import {
 
 export const siteConfig = {
   name: "Mitsitsy",
-  url: "https://mitsitsy.mg",
+  url: "https://mitsitsy.app",
   playStoreUrl:
     "https://play.google.com/store/apps/details?id=com.mitsitsy.app",
   appStoreUrl: "https://apps.apple.com/app/mitsitsy",
@@ -367,7 +367,7 @@ export const footer = {
     },
     {
       title: "Support",
-      links: [{ name: "Contact", href: "mailto:support@mitsitsy.mg" }],
+      links: [{ name: "Contact", href: "mailto:support@mitsitsy.app" }],
     },
     {
       title: "Légal",
