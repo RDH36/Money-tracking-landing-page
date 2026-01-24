@@ -19,11 +19,11 @@ import {
 } from "lucide-react";
 
 export const siteConfig = {
-  name: "Money Tracker",
-  url: "https://moneytracker.mg",
+  name: "Mitsitsy",
+  url: "https://mitsitsy.mg",
   playStoreUrl:
-    "https://play.google.com/store/apps/details?id=com.moneytracker.app",
-  appStoreUrl: "https://apps.apple.com/app/money-tracker",
+    "https://play.google.com/store/apps/details?id=com.mitsitsy.app",
+  appStoreUrl: "https://apps.apple.com/app/mitsitsy",
 };
 
 export const navigation = [
@@ -35,7 +35,7 @@ export const navigation = [
 export const hero = {
   headline: "Prenez le Contrôle de Vos Finances en 10 Secondes",
   subheadline:
-    "Money Tracker est l'application mobile qui vous permet de suivre chaque Ariary dépensé, même sans connexion internet. Conçue pour Madagascar, adaptée au monde entier.",
+    "Mitsitsy est l'application mobile qui vous permet de suivre chaque Ariary dépensé, même sans connexion internet. Conçue pour Madagascar, adaptée au monde entier.",
   benefits: [
     "Enregistrez une dépense en moins de 10 secondes",
     "Fonctionne 100% hors ligne",
@@ -105,9 +105,9 @@ export const solution: {
   valueProposition: string;
   benefits: Benefit[];
 } = {
-  headline: "Money Tracker : Simple, Rapide, et 100% Offline",
+  headline: "Mitsitsy : Simple, Rapide, et 100% Offline",
   valueProposition:
-    "Money Tracker est la première application de suivi des dépenses conçue pour les économies en cash comme Madagascar. Notre promesse : enregistrer une dépense en moins de 10 secondes, sans jamais avoir besoin d'internet.",
+    "Mitsitsy est la première application de suivi des dépenses conçue pour les économies en cash comme Madagascar. Notre promesse : enregistrer une dépense en moins de 10 secondes, sans jamais avoir besoin d'internet.",
   benefits: [
     {
       icon: BarChart3,
@@ -223,7 +223,7 @@ export const features: Feature[] = [
 export const testimonials = [
   {
     quote:
-      "Grâce à Money Tracker, j'ai identifié que je dépensais 150 000 Ar par mois en taxi-be. J'ai commencé à marcher plus souvent et j'ai économisé pour un vélo.",
+      "Grâce à Mitsitsy, j'ai identifié que je dépensais 150 000 Ar par mois en taxi-be. J'ai commencé à marcher plus souvent et j'ai économisé pour un vélo.",
     author: "Rakoto A.",
     role: "Commerçant",
     location: "Antananarivo",
@@ -248,12 +248,12 @@ export const testimonials = [
 ];
 
 export const comparison = {
-  headline: "Pourquoi Money Tracker ?",
+  headline: "Pourquoi Mitsitsy ?",
   criteria: [
     {
       label: "Temps d'entrée",
       traditional: "30-60 secondes",
-      moneyTracker: "< 10 secondes",
+      mitsitsy: "< 10 secondes",
     },
     {
       label: "Internet requis",
@@ -287,17 +287,17 @@ export const faq = [
   {
     question: "Quand l'application sera-t-elle disponible ?",
     answer:
-      "Money Tracker est actuellement en développement. Inscrivez-vous à notre newsletter pour être notifié dès le lancement et bénéficier d'un accès anticipé.",
+      "Mitsitsy est actuellement en développement. Inscrivez-vous à notre newsletter pour être notifié dès le lancement et bénéficier d'un accès anticipé.",
   },
   {
     question: "L'application sera-t-elle gratuite ?",
     answer:
-      "Oui. Money Tracker sera 100% gratuit sans publicité. Toutes les fonctionnalités seront accessibles sans payer. Nous prévoyons une version Premium optionnelle avec synchronisation cloud, mais l'app de base restera toujours gratuite.",
+      "Oui. Mitsitsy sera 100% gratuit sans publicité. Toutes les fonctionnalités seront accessibles sans payer. Nous prévoyons une version Premium optionnelle avec synchronisation cloud, mais l'app de base restera toujours gratuite.",
   },
   {
     question: "Pourrai-je utiliser l'app sans connexion internet ?",
     answer:
-      "Absolument. C'est notre différence principale. Money Tracker fonctionnera entièrement hors ligne. Enregistrement, consultation, graphiques - tout marchera sans internet.",
+      "Absolument. C'est notre différence principale. Mitsitsy fonctionnera entièrement hors ligne. Enregistrement, consultation, graphiques - tout marchera sans internet.",
   },
   {
     question: "Mes données seront-elles sécurisées ?",
@@ -312,7 +312,7 @@ export const faq = [
   {
     question: "Sur quelles plateformes l'app sera-t-elle disponible ?",
     answer:
-      "Money Tracker sera disponible sur Android (Google Play Store) au lancement. Une version iOS (App Store) est prévue pour plus tard.",
+      "Mitsitsy sera disponible sur Android (Google Play Store) au lancement. Une version iOS (App Store) est prévue pour plus tard.",
   },
   {
     question: "Comment être informé du lancement ?",
@@ -329,7 +329,7 @@ export const faq = [
 export const cta = {
   headline: "Prêt à Reprendre le Contrôle ?",
   subheadline:
-    "Soyez parmi les premiers à découvrir Money Tracker et commencez à voir où va réellement votre argent.",
+    "Soyez parmi les premiers à découvrir Mitsitsy et commencez à voir où va réellement votre argent.",
   tagline:
     "Gratuit. Sans publicité. Fonctionne hors ligne. Conçu pour Madagascar.",
   guarantees: [
@@ -367,7 +367,7 @@ export const footer = {
     },
     {
       title: "Support",
-      links: [{ name: "Contact", href: "mailto:support@moneytracker.mg" }],
+      links: [{ name: "Contact", href: "mailto:support@mitsitsy.mg" }],
     },
     {
       title: "Légal",
@@ -381,5 +381,5 @@ export const footer = {
     { name: "Facebook", href: "#" },
     { name: "Twitter", href: "#" },
   ],
-  copyright: "© 2026 Money Tracker. Conçu avec ❤️ par Raymond Dzery Hago.",
+  copyright: "© 2026 Mitsitsy. Conçu avec ❤️ par Raymond Dzery Hago.",
 };

@@ -155,7 +155,7 @@ export function Hero() {
                 <div className="w-full h-full rounded-[2.5rem] overflow-hidden">
                   <img
                     src="/screen.jpg"
-                    alt="Money Tracker Dashboard"
+                    alt="Mitsitsy Dashboard"
                     className="w-full h-full object-cover object-top"
                   />
                 </div>
