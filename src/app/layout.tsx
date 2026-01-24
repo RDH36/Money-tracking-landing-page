@@ -10,15 +10,15 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://moneytracker.mg"),
+  metadataBase: new URL("https://mitsitsy.app"),
   title: {
-    default: "Money Tracker - Suivi des Dépenses Offline | Madagascar",
-    template: "%s | Money Tracker",
+    default: "Mitsitsy - Suivi des Dépenses Offline | Madagascar",
+    template: "%s | Mitsitsy",
   },
   description:
-    "Prenez le contrôle de vos finances en 10 secondes. Money Tracker est l'app mobile offline-first de suivi des dépenses. Support MGA, EUR, USD. 100% gratuit.",
+    "Prenez le contrôle de vos finances en 10 secondes. Mitsitsy est l'app mobile offline-first de suivi des dépenses. Support MGA, EUR, USD. 100% gratuit.",
   keywords: [
-    "money tracker",
+    "mitsitsy",
     "suivi dépenses",
     "budget madagascar",
     "offline app",
@@ -26,28 +26,28 @@ export const metadata: Metadata = {
     "gestion finances",
     "expense tracker",
   ],
-  authors: [{ name: "Money Tracker Team" }],
-  creator: "Money Tracker",
+  authors: [{ name: "Mitsitsy Team" }],
+  creator: "Mitsitsy",
   openGraph: {
     type: "website",
     locale: "fr_FR",
-    url: "https://moneytracker.mg",
-    title: "Money Tracker - Suivi des Dépenses Offline pour Madagascar",
+    url: "https://mitsitsy.app",
+    title: "Mitsitsy - Suivi des Dépenses Offline pour Madagascar",
     description:
       "Application mobile gratuite de suivi des dépenses. 100% offline, multi-devises.",
-    siteName: "Money Tracker",
+    siteName: "Mitsitsy",
     images: [
       {
         url: "/og-image.png",
         width: 1200,
         height: 630,
-        alt: "Money Tracker - Application de suivi des dépenses",
+        alt: "Mitsitsy - Application de suivi des dépenses",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Money Tracker - Suivi des Dépenses Offline",
+    title: "Mitsitsy - Suivi des Dépenses Offline",
     description: "Application mobile gratuite. 100% offline, multi-devises.",
     images: ["/og-image.png"],
   },

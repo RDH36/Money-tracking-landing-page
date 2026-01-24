@@ -26,7 +26,7 @@ export function Benefits() {
                         Apps Traditionnelles
                       </th>
                       <th className="text-center py-4 px-6 font-semibold text-primary">
-                        Money Tracker
+                        Mitsitsy
                       </th>
                     </tr>
                   </thead>
@@ -46,7 +46,7 @@ export function Benefits() {
                         <td className="py-4 px-6 text-center">
                           <span className="flex items-center justify-center gap-2 font-medium text-primary">
                             <Check className="w-4 h-4" />
-                            {row.moneyTracker}
+                            {row.mitsitsy}
                           </span>
                         </td>
                       </tr>

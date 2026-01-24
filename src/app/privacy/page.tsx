@@ -4,8 +4,8 @@ import { ArrowLeft } from "lucide-react";
 import { siteConfig } from "@/constants/content";
 
 export const metadata: Metadata = {
-  title: "Politique de Confidentialité | Money Tracker",
-  description: "Politique de confidentialité de Money Tracker - Comment nous protégeons vos données.",
+  title: "Politique de Confidentialité | Mitsitsy",
+  description: "Politique de confidentialité de Mitsitsy - Comment nous protégeons vos données.",
 };
 
 export default function PrivacyPage() {
@@ -50,7 +50,7 @@ export default function PrivacyPage() {
                 2.1 Données de l'Application
               </h3>
               <p className="text-gray-600 mb-4">
-                Money Tracker est conçu selon le principe "offline-first". Toutes vos données
+                Mitsitsy est conçu selon le principe "offline-first". Toutes vos données
                 financières (transactions, comptes, catégories, planifications) sont stockées
                 <strong> localement sur votre appareil</strong> uniquement. Nous n'avons pas accès
                 à ces données et elles ne sont jamais transmises à nos serveurs.
@@ -69,7 +69,7 @@ export default function PrivacyPage() {
               </ul>
               <p className="text-gray-600 mb-4">
                 Ces données sont utilisées uniquement pour vous envoyer des informations sur
-                Money Tracker (nouveautés, conseils, lancement). Vous pouvez vous désabonner
+                Mitsitsy (nouveautés, conseils, lancement). Vous pouvez vous désabonner
                 à tout moment.
               </p>
             </section>
@@ -118,7 +118,7 @@ export default function PrivacyPage() {
                 <li>Exporter vos données de l'application</li>
               </ul>
               <p className="text-gray-600 mb-4">
-                Pour exercer ces droits, contactez-nous à : support@moneytracker.mg
+                Pour exercer ces droits, contactez-nous à : support@mitsitsy.app
               </p>
             </section>
 
@@ -155,7 +155,7 @@ export default function PrivacyPage() {
                 Pour toute question concernant cette politique de confidentialité :
               </p>
               <p className="text-gray-600">
-                Email : <a href="mailto:support@moneytracker.mg" className="text-primary hover:underline">support@moneytracker.mg</a>
+                Email : <a href="mailto:support@mitsitsy.app" className="text-primary hover:underline">support@mitsitsy.app</a>
               </p>
             </section>
           </div>

@@ -4,8 +4,8 @@ import { ArrowLeft } from "lucide-react";
 import { siteConfig } from "@/constants/content";
 
 export const metadata: Metadata = {
-  title: "Conditions d'Utilisation | Money Tracker",
-  description: "Conditions générales d'utilisation de Money Tracker.",
+  title: "Conditions d'Utilisation | Mitsitsy",
+  description: "Conditions générales d'utilisation de Mitsitsy.",
 };
 
 export default function TermsPage() {
@@ -179,7 +179,7 @@ export default function TermsPage() {
                 Pour toute question concernant ces conditions d'utilisation :
               </p>
               <p className="text-gray-600">
-                Email : <a href="mailto:support@moneytracker.mg" className="text-primary hover:underline">support@moneytracker.mg</a>
+                Email : <a href="mailto:support@mitsitsy.app" className="text-primary hover:underline">support@mitsitsy.app</a>
               </p>
             </section>
           </div>
