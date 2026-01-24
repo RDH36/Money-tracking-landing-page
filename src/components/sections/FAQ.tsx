@@ -19,7 +19,7 @@ export function FAQ() {
               Questions Fréquentes
             </h2>
             <p className="text-lg text-gray-600">
-              Tout ce que vous devez savoir sur Money Tracker
+              Tout ce que vous devez savoir sur Mitsitsy
             </p>
           </FadeIn>
 
