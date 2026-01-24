@@ -258,27 +258,27 @@ export const comparison = {
     {
       label: "Internet requis",
       traditional: "Oui, toujours",
-      moneyTracker: "Non (100% offline)",
+      mitsitsy: "Non (100% offline)",
     },
     {
       label: "Multi-devises",
       traditional: "Limité ou payant",
-      moneyTracker: "MGA, EUR, USD inclus",
+      mitsitsy: "MGA, EUR, USD inclus",
     },
     {
       label: "Planification",
       traditional: "Rare ou complexe",
-      moneyTracker: "Intégrée et simple",
+      mitsitsy: "Intégrée et simple",
     },
     {
       label: "Prix",
       traditional: "Freemium avec pubs",
-      moneyTracker: "100% Gratuit, sans pub",
+      mitsitsy: "100% Gratuit, sans pub",
     },
     {
       label: "Vie privée",
       traditional: "Données sur serveurs",
-      moneyTracker: "Stockage local uniquement",
+      mitsitsy: "Stockage local uniquement",
     },
   ],
 };
