@@ -351,6 +351,7 @@ export const newsletter = {
   ],
   button: "S'inscrire à la Newsletter",
   disclaimer: "Désabonnement en un clic. Aucune donnée partagée.",
+  newsletterApprovalLabel: "J'accepte de recevoir la newsletter",
 };
 
 export const footer = {

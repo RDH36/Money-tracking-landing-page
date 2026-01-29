@@ -1,6 +1,6 @@
 "use client";
 
-import { useActionState } from "react";
+import { useActionState, useState } from "react";
 import { motion } from "framer-motion";
 import { Mail, CheckCircle2, Loader2, Gift, Lightbulb, Rocket } from "lucide-react";
 import { Button } from "@/components/ui/button";
@@ -17,6 +17,7 @@ export function Newsletter() {
   const [state, formAction, isPending] = useActionState(subscribeToNewsletter, {
     success: false,
   });
+  const [newsletterApproval, setNewsletterApproval] = useState(true);
 
   return (
     <section id="newsletter" className="py-20 bg-gradient-to-br from-primary/5 to-secondary/5">
@@ -75,6 +76,28 @@ export function Newsletter() {
                           disabled={isPending}
                         />
                       </div>
+                    </div>
+
+                    <div className="flex items-center gap-3">
+                      <input
+                        type="checkbox"
+                        id="newsletterApprovalCheckbox"
+                        checked={newsletterApproval}
+                        onChange={(e) => setNewsletterApproval(e.target.checked)}
+                        className="h-5 w-5 rounded border-gray-300 text-primary focus:ring-primary"
+                        disabled={isPending}
+                      />
+                      <input
+                        type="hidden"
+                        name="newsletterApproval"
+                        value={newsletterApproval.toString()}
+                      />
+                      <Label
+                        htmlFor="newsletterApprovalCheckbox"
+                        className="text-sm font-normal cursor-pointer"
+                      >
+                        {newsletter.newsletterApprovalLabel}
+                      </Label>
                     </div>
 
                     {state.error && (

@@ -1,5 +1,7 @@
 "use server";
 
+import { supabase } from "@/lib/supabase";
+
 interface NewsletterState {
   success: boolean;
   error?: string;
@@ -10,7 +12,8 @@ export async function subscribeToNewsletter(
   formData: FormData
 ): Promise<NewsletterState> {
   const email = formData.get("email") as string;
-  const firstName = formData.get("firstName") as string;
+  const firstName = (formData.get("firstName") as string) || null;
+  const newsletterApproval = formData.get("newsletterApproval") === "true";
 
   // Validation
   if (!email || !email.includes("@")) {
@@ -18,20 +21,20 @@ export async function subscribeToNewsletter(
   }
 
   try {
-    // In production, integrate with:
-    // - Resend: await resend.contacts.create({ email, firstName, audienceId: "..." })
-    // - Mailchimp: await mailchimp.lists.addListMember("listId", { email_address: email })
-    // - Database: await db.newsletter.create({ data: { email, firstName } })
-
-    // Simulate network delay for demo
-    await new Promise((resolve) => setTimeout(resolve, 500));
-
-    // For development, just log
-    console.log("Newsletter subscription:", {
+    const { error } = await supabase.from("newsletter_subscribers").insert({
       email,
-      firstName,
-      timestamp: new Date().toISOString(),
+      first_name: firstName,
+      project: "Mitsitsy",
+      newsletter_approval: newsletterApproval,
     });
+
+    if (error) {
+      if (error.code === "23505") {
+        return { success: false, error: "Cet email est déjà inscrit" };
+      }
+      console.error("Supabase error:", error);
+      return { success: false, error: "Erreur lors de l'inscription" };
+    }
 
     return { success: true };
   } catch (error) {
