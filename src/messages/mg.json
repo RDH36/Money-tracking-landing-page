@@ -1,0 +1,299 @@
+{
+  "siteConfig": {
+    "name": "Mitsitsy"
+  },
+  "navigation": {
+    "home": "Fandraisana",
+    "features": "Fampisehoana",
+    "faq": "Fanontaniana",
+    "openMenu": "Sokafy ny menu",
+    "closeMenu": "Hidio ny menu",
+    "getNotified": "Ampandrenesina"
+  },
+  "hero": {
+    "headline": "Tantano ny Volanao Anatin'ny 10 Segondra",
+    "subheadline": "Mitsitsy dia rindranasa finday manampy anao hanaraka ny vola lany rehetra, na dia tsy misy internet aza. Natao ho an'i Madagasikara, mety amin'ny tontolo rehetra.",
+    "benefits": {
+      "fast": "Soraty ny fandaniana anatin'ny 10 segondra",
+      "offline": "Miasa 100% offline",
+      "multicurrency": "Maro karazana vola (MGA, EUR, USD)"
+    },
+    "stats": {
+      "rating": "4.8/5",
+      "downloads": "10 000+"
+    },
+    "cta": {
+      "primary": "Alao Maimaim-poana",
+      "secondary": "Jereo ny Demo"
+    },
+    "comingSoon": "Ho avy tsy ho ela",
+    "notifyLaunch": "Ampandrenesina rehefa mivoaka"
+  },
+  "problem": {
+    "headline": "Tsy fantatrao mihitsy hoe aiza no lasan'ny volanao?",
+    "painPoints": {
+      "salary": {
+        "title": "Tonga ny karamanao... dia lasa",
+        "description": "Maka vola amin'ny ATM ianao. Herinandro atỳ aoriana, foana ny kitaponao. Taiza no lasa ilay vola? Tsy hay."
+      },
+      "tools": {
+        "title": "Excel? Lava loatra. Rindranasa banky? Tsy mahasoa.",
+        "description": "Ny rindranasa banky dia mampiseho fotsiny ny vola nalaina tamin'ny ATM - tsy ny nataonao tamin'ilay vola avy eo."
+      },
+      "offline": {
+        "title": "Ny ankamaroan'ny rindranasa tsy miasa raha tsy misy internet",
+        "description": "Eto Madagasikara, ny fifandraisana tsy azo antoka ary lafo. Ny rindranasa mila internet? Tsy azo ampiasaina."
+      },
+      "complex": {
+        "title": "Be loatra ny saha fenoy",
+        "description": "Iza no manana fotoana hanasokajiana saha 50 ho an'ny mofo? Ny rindranasa vola dia natao ho an'ny mpanao kaonty."
+      }
+    },
+    "agitation": "Ny vokany? Miasa mafy ianao, saingy tsy mahay mitahiry mihitsy. Isam-bolana, mitovy ny tantara: mikoriana eo am-pelatananao toy ny fasika ny vola. Tsy olana sitrapo io. Olana fitaovana io."
+  },
+  "solution": {
+    "headline": "Mitsitsy: Tsotra, Haingana, ary 100% Offline",
+    "valueProposition": "Mitsitsy no rindranasa voalohany amin'ny fanaraha-maso fandaniana natao ho an'ny toe-karena cash toy ny an'i Madagasikara. Ny fanekentsika: soraty ny fandaniana anatin'ny 10 segondra, tsy mila internet mihitsy.",
+    "benefits": {
+      "see": {
+        "title": "Jereo Aiza no Lasan'ny Volanao",
+        "description": "Indray mijery, fantaro ny fandanianao isan'andro, isan-kerinandro, isan-bolana. Grafika tsotra mampiseho ny fahazaranao.",
+        "outcome": "Tsy misy mistery ara-bola intsony"
+      },
+      "fast": {
+        "title": "10 Segondra, Tsy Mihoatra",
+        "description": "Vola → Sokajy → Voatahiry. Izay ihany. Tsy misy saha tsy ilaina, tsy misy fanontaniana tsy tokony hisy.",
+        "outcome": "Fahazarana maharitra"
+      },
+      "offline": {
+        "title": "Miasa Na Aiza Na Aiza, Na Dia Tsy Misy Internet Aza",
+        "description": "Any an-tsena, any ambanivohitra, any anaty taxi-be: miasa ny rindranasanao. Ny datanao mijanona eo amin'ny findainao, voaaro.",
+        "outcome": "Tsy misy fialan-tsiny intsony tsy hanoratra"
+      },
+      "currency": {
+        "title": "MGA, EUR, USD - Iray Ihany",
+        "description": "Tantano vola maro karazana miaraka amin'ny fanovana automatika. Tonga lafatra ho an'ny mpandeha sy ny vahiny.",
+        "outcome": "Rindranasa iray ho an'ny volanao rehetra"
+      }
+    }
+  },
+  "features": {
+    "sectionTitle": "Izay Rehetra Ilainao. Tsy Misy Mihoatra.",
+    "sectionSubtitle": "Fampisehoana 12 natao ho an'ny fahatsora",
+    "items": {
+      "fast": {
+        "title": "Fidirana 10 Segondra",
+        "description": "Vola → Sokajy → Fanamarihana → Voatahiry. Ny interface haingana indrindra eo amin'ny tsena."
+      },
+      "offline": {
+        "title": "100% Offline",
+        "description": "Tsy mila fifandraisana internet. Ny datanao dia tehirizina eo an-toerana amin'ny fomba azo antoka."
+      },
+      "currency": {
+        "title": "Maro Karazana Vola",
+        "description": "Ariary (MGA), Euro (EUR), Dollar (USD) miaraka amin'ny fanovana automatika."
+      },
+      "accounts": {
+        "title": "Fitantanana Kaonty",
+        "description": "Tantano hatramin'ny kaonty 3 (kitapom-bola, tahiry, mobile money) miaraka amin'ny famindrana."
+      },
+      "categories": {
+        "title": "Sokajy Manokana",
+        "description": "Sokajy 8 default + 3 azo ovaina. Loko sy icon manokana."
+      },
+      "planning": {
+        "title": "Fandrindrana",
+        "description": "Mamorona tetibola miaraka amin'ny fe-potoana ary araho ny tanjonao ara-bola."
+      },
+      "charts": {
+        "title": "Grafika Mazava",
+        "description": "Grafika fandaniana, tantara azo sivana isan'andro/isan-kerinandro/isan-bolana."
+      },
+      "notifications": {
+        "title": "Fampahafantarana",
+        "description": "Fampahatsiahivana azo ovaina (1h, 2h, 4h) mba tsy hanadino fandaniana."
+      },
+      "whatif": {
+        "title": "Fanandramana \"Raha-Mety\"",
+        "description": "Andrana fandaniana eritreri-kevitra tsy voasoratra."
+      },
+      "privacy": {
+        "title": "Fanakonana Tahiry",
+        "description": "Afeno ny tahirinao amin'ny tsindry iray mba hiarovana ny tsiambaratelon'ny fiainanao."
+      },
+      "themes": {
+        "title": "Loko 4",
+        "description": "Turquoise, Manga, Volomparasy, Orange. Amboary araka ny tianao."
+      },
+      "unlimited": {
+        "title": "Transaction Tsy Misy Fetra",
+        "description": "Pagination tsy manam-petra, filaharana isan'andro, famafana azo averina."
+      }
+    }
+  },
+  "testimonials": {
+    "sectionTitle": "Namerina ny Fifehezana Izy Ireo",
+    "sectionSubtitle": "Fantaro ny filazan'ny mpampiasa anay",
+    "items": {
+      "rakoto": {
+        "quote": "Noho ny Mitsitsy, fantatro fa mandany 150 000 Ar isan-bolana amin'ny taxi-be aho. Nanomboka nandeha tongotra matetika kokoa aho ary nitahiry mba hividy bisikileta.",
+        "author": "Rakoto A.",
+        "role": "Mpivarotra",
+        "location": "Antananarivo",
+        "result": "150 000 Ar/bolana voatahiry"
+      },
+      "marie": {
+        "quote": "Farany rindranasa miasa tsy misy internet! Mametraka ny fandaniako any an-tsena, any ambanivohitra, na aiza na aiza. Lasa fahazarana.",
+        "author": "Marie L.",
+        "role": "Mpampianatra",
+        "location": "Fianarantsoa",
+        "result": "Mpampiasa nandritra ny 8 volana"
+      },
+      "jean": {
+        "quote": "Taloha, tsy fantatro mihitsy ny antony nahatonga ahy ho tsy nanana vola foana tamin'ny faran'ny volana. Ankehitriny mahita ny zava-drehetra aho. Ny fandrindrana nanampy ahy hitahiry 500 000 Ar tao anatin'ny 3 volana.",
+        "author": "Jean-Claude R.",
+        "role": "Mpiasam-panjakana",
+        "location": "Toamasina",
+        "result": "500 000 Ar voatahiry tao anatin'ny 3 volana"
+      }
+    }
+  },
+  "comparison": {
+    "headline": "Nahoana Mitsitsy?",
+    "traditional": "Rindranasa Mahazatra",
+    "mitsitsy": "Mitsitsy",
+    "criteriaLabel": "Fepetra",
+    "criteria": {
+      "entryTime": {
+        "label": "Fotoana fidirana",
+        "traditional": "30-60 segondra",
+        "mitsitsy": "< 10 segondra"
+      },
+      "internet": {
+        "label": "Internet ilaina",
+        "traditional": "Eny, foana",
+        "mitsitsy": "Tsia (100% offline)"
+      },
+      "currency": {
+        "label": "Maro karazana vola",
+        "traditional": "Voafetra na andoa",
+        "mitsitsy": "MGA, EUR, USD voarakitra"
+      },
+      "planning": {
+        "label": "Fandrindrana",
+        "traditional": "Tsy mahazatra na sarotra",
+        "mitsitsy": "Voarindra sy tsotra"
+      },
+      "price": {
+        "label": "Vidiny",
+        "traditional": "Freemium miaraka amin'ny pub",
+        "mitsitsy": "100% Maimaim-poana, tsy misy pub"
+      },
+      "privacy": {
+        "label": "Tsiambaratelo",
+        "traditional": "Data amin'ny server",
+        "mitsitsy": "Fitahirizana eo an-toerana ihany"
+      }
+    }
+  },
+  "faq": {
+    "sectionTitle": "Fanontaniana Apetraka Matetika",
+    "sectionSubtitle": "Izay rehetra tokony ho fantatrao momba an'i Mitsitsy",
+    "items": {
+      "availability": {
+        "question": "Rahoviana no hisy ilay rindranasa?",
+        "answer": "Mbola eo am-pamolavolana ny Mitsitsy. Misoratra anarana amin'ny gazetinay mba hampahafantarina anao rehefa mivoaka ary hahazo fidirana aloha."
+      },
+      "free": {
+        "question": "Ho maimaim-poana ve ny rindranasa?",
+        "answer": "Eny. Mitsitsy dia ho 100% maimaim-poana tsy misy pub. Ny fampisehoana rehetra dia azo ampiasaina tsy andoa. Misy drafitra Premium tsy voatery miaraka amin'ny sync amin'ny cloud, fa ny rindranasa fototra dia ho maimaim-poana foana."
+      },
+      "offline": {
+        "question": "Azoko ampiasaina ve ny rindranasa tsy misy internet?",
+        "answer": "Mazava ho azy. Izay no fahasamihafanay lehibe. Mitsitsy dia hiasa tanteraka offline. Firaketana, fijerena, grafika - ny rehetra dia hiasa tsy misy internet."
+      },
+      "security": {
+        "question": "Ho azo antoka ve ny datako?",
+        "answer": "Eny. Ny datanao rehetra dia tehirizina eo amin'ny findainao ao amin'ny tahiry SQLite azo antoka. Tsy misy data alefa any amin'ny server ivelany. Tsy hahazo ny fampahalalana ara-bolanao izahay."
+      },
+      "currencies": {
+        "question": "Inona avy ny vola tohanana?",
+        "answer": "Amin'ny fanombohana: Ariary Malagasy (MGA), Euro (EUR), ary Dolara Amerikana (USD). Ny fanovana vola automatika dia ho voarakitra."
+      },
+      "platforms": {
+        "question": "Amin'ny sehatra inona no hisiany?",
+        "answer": "Mitsitsy dia ho hita amin'ny Android (Google Play Store) amin'ny fanombohana. Kinasa ho avy ny dika iOS (App Store)."
+      },
+      "notify": {
+        "question": "Ahoana no ahafahako ampahafantarina rehefa mivoaka?",
+        "answer": "Misoratra anarana amin'ny gazetinay etsy ambony. Hahazo mailaka ianao raha vao misy ny rindranasa, miaraka amin'ny torohevitra manokana hitantanana tsara kokoa ny volanao."
+      },
+      "planning": {
+        "question": "Ahoana ny fiasan'ny fandrindrana tetibola?",
+        "answer": "Afaka mamorona drafitra miaraka amin'ny vola kendrena sy fe-potoana ianao. Ampio ny singa miaraka amin'ny vidiny. Hanaraka ny fandrosoanao ny rindranasa. Rehefa vonona, ovay ho transaction tena izy amin'ny tsindry iray ilay drafitra."
+      }
+    }
+  },
+  "cta": {
+    "headline": "Vonona Hamerina ny Fifehezana?",
+    "subheadline": "Aoka ho isan'ny voalohany mahita an'i Mitsitsy ary atombohy ny mahita hoe aiza marina no lasan'ny volanao.",
+    "tagline": "Maimaim-poana. Tsy misy pub. Miasa offline. Natao ho an'i Madagasikara.",
+    "comingSoon": "Ho avy tsy ho ela",
+    "guarantees": {
+      "notification": "Fampahafantarana rehefa mivoaka",
+      "earlyAccess": "Fidirana aloha manokana",
+      "freeForever": "Maimaim-poana mandrakizay (fampisehoana fototra)",
+      "localData": "Ny datanao mijanona eo amin'ny findainao"
+    }
+  },
+  "newsletter": {
+    "headline": "Mijanona Mahalala",
+    "subheadline": "Mahazo fampisehoana vaovao sy torohevitra tsara indrindra hitantanana ny volanao. Mailaka 1 isan-bolana fara-fahabetsany. Tsy misy spam.",
+    "benefits": {
+      "preview": "Vaovao alohan'ny hafa",
+      "tips": "Torohevitra tetibola manokana",
+      "earlyAccess": "Fidirana aloha amin'ny fampisehoana vaovao"
+    },
+    "form": {
+      "email": "Mailaka",
+      "emailPlaceholder": "ny@mailaka.com",
+      "firstName": "Anarana",
+      "firstNamePlaceholder": "Ny anaranao",
+      "optional": "(tsy voatery)",
+      "required": "*"
+    },
+    "button": "Misoratra amin'ny Gazety",
+    "disclaimer": "Miala amin'ny tsindry iray. Tsy misy data zaraina.",
+    "newsletterApprovalLabel": "Manaiky handray ny gazety aho",
+    "subscribing": "Misoratra anarana...",
+    "thankYou": "Misaotra tamin'ny fisoratana anarana!"
+  },
+  "footer": {
+    "description": "Rindranasa finday fanaraha-maso fandaniana offline-first ho an'i Madagasikara. Ho avy tsy ho ela.",
+    "columns": {
+      "product": {
+        "title": "Vokatra",
+        "features": "Fampisehoana",
+        "faq": "Fanontaniana",
+        "newsletter": "Gazety"
+      },
+      "support": {
+        "title": "Fanohanana",
+        "contact": "Fifandraisana"
+      },
+      "legal": {
+        "title": "Ara-dalana",
+        "privacy": "Tsiambaratelo",
+        "terms": "Fepetra"
+      }
+    },
+    "social": {
+      "facebook": "Facebook",
+      "twitter": "Twitter"
+    },
+    "copyright": "2026 Mitsitsy. Natao tamim-pitiavana nataon'i Raymond Dzery Hago."
+  },
+  "ui": {
+    "backHome": "Miverina any amin'ny fandraisana"
+  }
+}

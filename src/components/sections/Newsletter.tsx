@@ -3,21 +3,28 @@
 import { useActionState, useState } from "react";
 import { motion } from "framer-motion";
 import { Mail, CheckCircle2, Loader2, Gift, Lightbulb, Rocket } from "lucide-react";
+import { useTranslations } from "next-intl";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { Card, CardContent } from "@/components/ui/card";
 import { FadeIn } from "@/components/motion";
-import { newsletter } from "@/constants/content";
 import { subscribeToNewsletter } from "@/actions/newsletter";
 
 const benefitIcons = [Rocket, Lightbulb, Gift];
 
 export function Newsletter() {
+  const t = useTranslations("newsletter");
   const [state, formAction, isPending] = useActionState(subscribeToNewsletter, {
     success: false,
   });
   const [newsletterApproval, setNewsletterApproval] = useState(true);
+
+  const benefits = [
+    t("benefits.preview"),
+    t("benefits.tips"),
+    t("benefits.earlyAccess"),
+  ];
 
   return (
     <section id="newsletter" className="py-20 bg-gradient-to-br from-primary/5 to-secondary/5">
@@ -25,14 +32,14 @@ export function Newsletter() {
         <div className="max-w-2xl mx-auto">
           <FadeIn className="text-center mb-8">
             <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-4">
-              {newsletter.headline}
+              {t("headline")}
             </h2>
-            <p className="text-lg text-gray-600">{newsletter.subheadline}</p>
+            <p className="text-lg text-gray-600">{t("subheadline")}</p>
           </FadeIn>
 
           {/* Benefits */}
           <FadeIn delay={0.1} className="flex flex-wrap justify-center gap-4 mb-8">
-            {newsletter.benefits.map((benefit, index) => {
+            {benefits.map((benefit, index) => {
               const Icon = benefitIcons[index];
               return (
                 <div key={index} className="flex items-center gap-2 text-sm text-gray-600">
@@ -51,13 +58,13 @@ export function Newsletter() {
                     <div className="grid sm:grid-cols-2 gap-6">
                       <div className="space-y-2">
                         <Label htmlFor="email" className="text-base font-medium">
-                          Email <span className="text-red-500">*</span>
+                          {t("form.email")} <span className="text-red-500">{t("form.required")}</span>
                         </Label>
                         <Input
                           id="email"
                           name="email"
                           type="email"
-                          placeholder="votre@email.com"
+                          placeholder={t("form.emailPlaceholder")}
                           required
                           className="h-12"
                           disabled={isPending}
@@ -65,13 +72,13 @@ export function Newsletter() {
                       </div>
                       <div className="space-y-2">
                         <Label htmlFor="firstName" className="text-base font-medium">
-                          Prénom <span className="text-gray-400">(optionnel)</span>
+                          {t("form.firstName")} <span className="text-gray-400">{t("form.optional")}</span>
                         </Label>
                         <Input
                           id="firstName"
                           name="firstName"
                           type="text"
-                          placeholder="Votre prénom"
+                          placeholder={t("form.firstNamePlaceholder")}
                           className="h-12"
                           disabled={isPending}
                         />
@@ -96,7 +103,7 @@ export function Newsletter() {
                         htmlFor="newsletterApprovalCheckbox"
                         className="text-sm font-normal cursor-pointer"
                       >
-                        {newsletter.newsletterApprovalLabel}
+                        {t("newsletterApprovalLabel")}
                       </Label>
                     </div>
 
@@ -113,17 +120,17 @@ export function Newsletter() {
                       {isPending ? (
                         <>
                           <Loader2 className="w-5 h-5 mr-2 animate-spin" />
-                          Inscription en cours...
+                          {t("subscribing")}
                         </>
                       ) : (
                         <>
                           <Mail className="w-5 h-5 mr-2" />
-                          {newsletter.button}
+                          {t("button")}
                         </>
                       )}
                     </Button>
 
-                    <p className="text-center text-sm text-gray-500">{newsletter.disclaimer}</p>
+                    <p className="text-center text-sm text-gray-500">{t("disclaimer")}</p>
                   </form>
                 ) : (
                   <motion.div
@@ -135,10 +142,10 @@ export function Newsletter() {
                       <CheckCircle2 className="w-10 h-10 text-primary" />
                     </div>
                     <h3 className="text-2xl font-bold text-gray-900 mb-2">
-                      Merci pour votre inscription !
+                      {t("thankYou")}
                     </h3>
                     <p className="text-gray-600">
-                      Vous recevrez bientôt nos dernières actualités.
+                      {t("subheadline")}
                     </p>
                   </motion.div>
                 )}

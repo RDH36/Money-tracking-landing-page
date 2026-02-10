@@ -2,15 +2,14 @@
 
 import { useRef } from "react";
 import { motion, useScroll, useTransform } from "framer-motion";
-// TODO: Décommenter après le lancement - import { CheckCircle, Star, Download } from "lucide-react";
 import { CheckCircle, Bell } from "lucide-react";
+import { useTranslations } from "next-intl";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
-// TODO: Décommenter après le lancement - import { siteConfig } from "@/constants/content";
-import { hero } from "@/constants/content";
 
 export function Hero() {
   const ref = useRef(null);
+  const t = useTranslations("hero");
   const { scrollYProgress } = useScroll({
     target: ref,
     offset: ["start start", "end start"],
@@ -18,6 +17,18 @@ export function Hero() {
 
   const imageY = useTransform(scrollYProgress, [0, 1], ["0%", "30%"]);
   const textY = useTransform(scrollYProgress, [0, 1], ["0%", "15%"]);
+
+  const benefits = [
+    t("benefits.fast"),
+    t("benefits.offline"),
+    t("benefits.multicurrency"),
+  ];
+
+  // Split headline to highlight "10 Secondes/Seconds/Segondra"
+  const headline = t("headline");
+  const highlightMatch = headline.match(/(10\s*\w+)/);
+  const highlightText = highlightMatch ? highlightMatch[0] : "10 Secondes";
+  const headlineParts = headline.split(highlightText);
 
   return (
     <section
@@ -35,8 +46,9 @@ export function Hero() {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6, delay: 0.1 }}
             >
-              {hero.headline.split("10 Secondes")[0]}
-              <span className="text-primary">10 Secondes</span>
+              {headlineParts[0]}
+              <span className="text-primary">{highlightText}</span>
+              {headlineParts[1] || ""}
             </motion.h1>
 
             <motion.p
@@ -45,7 +57,7 @@ export function Hero() {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6, delay: 0.2 }}
             >
-              {hero.subheadline}
+              {t("subheadline")}
             </motion.p>
 
             {/* Benefits List */}
@@ -62,7 +74,7 @@ export function Hero() {
                 },
               }}
             >
-              {hero.benefits.map((benefit, i) => (
+              {benefits.map((benefit, i) => (
                 <motion.li
                   key={i}
                   className="flex items-start text-gray-700"
@@ -92,52 +104,13 @@ export function Hero() {
               >
                 <a href="#newsletter">
                   <Bell className="w-5 h-5 mr-3 group-hover:scale-110 transition-transform" />
-                  Être notifié du lancement
+                  {t("notifyLaunch")}
                 </a>
               </Button>
               <Badge variant="secondary" className="text-sm px-3 py-1">
-                Bientôt disponible
+                {t("comingSoon")}
               </Badge>
             </motion.div>
-
-            {/* TODO: POST-LAUNCH - Décommenter et supprimer la section PRE-LAUNCH ci-dessus
-            <motion.div
-              initial={{ opacity: 0, y: 20 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.6, delay: 0.5 }}
-              className="flex flex-wrap gap-4"
-            >
-              <Button
-                size="lg"
-                className="bg-gray-900 hover:bg-gray-800 text-white px-6 py-6"
-                asChild
-              >
-                <a href={siteConfig.playStoreUrl} target="_blank" rel="noopener noreferrer">
-                  <Download className="w-5 h-5 mr-2" />
-                  Télécharger sur Google Play
-                </a>
-              </Button>
-            </motion.div>
-
-            <motion.div
-              className="mt-8 flex flex-wrap items-center gap-6 text-sm text-gray-600"
-              initial={{ opacity: 0 }}
-              animate={{ opacity: 1 }}
-              transition={{ duration: 0.6, delay: 0.7 }}
-            >
-              <span className="flex items-center gap-1">
-                <span className="flex text-yellow-500">
-                  {[...Array(5)].map((_, i) => (
-                    <Star key={i} className="w-4 h-4 fill-current" />
-                  ))}
-                </span>
-                <span className="ml-1">{hero.stats.rating}</span>
-              </span>
-              <span className="text-gray-300">|</span>
-              <span>{hero.stats.downloads} téléchargements sur Play Store</span>
-            </motion.div>
-            */}
-
           </motion.div>
 
           {/* Screenshot */}

@@ -1,0 +1,299 @@
+{
+  "siteConfig": {
+    "name": "Mitsitsy"
+  },
+  "navigation": {
+    "home": "Home",
+    "features": "Features",
+    "faq": "FAQ",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu",
+    "getNotified": "Get Notified"
+  },
+  "hero": {
+    "headline": "Take Control of Your Finances in 10 Seconds",
+    "subheadline": "Mitsitsy is the mobile app that lets you track every Ariary spent, even without internet. Designed for Madagascar, adapted for the world.",
+    "benefits": {
+      "fast": "Record an expense in under 10 seconds",
+      "offline": "Works 100% offline",
+      "multicurrency": "Multi-currency support (MGA, EUR, USD)"
+    },
+    "stats": {
+      "rating": "4.8/5",
+      "downloads": "10,000+"
+    },
+    "cta": {
+      "primary": "Download Free",
+      "secondary": "Watch Demo"
+    },
+    "comingSoon": "Coming soon",
+    "notifyLaunch": "Get notified at launch"
+  },
+  "problem": {
+    "headline": "You never know where your money goes?",
+    "painPoints": {
+      "salary": {
+        "title": "Your salary arrives... and vanishes",
+        "description": "You withdraw cash from the ATM. A week later, your wallet is empty. Where did that money go? Impossible to know."
+      },
+      "tools": {
+        "title": "Excel? Too slow. Banking apps? Useless.",
+        "description": "Banking apps only show ATM withdrawals - not what you do with that cash afterwards."
+      },
+      "offline": {
+        "title": "Most apps don't work without internet",
+        "description": "In Madagascar, connection is unstable and expensive. Apps that require internet? Impossible to use."
+      },
+      "complex": {
+        "title": "Too many fields to fill",
+        "description": "Who has time to categorize 50 fields for a baguette? Finance apps are designed for accountants."
+      }
+    },
+    "agitation": "The result? You work hard, but never manage to save. Every month, it's the same story: money slips through your fingers like sand. It's not a willpower problem. It's a tool problem."
+  },
+  "solution": {
+    "headline": "Mitsitsy: Simple, Fast, and 100% Offline",
+    "valueProposition": "Mitsitsy is the first expense tracking app designed for cash economies like Madagascar. Our promise: record an expense in under 10 seconds, without ever needing internet.",
+    "benefits": {
+      "see": {
+        "title": "See Where Your Money Goes",
+        "description": "At a glance, understand your daily, weekly, monthly expenses. Simple charts that reveal your habits.",
+        "outcome": "No more financial mysteries"
+      },
+      "fast": {
+        "title": "10 Seconds, No More",
+        "description": "Amount -> Category -> Saved. That's it. No useless fields, no unnecessary questions.",
+        "outcome": "A habit that lasts"
+      },
+      "offline": {
+        "title": "Works Everywhere, Even Without Internet",
+        "description": "At the market, in the bush, in the taxi-be: your app works. Your data stays on your phone, secure.",
+        "outcome": "No more excuses not to track"
+      },
+      "currency": {
+        "title": "MGA, EUR, USD - All In One",
+        "description": "Manage multiple currencies with automatic conversion. Perfect for travelers and expats.",
+        "outcome": "One app for all your finances"
+      }
+    }
+  },
+  "features": {
+    "sectionTitle": "Everything You Need. Nothing More.",
+    "sectionSubtitle": "12 features designed for simplicity",
+    "items": {
+      "fast": {
+        "title": "10-Second Entry",
+        "description": "Amount -> Category -> Note -> Saved. The fastest interface on the market."
+      },
+      "offline": {
+        "title": "100% Offline",
+        "description": "No internet connection required. Your data is stored locally and securely."
+      },
+      "currency": {
+        "title": "Multi-Currency Support",
+        "description": "Ariary (MGA), Euro (EUR), Dollar (USD) with automatic conversion."
+      },
+      "accounts": {
+        "title": "Account Management",
+        "description": "Manage up to 3 accounts (wallet, savings, mobile money) with transfers."
+      },
+      "categories": {
+        "title": "Custom Categories",
+        "description": "8 default categories + 3 customizable. Unique colors and icons."
+      },
+      "planning": {
+        "title": "Planning",
+        "description": "Create budgets with deadlines and track your financial goals."
+      },
+      "charts": {
+        "title": "Clear Charts",
+        "description": "Expense pie chart, history filterable by day/week/month."
+      },
+      "notifications": {
+        "title": "Notifications",
+        "description": "Configurable reminders (1h, 2h, 4h) to never forget an expense."
+      },
+      "whatif": {
+        "title": "\"What-If\" Scenarios",
+        "description": "Test hypothetical expenses without recording them."
+      },
+      "privacy": {
+        "title": "Balance Hiding",
+        "description": "Hide your balance in one click to protect your privacy."
+      },
+      "themes": {
+        "title": "4 Color Themes",
+        "description": "Turquoise, Blue, Purple, Orange. Customize to your preferences."
+      },
+      "unlimited": {
+        "title": "Unlimited Transactions",
+        "description": "Infinite pagination, date grouping, recoverable deletion."
+      }
+    }
+  },
+  "testimonials": {
+    "sectionTitle": "They Took Back Control",
+    "sectionSubtitle": "Discover what our users say",
+    "items": {
+      "rakoto": {
+        "quote": "Thanks to Mitsitsy, I identified that I was spending 150,000 Ar per month on taxi-be. I started walking more often and saved for a bike.",
+        "author": "Rakoto A.",
+        "role": "Merchant",
+        "location": "Antananarivo",
+        "result": "150,000 Ar/month saved"
+      },
+      "marie": {
+        "quote": "Finally an app that works without internet! I record my expenses at the market, in the bush, everywhere. It's become a reflex.",
+        "author": "Marie L.",
+        "role": "Teacher",
+        "location": "Fianarantsoa",
+        "result": "User for 8 months"
+      },
+      "jean": {
+        "quote": "Before, I never knew why I was always broke at the end of the month. Now I see everything. Planning helped me save 500,000 Ar in 3 months.",
+        "author": "Jean-Claude R.",
+        "role": "Civil Servant",
+        "location": "Toamasina",
+        "result": "500,000 Ar saved in 3 months"
+      }
+    }
+  },
+  "comparison": {
+    "headline": "Why Mitsitsy?",
+    "traditional": "Traditional Apps",
+    "mitsitsy": "Mitsitsy",
+    "criteriaLabel": "Criteria",
+    "criteria": {
+      "entryTime": {
+        "label": "Entry time",
+        "traditional": "30-60 seconds",
+        "mitsitsy": "< 10 seconds"
+      },
+      "internet": {
+        "label": "Internet required",
+        "traditional": "Yes, always",
+        "mitsitsy": "No (100% offline)"
+      },
+      "currency": {
+        "label": "Multi-currency",
+        "traditional": "Limited or paid",
+        "mitsitsy": "MGA, EUR, USD included"
+      },
+      "planning": {
+        "label": "Planning",
+        "traditional": "Rare or complex",
+        "mitsitsy": "Integrated and simple"
+      },
+      "price": {
+        "label": "Price",
+        "traditional": "Freemium with ads",
+        "mitsitsy": "100% Free, no ads"
+      },
+      "privacy": {
+        "label": "Privacy",
+        "traditional": "Data on servers",
+        "mitsitsy": "Local storage only"
+      }
+    }
+  },
+  "faq": {
+    "sectionTitle": "Frequently Asked Questions",
+    "sectionSubtitle": "Everything you need to know about Mitsitsy",
+    "items": {
+      "availability": {
+        "question": "When will the app be available?",
+        "answer": "Mitsitsy is currently in development. Sign up for our newsletter to be notified at launch and get early access."
+      },
+      "free": {
+        "question": "Will the app be free?",
+        "answer": "Yes. Mitsitsy will be 100% free with no ads. All features will be accessible without paying. We plan an optional Premium version with cloud sync, but the basic app will always remain free."
+      },
+      "offline": {
+        "question": "Can I use the app without internet?",
+        "answer": "Absolutely. That's our main difference. Mitsitsy will work entirely offline. Recording, viewing, charts - everything will work without internet."
+      },
+      "security": {
+        "question": "Will my data be secure?",
+        "answer": "Yes. All your data will be stored locally on your phone in a secure SQLite database. No data will be sent to external servers. We won't have access to your financial information."
+      },
+      "currencies": {
+        "question": "Which currencies will be supported?",
+        "answer": "At launch: Malagasy Ariary (MGA), Euro (EUR), and US Dollar (USD). Automatic currency conversion will be included."
+      },
+      "platforms": {
+        "question": "On which platforms will the app be available?",
+        "answer": "Mitsitsy will be available on Android (Google Play Store) at launch. An iOS version (App Store) is planned for later."
+      },
+      "notify": {
+        "question": "How can I be notified of the launch?",
+        "answer": "Sign up for our newsletter above. You'll receive an email as soon as the app is available, plus exclusive tips to better manage your money."
+      },
+      "planning": {
+        "question": "How does budget planning work?",
+        "answer": "You can create a plan with a target amount and deadline. Add items with their amounts. The app will track your progress. When ready, convert the plan to real transactions in one tap."
+      }
+    }
+  },
+  "cta": {
+    "headline": "Ready to Take Back Control?",
+    "subheadline": "Be among the first to discover Mitsitsy and start seeing where your money really goes.",
+    "tagline": "Free. No ads. Works offline. Designed for Madagascar.",
+    "comingSoon": "Coming soon",
+    "guarantees": {
+      "notification": "Notification at launch",
+      "earlyAccess": "Exclusive early access",
+      "freeForever": "Free forever (basic features)",
+      "localData": "Your data stays on your phone"
+    }
+  },
+  "newsletter": {
+    "headline": "Stay Informed",
+    "subheadline": "Get new features and our best tips to better manage your money. 1 email per month max. Zero spam.",
+    "benefits": {
+      "preview": "News in preview",
+      "tips": "Exclusive budget tips",
+      "earlyAccess": "Early access to new features"
+    },
+    "form": {
+      "email": "Email",
+      "emailPlaceholder": "your@email.com",
+      "firstName": "First Name",
+      "firstNamePlaceholder": "Your first name",
+      "optional": "(optional)",
+      "required": "*"
+    },
+    "button": "Subscribe to Newsletter",
+    "disclaimer": "Unsubscribe in one click. No data shared.",
+    "newsletterApprovalLabel": "I agree to receive the newsletter",
+    "subscribing": "Subscribing...",
+    "thankYou": "Thank you for subscribing!"
+  },
+  "footer": {
+    "description": "Offline-first mobile expense tracking app for Madagascar. Coming soon.",
+    "columns": {
+      "product": {
+        "title": "Product",
+        "features": "Features",
+        "faq": "FAQ",
+        "newsletter": "Newsletter"
+      },
+      "support": {
+        "title": "Support",
+        "contact": "Contact"
+      },
+      "legal": {
+        "title": "Legal",
+        "privacy": "Privacy",
+        "terms": "Terms"
+      }
+    },
+    "social": {
+      "facebook": "Facebook",
+      "twitter": "Twitter"
+    },
+    "copyright": "2026 Mitsitsy. Made with love by Raymond Dzery Hago."
+  },
+  "ui": {
+    "backHome": "Back to home"
+  }
+}

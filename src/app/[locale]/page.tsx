@@ -4,8 +4,6 @@ import { Problem } from "@/components/sections/Problem";
 import { Solution } from "@/components/sections/Solution";
 import { Features } from "@/components/sections/Features";
 import { Benefits } from "@/components/sections/Benefits";
-// TODO: Décommenter après le lancement de l'app
-// import { Testimonials } from "@/components/sections/Testimonials";
 import { Newsletter } from "@/components/sections/Newsletter";
 import { FAQ } from "@/components/sections/FAQ";
 import { CTAFinal } from "@/components/sections/CTAFinal";
@@ -21,8 +19,6 @@ export default function Home() {
         <Solution />
         <Features />
         <Benefits />
-        {/* TODO: Décommenter après le lancement de l'app */}
-        {/* <Testimonials /> */}
         <Newsletter />
         <FAQ />
         <CTAFinal />

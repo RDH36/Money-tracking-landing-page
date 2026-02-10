@@ -1,10 +1,18 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { Outfit, Plus_Jakarta_Sans } from "next/font/google";
 import { Analytics } from "@vercel/analytics/react";
+import { getLocale } from "next-intl/server";
 import "./globals.css";
 
-const inter = Inter({
-  variable: "--font-inter",
+const outfit = Outfit({
+  variable: "--font-outfit",
+  subsets: ["latin"],
+  display: "swap",
+  weight: ["400", "500", "600", "700", "800"],
+});
+
+const plusJakarta = Plus_Jakarta_Sans({
+  variable: "--font-plus-jakarta",
   subsets: ["latin"],
   display: "swap",
   weight: ["400", "500", "600", "700"],
@@ -12,44 +20,32 @@ const inter = Inter({
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://mitsitsy.app"),
-  title: {
-    default: "Mitsitsy - Suivi des Dépenses Offline | Madagascar",
-    template: "%s | Mitsitsy",
-  },
-  description:
-    "Prenez le contrôle de vos finances en 10 secondes. Mitsitsy est l'app mobile offline-first de suivi des dépenses. Support MGA, EUR, USD. 100% gratuit.",
   keywords: [
     "mitsitsy",
-    "suivi dépenses",
+    "expense tracker",
     "budget madagascar",
     "offline app",
     "ariary",
-    "gestion finances",
-    "expense tracker",
+    "finance management",
+    "suivi dépenses",
   ],
   authors: [{ name: "Mitsitsy Team" }],
   creator: "Mitsitsy",
   openGraph: {
     type: "website",
-    locale: "fr_FR",
     url: "https://mitsitsy.app",
-    title: "Mitsitsy - Suivi des Dépenses Offline pour Madagascar",
-    description:
-      "Application mobile gratuite de suivi des dépenses. 100% offline, multi-devises.",
     siteName: "Mitsitsy",
     images: [
       {
         url: "/og-image.png",
         width: 1200,
         height: 630,
-        alt: "Mitsitsy - Application de suivi des dépenses",
+        alt: "Mitsitsy - Expense Tracking App",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Mitsitsy - Suivi des Dépenses Offline",
-    description: "Application mobile gratuite. 100% offline, multi-devises.",
     images: ["/og-image.png"],
   },
   robots: {
@@ -58,13 +54,15 @@ export const metadata: Metadata = {
   },
 };
 
-export default function RootLayout({
+export default async function RootLayout({
   children,
-}: Readonly<{
+}: {
   children: React.ReactNode;
-}>) {
+}) {
+  const locale = await getLocale();
+
   return (
-    <html lang="fr" className={inter.variable}>
+    <html lang={locale} className={`${outfit.variable} ${plusJakarta.variable}`}>
       <body className="antialiased">
         {children}
         <Analytics />
