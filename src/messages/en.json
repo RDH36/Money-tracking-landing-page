@@ -11,7 +11,7 @@
     "getNotified": "Get Notified"
   },
   "hero": {
-    "headline": "Take Control of Your Finances in 10 Seconds",
+    "headline": "Take control of your finances in 10 seconds",
     "subheadline": "Mitsitsy is the mobile app that lets you track every Ariary spent, even without internet. Designed for Madagascar, adapted for the world.",
     "benefits": {
       "fast": "Record an expense in under 10 seconds",
@@ -52,37 +52,37 @@
     "agitation": "The result? You work hard, but never manage to save. Every month, it's the same story: money slips through your fingers like sand. It's not a willpower problem. It's a tool problem."
   },
   "solution": {
-    "headline": "Mitsitsy: Simple, Fast, and 100% Offline",
+    "headline": "Mitsitsy: simple, fast, and 100% offline",
     "valueProposition": "Mitsitsy is the first expense tracking app designed for cash economies like Madagascar. Our promise: record an expense in under 10 seconds, without ever needing internet.",
     "benefits": {
       "see": {
-        "title": "See Where Your Money Goes",
+        "title": "See where your money goes",
         "description": "At a glance, understand your daily, weekly, monthly expenses. Simple charts that reveal your habits.",
         "outcome": "No more financial mysteries"
       },
       "fast": {
-        "title": "10 Seconds, No More",
+        "title": "10 seconds, no more",
         "description": "Amount -> Category -> Saved. That's it. No useless fields, no unnecessary questions.",
         "outcome": "A habit that lasts"
       },
       "offline": {
-        "title": "Works Everywhere, Even Without Internet",
+        "title": "Works everywhere, even without internet",
         "description": "At the market, in the bush, in the taxi-be: your app works. Your data stays on your phone, secure.",
         "outcome": "No more excuses not to track"
       },
       "currency": {
-        "title": "MGA, EUR, USD - All In One",
+        "title": "MGA, EUR, USD - all in one",
         "description": "Manage multiple currencies with automatic conversion. Perfect for travelers and expats.",
         "outcome": "One app for all your finances"
       }
     }
   },
   "features": {
-    "sectionTitle": "Everything You Need. Nothing More.",
+    "sectionTitle": "Everything you need. Nothing more.",
     "sectionSubtitle": "12 features designed for simplicity",
     "items": {
       "fast": {
-        "title": "10-Second Entry",
+        "title": "10-second entry",
         "description": "Amount -> Category -> Note -> Saved. The fastest interface on the market."
       },
       "offline": {
@@ -90,15 +90,15 @@
         "description": "No internet connection required. Your data is stored locally and securely."
       },
       "currency": {
-        "title": "Multi-Currency Support",
+        "title": "Multi-currency support",
         "description": "Ariary (MGA), Euro (EUR), Dollar (USD) with automatic conversion."
       },
       "accounts": {
-        "title": "Account Management",
+        "title": "Account management",
         "description": "Manage up to 3 accounts (wallet, savings, mobile money) with transfers."
       },
       "categories": {
-        "title": "Custom Categories",
+        "title": "Custom categories",
         "description": "8 default categories + 3 customizable. Unique colors and icons."
       },
       "planning": {
@@ -106,7 +106,7 @@
         "description": "Create budgets with deadlines and track your financial goals."
       },
       "charts": {
-        "title": "Clear Charts",
+        "title": "Clear charts",
         "description": "Expense pie chart, history filterable by day/week/month."
       },
       "notifications": {
@@ -118,21 +118,21 @@
         "description": "Test hypothetical expenses without recording them."
       },
       "privacy": {
-        "title": "Balance Hiding",
+        "title": "Balance hiding",
         "description": "Hide your balance in one click to protect your privacy."
       },
       "themes": {
-        "title": "4 Color Themes",
+        "title": "4 color themes",
         "description": "Turquoise, Blue, Purple, Orange. Customize to your preferences."
       },
       "unlimited": {
-        "title": "Unlimited Transactions",
+        "title": "Unlimited transactions",
         "description": "Infinite pagination, date grouping, recoverable deletion."
       }
     }
   },
   "testimonials": {
-    "sectionTitle": "They Took Back Control",
+    "sectionTitle": "They took back control",
     "sectionSubtitle": "Discover what our users say",
     "items": {
       "rakoto": {
@@ -235,7 +235,7 @@
     }
   },
   "cta": {
-    "headline": "Ready to Take Back Control?",
+    "headline": "Ready to take back control?",
     "subheadline": "Be among the first to discover Mitsitsy and start seeing where your money really goes.",
     "tagline": "Free. No ads. Works offline. Designed for Madagascar.",
     "comingSoon": "Coming soon",
@@ -247,7 +247,7 @@
     }
   },
   "newsletter": {
-    "headline": "Stay Informed",
+    "headline": "Stay informed",
     "subheadline": "Get new features and our best tips to better manage your money. 1 email per month max. Zero spam.",
     "benefits": {
       "preview": "News in preview",

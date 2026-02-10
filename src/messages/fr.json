@@ -11,7 +11,7 @@
     "getNotified": "Être notifié"
   },
   "hero": {
-    "headline": "Prenez le Contrôle de Vos Finances en 10 Secondes",
+    "headline": "Prenez le contrôle de vos finances en 10 secondes",
     "subheadline": "Mitsitsy est l'application mobile qui vous permet de suivre chaque Ariary dépensé, même sans connexion internet. Conçue pour Madagascar, adaptée au monde entier.",
     "benefits": {
       "fast": "Enregistrez une dépense en moins de 10 secondes",
@@ -52,37 +52,37 @@
     "agitation": "Le résultat ? Vous travaillez dur, mais vous n'arrivez jamais à économiser. Chaque mois, c'est la même histoire : l'argent file entre vos doigts comme du sable. Ce n'est pas un problème de volonté. C'est un problème d'outil."
   },
   "solution": {
-    "headline": "Mitsitsy : Simple, Rapide, et 100% Offline",
+    "headline": "Mitsitsy : simple, rapide, et 100% offline",
     "valueProposition": "Mitsitsy est la première application de suivi des dépenses conçue pour les économies en cash comme Madagascar. Notre promesse : enregistrer une dépense en moins de 10 secondes, sans jamais avoir besoin d'internet.",
     "benefits": {
       "see": {
-        "title": "Voyez Où Va Votre Argent",
+        "title": "Voyez où va votre argent",
         "description": "En un coup d'œil, comprenez vos dépenses du jour, de la semaine, du mois. Des graphiques simples qui révèlent vos habitudes.",
         "outcome": "Fini les mystères financiers"
       },
       "fast": {
-        "title": "10 Secondes, Pas Une De Plus",
+        "title": "10 secondes, pas une de plus",
         "description": "Montant → Catégorie → Enregistré. C'est tout. Pas de champs inutiles, pas de questions superflues.",
         "outcome": "Une habitude qui tient dans la durée"
       },
       "offline": {
-        "title": "Fonctionne Partout, Même Sans Internet",
+        "title": "Fonctionne partout, même sans internet",
         "description": "Au marché, en brousse, dans le taxi-be : votre app fonctionne. Vos données restent sur votre téléphone, en sécurité.",
         "outcome": "Plus d'excuse pour ne pas noter"
       },
       "currency": {
-        "title": "MGA, EUR, USD - Tout En Un",
+        "title": "MGA, EUR, USD - tout en un",
         "description": "Gérez plusieurs devises avec conversion automatique. Parfait pour les voyageurs et expatriés.",
         "outcome": "Une seule app pour toutes vos finances"
       }
     }
   },
   "features": {
-    "sectionTitle": "Tout Ce Dont Vous Avez Besoin. Rien De Plus.",
+    "sectionTitle": "Tout ce dont vous avez besoin. Rien de plus.",
     "sectionSubtitle": "12 fonctionnalités pensées pour la simplicité",
     "items": {
       "fast": {
-        "title": "Entrée en 10 Secondes",
+        "title": "Entrée en 10 secondes",
         "description": "Montant → Catégorie → Note → Enregistré. L'interface la plus rapide du marché."
       },
       "offline": {
@@ -90,15 +90,15 @@
         "description": "Aucune connexion internet requise. Vos données sont stockées localement en toute sécurité."
       },
       "currency": {
-        "title": "Support Multi-Devises",
+        "title": "Support multi-devises",
         "description": "Ariary (MGA), Euro (EUR), Dollar (USD) avec conversion automatique."
       },
       "accounts": {
-        "title": "Gestion de Comptes",
+        "title": "Gestion de comptes",
         "description": "Gérez jusqu'à 3 comptes (portefeuille, épargne, mobile money) avec transferts."
       },
       "categories": {
-        "title": "Catégories sur Mesure",
+        "title": "Catégories sur mesure",
         "description": "8 catégories par défaut + 3 personnalisables. Couleurs et icônes uniques."
       },
       "planning": {
@@ -106,7 +106,7 @@
         "description": "Créez des budgets avec deadlines et suivez vos objectifs financiers."
       },
       "charts": {
-        "title": "Graphiques Clairs",
+        "title": "Graphiques clairs",
         "description": "Camembert des dépenses, historique filtrable par jour/semaine/mois."
       },
       "notifications": {
@@ -118,21 +118,21 @@
         "description": "Testez des dépenses hypothétiques sans les enregistrer."
       },
       "privacy": {
-        "title": "Masquage du Solde",
+        "title": "Masquage du solde",
         "description": "Cachez votre solde en un clic pour protéger votre vie privée."
       },
       "themes": {
-        "title": "4 Thèmes de Couleur",
+        "title": "4 thèmes de couleur",
         "description": "Turquoise, Bleu, Violet, Orange. Personnalisez selon vos préférences."
       },
       "unlimited": {
-        "title": "Transactions Illimitées",
+        "title": "Transactions illimitées",
         "description": "Pagination infinie, groupement par date, suppression récupérable."
       }
     }
   },
   "testimonials": {
-    "sectionTitle": "Ils Ont Repris le Contrôle",
+    "sectionTitle": "Ils ont repris le contrôle",
     "sectionSubtitle": "Découvrez ce que nos utilisateurs disent",
     "items": {
       "rakoto": {
@@ -235,7 +235,7 @@
     }
   },
   "cta": {
-    "headline": "Prêt à Reprendre le Contrôle ?",
+    "headline": "Prêt à reprendre le contrôle ?",
     "subheadline": "Soyez parmi les premiers à découvrir Mitsitsy et commencez à voir où va réellement votre argent.",
     "tagline": "Gratuit. Sans publicité. Fonctionne hors ligne. Conçu pour Madagascar.",
     "comingSoon": "Bientôt disponible",
@@ -247,7 +247,7 @@
     }
   },
   "newsletter": {
-    "headline": "Restez Informé",
+    "headline": "Restez informé",
     "subheadline": "Recevez les nouvelles fonctionnalités et nos meilleurs conseils pour mieux gérer votre argent. 1 email par mois maximum. Zéro spam.",
     "benefits": {
       "preview": "Nouveautés en avant-première",

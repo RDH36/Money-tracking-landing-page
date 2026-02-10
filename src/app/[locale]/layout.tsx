@@ -18,9 +18,9 @@ export async function generateMetadata({
   const t = await getTranslations({ locale, namespace: "hero" });
 
   const titles: Record<string, string> = {
-    en: "Mitsitsy - Offline Expense Tracking | Madagascar",
-    fr: "Mitsitsy - Suivi des Dépenses Offline | Madagascar",
-    mg: "Mitsitsy - Fanaraha-maso Fandaniana Offline | Madagasikara",
+    en: "Mitsitsy - Offline expense tracking | Madagascar",
+    fr: "Mitsitsy - Suivi des dépenses offline | Madagascar",
+    mg: "Mitsitsy - Fanaraha-maso fandaniana offline | Madagasikara",
   };
 
   const descriptions: Record<string, string> = {

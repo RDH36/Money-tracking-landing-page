@@ -11,7 +11,7 @@
     "getNotified": "Ampandrenesina"
   },
   "hero": {
-    "headline": "Tantano ny Volanao Anatin'ny 10 Segondra",
+    "headline": "Tantano ny volanao anatin'ny 10 segondra",
     "subheadline": "Mitsitsy dia rindranasa finday manampy anao hanaraka ny vola lany rehetra, na dia tsy misy internet aza. Natao ho an'i Madagasikara, mety amin'ny tontolo rehetra.",
     "benefits": {
       "fast": "Soraty ny fandaniana anatin'ny 10 segondra",
@@ -52,37 +52,37 @@
     "agitation": "Ny vokany? Miasa mafy ianao, saingy tsy mahay mitahiry mihitsy. Isam-bolana, mitovy ny tantara: mikoriana eo am-pelatananao toy ny fasika ny vola. Tsy olana sitrapo io. Olana fitaovana io."
   },
   "solution": {
-    "headline": "Mitsitsy: Tsotra, Haingana, ary 100% Offline",
+    "headline": "Mitsitsy: tsotra, haingana, ary 100% offline",
     "valueProposition": "Mitsitsy no rindranasa voalohany amin'ny fanaraha-maso fandaniana natao ho an'ny toe-karena cash toy ny an'i Madagasikara. Ny fanekentsika: soraty ny fandaniana anatin'ny 10 segondra, tsy mila internet mihitsy.",
     "benefits": {
       "see": {
-        "title": "Jereo Aiza no Lasan'ny Volanao",
+        "title": "Jereo aiza no lasan'ny volanao",
         "description": "Indray mijery, fantaro ny fandanianao isan'andro, isan-kerinandro, isan-bolana. Grafika tsotra mampiseho ny fahazaranao.",
         "outcome": "Tsy misy mistery ara-bola intsony"
       },
       "fast": {
-        "title": "10 Segondra, Tsy Mihoatra",
+        "title": "10 segondra, tsy mihoatra",
         "description": "Vola → Sokajy → Voatahiry. Izay ihany. Tsy misy saha tsy ilaina, tsy misy fanontaniana tsy tokony hisy.",
         "outcome": "Fahazarana maharitra"
       },
       "offline": {
-        "title": "Miasa Na Aiza Na Aiza, Na Dia Tsy Misy Internet Aza",
+        "title": "Miasa na aiza na aiza, na dia tsy misy internet aza",
         "description": "Any an-tsena, any ambanivohitra, any anaty taxi-be: miasa ny rindranasanao. Ny datanao mijanona eo amin'ny findainao, voaaro.",
         "outcome": "Tsy misy fialan-tsiny intsony tsy hanoratra"
       },
       "currency": {
-        "title": "MGA, EUR, USD - Iray Ihany",
+        "title": "MGA, EUR, USD - iray ihany",
         "description": "Tantano vola maro karazana miaraka amin'ny fanovana automatika. Tonga lafatra ho an'ny mpandeha sy ny vahiny.",
         "outcome": "Rindranasa iray ho an'ny volanao rehetra"
       }
     }
   },
   "features": {
-    "sectionTitle": "Izay Rehetra Ilainao. Tsy Misy Mihoatra.",
+    "sectionTitle": "Izay rehetra ilainao. Tsy misy mihoatra.",
     "sectionSubtitle": "Fampisehoana 12 natao ho an'ny fahatsora",
     "items": {
       "fast": {
-        "title": "Fidirana 10 Segondra",
+        "title": "Fidirana 10 segondra",
         "description": "Vola → Sokajy → Fanamarihana → Voatahiry. Ny interface haingana indrindra eo amin'ny tsena."
       },
       "offline": {
@@ -90,15 +90,15 @@
         "description": "Tsy mila fifandraisana internet. Ny datanao dia tehirizina eo an-toerana amin'ny fomba azo antoka."
       },
       "currency": {
-        "title": "Maro Karazana Vola",
+        "title": "Maro karazana vola",
         "description": "Ariary (MGA), Euro (EUR), Dollar (USD) miaraka amin'ny fanovana automatika."
       },
       "accounts": {
-        "title": "Fitantanana Kaonty",
+        "title": "Fitantanana kaonty",
         "description": "Tantano hatramin'ny kaonty 3 (kitapom-bola, tahiry, mobile money) miaraka amin'ny famindrana."
       },
       "categories": {
-        "title": "Sokajy Manokana",
+        "title": "Sokajy manokana",
         "description": "Sokajy 8 default + 3 azo ovaina. Loko sy icon manokana."
       },
       "planning": {
@@ -106,7 +106,7 @@
         "description": "Mamorona tetibola miaraka amin'ny fe-potoana ary araho ny tanjonao ara-bola."
       },
       "charts": {
-        "title": "Grafika Mazava",
+        "title": "Grafika mazava",
         "description": "Grafika fandaniana, tantara azo sivana isan'andro/isan-kerinandro/isan-bolana."
       },
       "notifications": {
@@ -118,7 +118,7 @@
         "description": "Andrana fandaniana eritreri-kevitra tsy voasoratra."
       },
       "privacy": {
-        "title": "Fanakonana Tahiry",
+        "title": "Fanakonana tahiry",
         "description": "Afeno ny tahirinao amin'ny tsindry iray mba hiarovana ny tsiambaratelon'ny fiainanao."
       },
       "themes": {
@@ -126,13 +126,13 @@
         "description": "Turquoise, Manga, Volomparasy, Orange. Amboary araka ny tianao."
       },
       "unlimited": {
-        "title": "Transaction Tsy Misy Fetra",
+        "title": "Transaction tsy misy fetra",
         "description": "Pagination tsy manam-petra, filaharana isan'andro, famafana azo averina."
       }
     }
   },
   "testimonials": {
-    "sectionTitle": "Namerina ny Fifehezana Izy Ireo",
+    "sectionTitle": "Namerina ny fifehezana izy ireo",
     "sectionSubtitle": "Fantaro ny filazan'ny mpampiasa anay",
     "items": {
       "rakoto": {
@@ -235,7 +235,7 @@
     }
   },
   "cta": {
-    "headline": "Vonona Hamerina ny Fifehezana?",
+    "headline": "Vonona hamerina ny fifehezana?",
     "subheadline": "Aoka ho isan'ny voalohany mahita an'i Mitsitsy ary atombohy ny mahita hoe aiza marina no lasan'ny volanao.",
     "tagline": "Maimaim-poana. Tsy misy pub. Miasa offline. Natao ho an'i Madagasikara.",
     "comingSoon": "Ho avy tsy ho ela",
@@ -247,7 +247,7 @@
     }
   },
   "newsletter": {
-    "headline": "Mijanona Mahalala",
+    "headline": "Mijanona mahalala",
     "subheadline": "Mahazo fampisehoana vaovao sy torohevitra tsara indrindra hitantanana ny volanao. Mailaka 1 isan-bolana fara-fahabetsany. Tsy misy spam.",
     "benefits": {
       "preview": "Vaovao alohan'ny hafa",
