@@ -368,7 +368,7 @@ export const footer = {
     },
     {
       title: "Support",
-      links: [{ name: "Contact", href: "mailto:support@mitsitsy.app" }],
+      links: [{ name: "Contact", href: "mailto:raymond.dzeryhago36@gmail.com" }],
     },
     {
       title: "Légal",

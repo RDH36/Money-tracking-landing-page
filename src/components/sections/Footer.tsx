@@ -18,7 +18,7 @@ export function Footer() {
     {
       title: t("columns.support.title"),
       links: [
-        { name: t("columns.support.contact"), href: "mailto:support@mitsitsy.app" },
+        { name: t("columns.support.contact"), href: "mailto:raymond.dzeryhago36@gmail.com" },
       ],
     },
     {

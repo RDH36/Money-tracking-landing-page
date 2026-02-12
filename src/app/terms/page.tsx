@@ -179,7 +179,7 @@ export default function TermsPage() {
                 Pour toute question concernant ces conditions d'utilisation :
               </p>
               <p className="text-gray-600">
-                Email : <a href="mailto:support@mitsitsy.app" className="text-primary hover:underline">support@mitsitsy.app</a>
+                Email : <a href="mailto:raymond.dzeryhago36@gmail.com" className="text-primary hover:underline">raymond.dzeryhago36@gmail.com</a>
               </p>
             </section>
           </div>

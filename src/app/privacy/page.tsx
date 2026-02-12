@@ -118,7 +118,7 @@ export default function PrivacyPage() {
                 <li>Exporter vos données de l'application</li>
               </ul>
               <p className="text-gray-600 mb-4">
-                Pour exercer ces droits, contactez-nous à : support@mitsitsy.app
+                Pour exercer ces droits, contactez-nous à : raymond.dzeryhago36@gmail.com
               </p>
             </section>
 
@@ -155,7 +155,7 @@ export default function PrivacyPage() {
                 Pour toute question concernant cette politique de confidentialité :
               </p>
               <p className="text-gray-600">
-                Email : <a href="mailto:support@mitsitsy.app" className="text-primary hover:underline">support@mitsitsy.app</a>
+                Email : <a href="mailto:raymond.dzeryhago36@gmail.com" className="text-primary hover:underline">raymond.dzeryhago36@gmail.com</a>
               </p>
             </section>
           </div>
