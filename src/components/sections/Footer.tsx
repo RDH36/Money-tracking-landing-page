@@ -1,10 +1,12 @@
 "use client";
 
 import { useTranslations } from "next-intl";
+import { useLocale } from "next-intl";
 
 export function Footer() {
   const t = useTranslations("footer");
   const tSite = useTranslations("siteConfig");
+  const locale = useLocale();
 
   const columns = [
     {
@@ -24,8 +26,8 @@ export function Footer() {
     {
       title: t("columns.legal.title"),
       links: [
-        { name: t("columns.legal.privacy"), href: "/privacy" },
-        { name: t("columns.legal.terms"), href: "/terms" },
+        { name: t("columns.legal.privacy"), href: `/${locale}/privacy` },
+        { name: t("columns.legal.terms"), href: `/${locale}/terms` },
       ],
     },
   ];

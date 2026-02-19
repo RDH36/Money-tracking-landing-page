@@ -295,5 +295,118 @@
   },
   "ui": {
     "backHome": "Miverina any amin'ny fandraisana"
+  },
+  "terms": {
+    "title": "Fepetra fampiasana",
+    "lastUpdated": "Fanavaozana farany : Janoary 2026",
+    "backHome": "Miverina any amin'ny fandraisana",
+    "sections": {
+      "acceptance": {
+        "title": "1. Fanekena ny fepetra",
+        "content": "Amin'ny fampidinana, fametrahana na fampiasana ny rindranasa Mitsitsy, dia manaiky ho voafatotry ireto fepetra fampiasana ireto ianao. Raha tsy manaiky ireto fepetra ireto ianao, dia aza mampiasa ny rindranasa."
+      },
+      "description": {
+        "title": "2. Famaritana ny serivisy",
+        "content": "Mitsitsy dia rindranasa finday fanaraha-maso ny fandaniana manokana. Ahafahanao:",
+        "items": ["Manoratra ny fifampiraharahanao (vola miditra sy fandaniana)", "Manakanavaka ny fandanianao", "Mitantana kaonty maromaro", "Mijery ny antontan'isaM-bola", "Manomana ny teti-bolanao"],
+        "offline": "Ny rindranasa dia miasa tanteraka offline. Ny angon-drakitrao dia voatahiry eo amin'ny fitaovanao."
+      },
+      "usage": {
+        "title": "3. Fampiasana ny rindranasa",
+        "content": "Manaiky ianao fa:",
+        "items": ["Hampiasa ny rindranasa ho an'ny antony manokana sy ara-dalàna ihany", "Tsy hanandrana manova, mamadika na manamboatra ny rindranasa", "Tsy hampiasa ny rindranasa ho an'ny asa hosoka", "Hiantoka ny fitehirizana ny angon-drakitrao manokana"]
+      },
+      "intellectualProperty": {
+        "title": "4. Fananana ara-tsaina",
+        "content": "Ny rindranasa Mitsitsy, ny kaody loharano, ny endrika, ny kisary ary ny votoatiny dia voaharo amin'ny lalàna momba ny fananana ara-tsaina. Mahazo alalana fampiasana manokana, tsy manokana ary tsy azo afindra ianao."
+      },
+      "dataResponsibility": {
+        "title": "5. Angon-drakitra sy andraikitra",
+        "yourData": "Ny angon-drakitrao : Ny angon-drakitra ara-bolanao rehetra dia voatahiry eo amin'ny fitaovanao. Tsy manana fidirana amin'ireo angon-drakitra ireo izahay.",
+        "backup": "Fitehirizana : Ianao no tompon'andraikitra amin'ny fitehirizana ny angon-drakitrao. Raha very, nangalarina na simba ny fitaovanao, dia mety ho very ny angon-drakitrao.",
+        "accuracy": "Fahamarinan-toerana : Ny rindranasa dia fitaovana fanampiana amin'ny fitantanam-bola. Tsy miantoka ny fahamarinan'ny kajy na ny fiovam-bola izahay. Hamarino hatrany ny fampahalalana manan-danja."
+      },
+      "liability": {
+        "title": "6. Fetra amin'ny andraikitra",
+        "content": "Ny rindranasa dia omena \"araka izay misy azy\". Tsy miantoka izahay fa tsy hisy hadisoana ny rindranasa na hiasa tsy misy fiatoana.",
+        "noLiability": "Tsy azo atao tompon'andraikitra na oviana na oviana ny Mitsitsy amin'ny:",
+        "items": ["Fahaverezan'ny angon-drakitra", "Fanapahan-kevitra ara-bola mifototra amin'ny fampiasana ny rindranasa", "Fahasimbana ankolaka na mifandimby"]
+      },
+      "free": {
+        "title": "7. Maimaim-poana",
+        "content": "Ny rindranasa fototra dia maimaim-poana ary ho toy izany hatrany. Tsy misy dokam-barotra aseho. Mety hatolotra amin'ny ho avy ny dikan-teny Premium miaraka amin'ny endri-javatra fanampiny (toy ny fampifandraisana cloud) amin'ny safidy."
+      },
+      "modifications": {
+        "title": "8. Fanovana",
+        "content": "Miaro ny zo hanova ireto fepetra ireto amin'ny fotoana rehetra izahay. Ny fanovana dia hanan-kery rehefa navoaka. Ny fampiasana mitohy ny rindranasa aorian'ny fanovana dia midika fanekena ny fepetra vaovao."
+      },
+      "termination": {
+        "title": "9. Famaranana",
+        "content": "Afaka mitsahatra mampiasa ny rindranasa amin'ny fotoana rehetra ianao amin'ny famafana azy. Ny angon-drakitrao eo an-toerana dia ho voafafa miaraka amin'ny rindranasa."
+      },
+      "law": {
+        "title": "10. Lalàna ampiharina",
+        "content": "Ireto fepetra ireto dia fehezin'ny lalàn'i Madagasikara. Ny fifandirana rehetra dia hatolotra ho amin'ny fahefan'ny fitsarana ao Antananarivo manokana."
+      },
+      "contact": {
+        "title": "11. Fifandraisana",
+        "content": "Ho an'ny fanontaniana rehetra momba ireto fepetra fampiasana ireto:",
+        "email": "Mailaka :"
+      }
+    }
+  },
+  "privacy": {
+    "title": "Politikan'ny tsiambaratelo",
+    "lastUpdated": "Fanavaozana farany : Janoary 2026",
+    "backHome": "Miverina any amin'ny fandraisana",
+    "sections": {
+      "introduction": {
+        "title": "1. Fampidirana",
+        "content": "Mitsitsy (\"izahay\", \"anay\") dia manolo-tena hiaro ny tsiambaratelon'ny mpampiasa. Ity politika ity dia manazava ny fomba fanangonana, fampiasana ary fiarovana ny fampahalalana rehefa mampiasa ny rindranasa finday sy ny tranokala."
+      },
+      "dataCollected": {
+        "title": "2. Angon-drakitra voaangona",
+        "appData": {
+          "title": "2.1 Angon-drakitry ny rindranasa",
+          "content": "Mitsitsy dia natao araka ny foto-kevitra \"offline-first\". Ny angon-drakitra ara-bolanao rehetra (fifampiraharahana, kaonty, sokajy, fikasana) dia voatahiry eo amin'ny fitaovanao ihany. Tsy manana fidirana amin'ireo angon-drakitra ireo izahay ary tsy alefa any amin'ny mpizara izany na oviana na oviana."
+        },
+        "newsletter": {
+          "title": "2.2 Newsletter",
+          "content": "Raha misoratra anarana amin'ny newsletter ianao, dia manangona izahay:",
+          "items": ["Ny adiresy mailakao", "Ny anaranao (tsy voatery)", "Ny datin'ny fisoratana anarana"],
+          "usage": "Ireo angon-drakitra ireo dia ampiasaina handefasana vaovao momba ny Mitsitsy ihany (vaovao, torohevitra, fandefasana). Afaka miala amin'ny lisitra ianao amin'ny fotoana rehetra."
+        }
+      },
+      "dataStorage": {
+        "title": "3. Fitehirizana angon-drakitra",
+        "appData": "Angon-drakitry ny rindranasa : Voatahiry eo amin'ny fitaovanao ao anatin'ny angon-drakitra SQLite. Ireo angon-drakitra ireo dia tsy miala amin'ny findainao raha tsy ianao no misafidy hanondrana azy.",
+        "newsletterData": "Angon-drakitry ny newsletter : Voatahiry amin'ny fomba azo antoka amin'ny mpizara miaraka amin'ny fanafenam-bolo."
+      },
+      "dataSharing": {
+        "title": "4. Fizarana angon-drakitra",
+        "noSelling": "Tsy mivarotra, tsy manofa ary tsy mizara ny angon-drakitrao manokana amin'ny olon-kafa ho an'ny tanjona ara-barotra na oviana na oviana izahay.",
+        "localOnly": "Ny angon-drakitra ara-bolanao ao amin'ny rindranasa dia mijanona eo amin'ny fitaovanao ary ianao ihany no afaka miditra azy."
+      },
+      "yourRights": {
+        "title": "5. Ny zonao",
+        "content": "Manana zo ianao:",
+        "items": ["Miditra amin'ny angon-drakitrao manokana", "Manitsy ny angon-drakitrao", "Mamafa ny angon-drakitrao", "Miala amin'ny newsletter", "Manondrana ny angon-drakitry ny rindranasa"],
+        "contact": "Raha te-hampiasa ireo zo ireo, mifandraisa aminay amin'ny: raymond.dzeryhago36@gmail.com"
+      },
+      "security": {
+        "title": "6. Fiarovana",
+        "content": "Raisinay am-pahamehana ny fiarovana ny angon-drakitrao:",
+        "items": ["Ny rindranasa dia miasa tanteraka offline", "Ny angon-drakitra ara-bolanao dia tsy mandalo amin'ny internet na oviana na oviana", "Azo afenina ny tapakanao mba hiarovana ny tsiambaratelon'ny fiainanao", "Tsy misy dokam-barotra na mpanara-maso ao amin'ny rindranasa"]
+      },
+      "modifications": {
+        "title": "7. Fanovana",
+        "content": "Mety hanavao ity politikan'ny tsiambaratelo ity izahay. Ny fanovana dia havoaka eto amin'ity pejy ity miaraka amin'ny daty fanavaozana vaovao."
+      },
+      "contact": {
+        "title": "8. Fifandraisana",
+        "content": "Ho an'ny fanontaniana rehetra momba ity politikan'ny tsiambaratelo ity:",
+        "email": "Mailaka :"
+      }
+    }
   }
 }

@@ -5,6 +5,7 @@ import { Menu, X } from "lucide-react";
 import { useTranslations } from "next-intl";
 import { Button } from "@/components/ui/button";
 import { LanguageSwitcher } from "@/components/LanguageSwitcher";
+import { siteConfig } from "@/constants/content";
 
 export function Navigation() {
   const [isOpen, setIsOpen] = useState(false);
@@ -40,7 +41,7 @@ export function Navigation() {
             ))}
             <LanguageSwitcher />
             <Button asChild className="bg-primary hover:bg-primary/90">
-              <a href="#newsletter">{t("getNotified")}</a>
+              <a href={siteConfig.playStoreUrl} target="_blank" rel="noopener noreferrer">{t("getNotified")}</a>
             </Button>
           </div>
 
@@ -70,7 +71,7 @@ export function Navigation() {
               ))}
               <LanguageSwitcher />
               <Button asChild className="bg-primary hover:bg-primary/90 w-full">
-                <a href="#newsletter" onClick={() => setIsOpen(false)}>
+                <a href={siteConfig.playStoreUrl} target="_blank" rel="noopener noreferrer" onClick={() => setIsOpen(false)}>
                   {t("getNotified")}
                 </a>
               </Button>

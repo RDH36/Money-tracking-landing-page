@@ -16,7 +16,7 @@ export function LanguageSwitcher() {
 
   return (
     <div className="flex items-center gap-1 bg-gray-100 rounded-full p-1">
-      {routing.locales.map((loc) => (
+      {routing.locales.filter((loc) => loc !== "mg").map((loc) => (
         <button
           key={loc}
           onClick={() => switchLocale(loc)}

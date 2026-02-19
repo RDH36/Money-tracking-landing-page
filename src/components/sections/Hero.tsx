@@ -2,10 +2,11 @@
 
 import { useRef } from "react";
 import { motion, useScroll, useTransform } from "framer-motion";
-import { CheckCircle, Bell } from "lucide-react";
+import { CheckCircle, Download } from "lucide-react";
 import { useTranslations } from "next-intl";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
+import { siteConfig } from "@/constants/content";
 
 export function Hero() {
   const ref = useRef(null);
@@ -102,12 +103,12 @@ export function Hero() {
                 className="bg-primary hover:bg-primary/90 text-white px-8 py-6 text-base font-semibold shadow-lg hover:shadow-xl transition-all group"
                 asChild
               >
-                <a href="#newsletter">
-                  <Bell className="w-5 h-5 mr-3 group-hover:scale-110 transition-transform" />
+                <a href={siteConfig.playStoreUrl} target="_blank" rel="noopener noreferrer">
+                  <Download className="w-5 h-5 mr-3 group-hover:scale-110 transition-transform" />
                   {t("notifyLaunch")}
                 </a>
               </Button>
-              <Badge variant="secondary" className="text-sm px-3 py-1">
+              <Badge className="text-sm px-3 py-1 bg-green-100 text-green-700 border-green-200">
                 {t("comingSoon")}
               </Badge>
             </motion.div>

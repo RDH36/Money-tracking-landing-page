@@ -1,10 +1,11 @@
 "use client";
 
-import { CheckCircle, Bell } from "lucide-react";
+import { CheckCircle, Download } from "lucide-react";
 import { useTranslations } from "next-intl";
 import { FadeIn } from "@/components/motion";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
+import { siteConfig } from "@/constants/content";
 
 export function CTAFinal() {
   const t = useTranslations("cta");
@@ -21,7 +22,7 @@ export function CTAFinal() {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="max-w-4xl mx-auto text-center">
           <FadeIn>
-            <Badge variant="secondary" className="mb-4">
+            <Badge className="mb-4 bg-green-100 text-green-700 border-green-200">
               {t("comingSoon")}
             </Badge>
             <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-6">
@@ -37,8 +38,8 @@ export function CTAFinal() {
               className="bg-primary hover:bg-primary/90 text-white px-8 py-6 text-base font-semibold shadow-lg hover:shadow-xl transition-all group"
               asChild
             >
-              <a href="#newsletter">
-                <Bell className="w-5 h-5 mr-3 group-hover:scale-110 transition-transform" />
+              <a href={siteConfig.playStoreUrl} target="_blank" rel="noopener noreferrer">
+                <Download className="w-5 h-5 mr-3 group-hover:scale-110 transition-transform" />
                 {t("comingSoon")}
               </a>
             </Button>

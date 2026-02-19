@@ -22,7 +22,7 @@ export const siteConfig = {
   name: "Mitsitsy",
   url: "https://mitsitsy.app",
   playStoreUrl:
-    "https://play.google.com/store/apps/details?id=com.mitsitsy.app",
+    "https://play.google.com/store/apps/details?id=com.rdh36.moneytracking",
   appStoreUrl: "https://apps.apple.com/app/mitsitsy",
 };
 
