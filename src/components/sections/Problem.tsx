@@ -1,15 +1,15 @@
 "use client";
 
-import { Wallet, Calculator, WifiOff, ClipboardList } from "lucide-react";
+import { Wallet, WifiOff } from "lucide-react";
 import { useTranslations } from "next-intl";
 import { FadeIn, StaggerContainer, StaggerItem } from "@/components/motion";
 
-const icons = [Wallet, Calculator, WifiOff, ClipboardList];
+const icons = [Wallet, WifiOff];
 
 export function Problem() {
   const t = useTranslations("problem");
 
-  const painPointKeys = ["salary", "tools", "offline", "complex"] as const;
+  const painPointKeys = ["salary", "offline"] as const;
 
   return (
     <section id="problem" className="py-20 bg-gray-50">
@@ -21,7 +21,7 @@ export function Problem() {
             </h2>
           </FadeIn>
 
-          <StaggerContainer className="grid sm:grid-cols-2 gap-6 mb-12">
+          <StaggerContainer className="grid sm:grid-cols-2 gap-6">
             {painPointKeys.map((key, index) => {
               const Icon = icons[index];
               return (
@@ -39,12 +39,6 @@ export function Problem() {
               );
             })}
           </StaggerContainer>
-
-          <FadeIn delay={0.4}>
-            <div className="bg-gray-100 rounded-xl p-6 sm:p-8 text-center">
-              <p className="text-lg text-gray-700 leading-relaxed">{t("agitation")}</p>
-            </div>
-          </FadeIn>
         </div>
       </div>
     </section>

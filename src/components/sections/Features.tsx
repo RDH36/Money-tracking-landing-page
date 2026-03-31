@@ -4,15 +4,9 @@ import {
   Zap,
   WifiOff,
   Coins,
-  Wallet,
-  Tags,
   Target,
   BarChart3,
-  Bell,
-  HelpCircle,
-  EyeOff,
-  Palette,
-  Infinity,
+  Trophy,
 } from "lucide-react";
 import { useTranslations } from "next-intl";
 import { FadeIn, StaggerContainer, StaggerItem, ScaleOnHover } from "@/components/motion";
@@ -21,30 +15,18 @@ const icons = [
   Zap,
   WifiOff,
   Coins,
-  Wallet,
-  Tags,
   Target,
   BarChart3,
-  Bell,
-  HelpCircle,
-  EyeOff,
-  Palette,
-  Infinity,
+  Trophy,
 ];
 
 const featureKeys = [
   "fast",
   "offline",
   "currency",
-  "accounts",
-  "categories",
   "planning",
   "charts",
-  "notifications",
-  "whatif",
-  "privacy",
-  "themes",
-  "unlimited",
+  "gamification",
 ] as const;
 
 export function Features() {
@@ -61,7 +43,7 @@ export function Features() {
             <p className="text-lg text-gray-600">{t("sectionSubtitle")}</p>
           </FadeIn>
 
-          <StaggerContainer className="grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+          <StaggerContainer className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
             {featureKeys.map((key, index) => {
               const Icon = icons[index];
               return (

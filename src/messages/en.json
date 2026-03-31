@@ -79,7 +79,7 @@
   },
   "features": {
     "sectionTitle": "Everything you need. Nothing more.",
-    "sectionSubtitle": "12 features designed for simplicity",
+    "sectionSubtitle": "Simple tools to take control of your money",
     "items": {
       "fast": {
         "title": "10-second entry",
@@ -106,8 +106,8 @@
         "description": "Create budgets with deadlines and track your financial goals."
       },
       "charts": {
-        "title": "Clear charts",
-        "description": "Expense pie chart, history filterable by day/week/month."
+        "title": "Advanced reports",
+        "description": "Pie and bar charts with % or amount toggle. History filterable by day/week/month/year."
       },
       "notifications": {
         "title": "Notifications",
@@ -122,12 +122,20 @@
         "description": "Hide your balance in one click to protect your privacy."
       },
       "themes": {
-        "title": "4 color themes",
-        "description": "Turquoise, Blue, Purple, Orange. Customize to your preferences."
+        "title": "Themes & dark mode",
+        "description": "4 color themes (Turquoise, Blue, Purple, Orange) + automatic dark mode."
       },
       "unlimited": {
         "title": "Unlimited transactions",
         "description": "Infinite pagination, date grouping, recoverable deletion."
+      },
+      "gamification": {
+        "title": "Gamification",
+        "description": "Earn XP, level up, maintain daily streaks, unlock badges and complete daily challenges."
+      },
+      "calendar": {
+        "title": "Expense calendar",
+        "description": "Monthly calendar view with daily expense totals. Tap any day to see its transactions."
       }
     }
   },
@@ -193,6 +201,11 @@
         "label": "Privacy",
         "traditional": "Data on servers",
         "mitsitsy": "Local storage only"
+      },
+      "gamification": {
+        "label": "Gamification",
+        "traditional": "None",
+        "mitsitsy": "XP, levels, streaks & badges"
       }
     }
   },
@@ -206,19 +219,19 @@
       },
       "free": {
         "question": "Will the app be free?",
-        "answer": "Yes. Mitsitsy will be 100% free with no ads. All features will be accessible without paying. We plan an optional Premium version with cloud sync, but the basic app will always remain free."
+        "answer": "Yes. Mitsitsy is 100% free with no ads. All features are accessible without paying. We plan an optional Premium version with cloud sync, but the basic app will always remain free."
       },
       "offline": {
         "question": "Can I use the app without internet?",
-        "answer": "Absolutely. That's our main difference. Mitsitsy will work entirely offline. Recording, viewing, charts - everything will work without internet."
+        "answer": "Absolutely. That's our main difference. Mitsitsy works entirely offline. Recording, viewing, charts - everything works without internet."
       },
       "security": {
         "question": "Will my data be secure?",
-        "answer": "Yes. All your data will be stored locally on your phone in a secure SQLite database. No data will be sent to external servers. We won't have access to your financial information."
+        "answer": "Yes. All your data is stored locally on your phone in a secure SQLite database. No data is sent to external servers. We don't have access to your financial information."
       },
       "currencies": {
         "question": "Which currencies will be supported?",
-        "answer": "At launch: Malagasy Ariary (MGA), Euro (EUR), and US Dollar (USD). Automatic currency conversion will be included."
+        "answer": "Malagasy Ariary (MGA), Euro (EUR), and US Dollar (USD) with automatic currency conversion included."
       },
       "platforms": {
         "question": "On which platforms will the app be available?",
@@ -230,7 +243,7 @@
       },
       "planning": {
         "question": "How does budget planning work?",
-        "answer": "You can create a plan with a target amount and deadline. Add items with their amounts. The app will track your progress. When ready, convert the plan to real transactions in one tap."
+        "answer": "Create a plan with a target amount and deadline. Add items with their amounts. The app tracks your progress. When ready, convert the plan to real transactions in one tap."
       }
     }
   },

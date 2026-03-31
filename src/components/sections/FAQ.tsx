@@ -14,9 +14,6 @@ const faqKeys = [
   "free",
   "offline",
   "security",
-  "currencies",
-  "platforms",
-  "notify",
   "planning",
 ] as const;
 

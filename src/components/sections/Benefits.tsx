@@ -7,8 +7,6 @@ import { FadeIn } from "@/components/motion";
 const criteriaKeys = [
   "entryTime",
   "internet",
-  "currency",
-  "planning",
   "price",
   "privacy",
 ] as const;

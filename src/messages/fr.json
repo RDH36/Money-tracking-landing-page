@@ -79,7 +79,7 @@
   },
   "features": {
     "sectionTitle": "Tout ce dont vous avez besoin. Rien de plus.",
-    "sectionSubtitle": "12 fonctionnalités pensées pour la simplicité",
+    "sectionSubtitle": "Des outils simples pour reprendre le contrôle de votre argent",
     "items": {
       "fast": {
         "title": "Entrée en 10 secondes",
@@ -106,8 +106,8 @@
         "description": "Créez des budgets avec deadlines et suivez vos objectifs financiers."
       },
       "charts": {
-        "title": "Graphiques clairs",
-        "description": "Camembert des dépenses, historique filtrable par jour/semaine/mois."
+        "title": "Rapports avancés",
+        "description": "Camembert et barres avec bascule % ou montant. Historique filtrable par jour/semaine/mois/année."
       },
       "notifications": {
         "title": "Notifications",
@@ -122,12 +122,20 @@
         "description": "Cachez votre solde en un clic pour protéger votre vie privée."
       },
       "themes": {
-        "title": "4 thèmes de couleur",
-        "description": "Turquoise, Bleu, Violet, Orange. Personnalisez selon vos préférences."
+        "title": "Thèmes & mode sombre",
+        "description": "4 thèmes de couleur (Turquoise, Bleu, Violet, Orange) + mode sombre automatique."
       },
       "unlimited": {
         "title": "Transactions illimitées",
         "description": "Pagination infinie, groupement par date, suppression récupérable."
+      },
+      "gamification": {
+        "title": "Gamification",
+        "description": "Gagnez de l'XP, montez en niveau, maintenez vos séries quotidiennes, débloquez des badges et relevez des défis."
+      },
+      "calendar": {
+        "title": "Calendrier des dépenses",
+        "description": "Vue calendrier mensuelle avec totaux quotidiens. Touchez un jour pour voir ses transactions."
       }
     }
   },
@@ -193,6 +201,11 @@
         "label": "Vie privée",
         "traditional": "Données sur serveurs",
         "mitsitsy": "Stockage local uniquement"
+      },
+      "gamification": {
+        "label": "Gamification",
+        "traditional": "Aucune",
+        "mitsitsy": "XP, niveaux, séries & badges"
       }
     }
   },
@@ -206,19 +219,19 @@
       },
       "free": {
         "question": "L'application sera-t-elle gratuite ?",
-        "answer": "Oui. Mitsitsy sera 100% gratuit sans publicité. Toutes les fonctionnalités seront accessibles sans payer. Nous prévoyons une version Premium optionnelle avec synchronisation cloud, mais l'app de base restera toujours gratuite."
+        "answer": "Oui. Mitsitsy est 100% gratuit sans publicité. Toutes les fonctionnalités sont accessibles sans payer. Nous prévoyons une version Premium optionnelle avec synchronisation cloud, mais l'app de base restera toujours gratuite."
       },
       "offline": {
         "question": "Pourrai-je utiliser l'app sans connexion internet ?",
-        "answer": "Absolument. C'est notre différence principale. Mitsitsy fonctionnera entièrement hors ligne. Enregistrement, consultation, graphiques - tout marchera sans internet."
+        "answer": "Absolument. C'est notre différence principale. Mitsitsy fonctionne entièrement hors ligne. Enregistrement, consultation, graphiques - tout marche sans internet."
       },
       "security": {
         "question": "Mes données seront-elles sécurisées ?",
-        "answer": "Oui. Toutes vos données seront stockées localement sur votre téléphone dans une base SQLite sécurisée. Aucune donnée ne sera envoyée à des serveurs externes. Nous n'aurons pas accès à vos informations financières."
+        "answer": "Oui. Toutes vos données sont stockées localement sur votre téléphone dans une base SQLite sécurisée. Aucune donnée n'est envoyée à des serveurs externes. Nous n'avons pas accès à vos informations financières."
       },
       "currencies": {
         "question": "Quelles devises seront supportées ?",
-        "answer": "Au lancement : Ariary malgache (MGA), Euro (EUR), et Dollar américain (USD). La conversion automatique entre devises sera incluse."
+        "answer": "Ariary malgache (MGA), Euro (EUR), et Dollar américain (USD) avec conversion automatique entre devises incluse."
       },
       "platforms": {
         "question": "Sur quelles plateformes l'app sera-t-elle disponible ?",
@@ -230,7 +243,7 @@
       },
       "planning": {
         "question": "Comment fonctionne la planification budgétaire ?",
-        "answer": "Vous pourrez créer une planification avec un montant cible et une deadline. Ajoutez des articles avec leurs montants. L'app suivra votre progression. Quand vous serez prêt, convertissez la planification en transactions réelles en un tap."
+        "answer": "Créez une planification avec un montant cible et une deadline. Ajoutez des articles avec leurs montants. L'app suit votre progression. Quand vous êtes prêt, convertissez la planification en transactions réelles en un tap."
       }
     }
   },

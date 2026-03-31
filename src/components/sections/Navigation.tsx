@@ -24,7 +24,7 @@ export function Navigation() {
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
           <a href="#" className="flex items-center gap-2">
-            <img src="/logo-2.png" alt="Mitsitsy" className="w-8 h-8" />
+            <img src="/new-logo.png" alt="Mitsitsy" className="w-8 h-8" />
             <span className="font-bold text-xl text-gray-900">{tSite("name")}</span>
           </a>
 

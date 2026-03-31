@@ -79,7 +79,7 @@
   },
   "features": {
     "sectionTitle": "Izay rehetra ilainao. Tsy misy mihoatra.",
-    "sectionSubtitle": "Fampisehoana 12 natao ho an'ny fahatsora",
+    "sectionSubtitle": "Fitaovana tsotra hifehezana ny volanao",
     "items": {
       "fast": {
         "title": "Fidirana 10 segondra",
@@ -106,8 +106,8 @@
         "description": "Mamorona tetibola miaraka amin'ny fe-potoana ary araho ny tanjonao ara-bola."
       },
       "charts": {
-        "title": "Grafika mazava",
-        "description": "Grafika fandaniana, tantara azo sivana isan'andro/isan-kerinandro/isan-bolana."
+        "title": "Tatitra mandroso",
+        "description": "Grafika pie sy bar miaraka amin'ny toggle % na vola. Tantara azo sivana isan'andro/isan-kerinandro/isan-bolana/isan-taona."
       },
       "notifications": {
         "title": "Fampahafantarana",
@@ -122,12 +122,20 @@
         "description": "Afeno ny tahirinao amin'ny tsindry iray mba hiarovana ny tsiambaratelon'ny fiainanao."
       },
       "themes": {
-        "title": "Loko 4",
-        "description": "Turquoise, Manga, Volomparasy, Orange. Amboary araka ny tianao."
+        "title": "Loko & mode maizina",
+        "description": "Loko 4 (Turquoise, Manga, Volomparasy, Orange) + mode maizina automatika."
       },
       "unlimited": {
         "title": "Transaction tsy misy fetra",
         "description": "Pagination tsy manam-petra, filaharana isan'andro, famafana azo averina."
+      },
+      "gamification": {
+        "title": "Gamification",
+        "description": "Mahazo XP, miakatra ambaratonga, tehirizo ny serian'andro, sokafy badge ary tanteraho défi isan'andro."
+      },
+      "calendar": {
+        "title": "Kalandrie fandaniana",
+        "description": "Fijery kalandrie isan-bolana miaraka amin'ny totalin'ny fandaniana isan'andro. Tsindrio andro iray hahitana ny transaction-ny."
       }
     }
   },
@@ -193,6 +201,11 @@
         "label": "Tsiambaratelo",
         "traditional": "Data amin'ny server",
         "mitsitsy": "Fitahirizana eo an-toerana ihany"
+      },
+      "gamification": {
+        "label": "Gamification",
+        "traditional": "Tsy misy",
+        "mitsitsy": "XP, ambaratonga, seria & badge"
       }
     }
   },
