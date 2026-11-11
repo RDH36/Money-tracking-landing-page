@@ -1,0 +1,80 @@
+{
+  "tirage": {
+    "metaDescription": "Règlement du tirage au sort Testeurs bêta de l'import automatique de Mitsitsy : participation gratuite, 10 gagnants tirés au sort.",
+    "backHome": "Retour à l'accueil",
+    "title": "Règlement du tirage « Testeurs bêta — Import » (Mitsitsy)",
+    "sections": {
+      "organizer": {
+        "title": "1. Organisateur",
+        "content": "Le tirage est organisé par Mitsitsy Team, éditeur de l'application Mitsitsy. Contact : contact@dzeryhago.com."
+      },
+      "free": {
+        "title": "2. Participation gratuite",
+        "content": "La participation est gratuite et sans obligation d'achat. Google n'est ni organisateur, ni partenaire, ni sponsor de ce tirage."
+      },
+      "who": {
+        "title": "3. Qui peut participer",
+        "content": "Toute personne qui utilise Mitsitsy en version 2.2.0 ou plus récente, âgée d'au moins 16 ans."
+      },
+      "how": {
+        "title": "4. Comment participer",
+        "steps": [
+          "Faire ses 3 lectures d'import du cycle avec la fonction « Importer depuis une capture » (bêta).",
+          "Envoyer son avis depuis l'application, en donnant son adresse e-mail et en acceptant son usage pour le tirage."
+        ],
+        "content": "Chaque adresse e-mail n'a qu'une seule participation. Un avis envoyé sans e-mail ne participe pas au tirage."
+      },
+      "dates": {
+        "title": "5. Dates",
+        "content": "Les participations sont ouvertes dès la mise en ligne de la version 2.2.0 de Mitsitsy. Elles se terminent au tirage au sort des 10 gagnants. La fin des participations et le tirage sont annoncés sur la page Facebook de Mitsitsy :"
+      },
+      "prizes": {
+        "title": "6. Lots",
+        "lead": "10 gagnants reçoivent chacun l'",
+        "prize": "import illimité à vie",
+        "rest": "dans Mitsitsy. Le lot est personnel. Il ne peut être ni échangé, ni vendu, ni converti en argent."
+      },
+      "winners": {
+        "title": "7. Désignation et information des gagnants",
+        "content": "Les 10 gagnants sont tirés au sort au hasard parmi les participations valables. Chaque gagnant reçoit par e-mail un code d'activation, à saisir dans l'application à partir de la mise à jour qui active ce code. Un gagnant qui ne répond pas ou dont l'e-mail est invalide peut être remplacé par un nouveau tirage."
+      },
+      "data": {
+        "title": "8. Données personnelles",
+        "content": "L'adresse e-mail sert uniquement au tirage et à l'envoi du code. Elle n'est ni vendue ni cédée. Elle est supprimée 6 mois après le tirage. Pour la consulter ou la supprimer, écrire à contact@dzeryhago.com.",
+        "seeAlso": "Voir aussi"
+      },
+      "changes": {
+        "title": "9. Modification ou annulation",
+        "content": "L'organisateur peut modifier, reporter ou annuler le tirage en cas de force majeure ou de fraude. Il en informe alors les participants sur cette page."
+      }
+    }
+  },
+  "importBeta": {
+    "soon": "Bientôt dans Mitsitsy",
+    "headline": "Importez vos dépenses depuis une capture d'écran",
+    "subheadline": "Une capture de l'écran Transactions de MCB Juice, ou la photo d'un ticket de retrait, de carte ou de caisse. Mitsitsy lit les opérations sur le téléphone, sans internet, et vous vérifiez tout avant d'enregistrer.",
+    "steps": {
+      "pick": {
+        "title": "Choisissez une capture ou prenez une photo",
+        "description": "Depuis l'écran « Nouvelle transaction »."
+      },
+      "check": {
+        "title": "Vérifiez chaque opération",
+        "description": "Montant, compte, catégorie : vous corrigez avant d'enregistrer."
+      },
+      "save": {
+        "title": "Enregistrez tout d'un coup",
+        "description": "Les opérations comptent à leur vraie date dans vos budgets et vos rapports."
+      }
+    },
+    "tester": {
+      "description": "<b>Testeurs bêta.</b> Faites vos 3 imports, donnez votre avis et tentez de gagner l'import illimité à vie : 10 testeurs tirés au sort.",
+      "rules": "Lire le règlement du tirage"
+    },
+    "media": {
+      "videoLabel": "Teaser de l'import automatique de Mitsitsy",
+      "imageAlt": "Fin d'un import dans Mitsitsy : 4 opérations ajoutées",
+      "play": "Voir l'import en 30 secondes"
+    }
+  }
+}

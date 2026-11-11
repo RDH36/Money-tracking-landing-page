@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { ArrowLeft } from "lucide-react";
 import { getTranslations } from "next-intl/server";
+import { siteConfig } from "@/constants/content";
 
 export async function generateMetadata({
   params,
@@ -199,10 +200,10 @@ export default async function TermsPage({
               <p className="text-gray-600">
                 {t("sections.contact.email")}{" "}
                 <a
-                  href="mailto:raymond.dzeryhago36@gmail.com"
+                  href={`mailto:${siteConfig.contactEmail}`}
                   className="text-primary hover:underline"
                 >
-                  raymond.dzeryhago36@gmail.com
+                  {siteConfig.contactEmail}
                 </a>
               </p>
             </section>

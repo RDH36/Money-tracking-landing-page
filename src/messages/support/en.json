@@ -1,0 +1,97 @@
+{
+  "faq": {
+    "sectionTitle": "Frequently Asked Questions",
+    "sectionSubtitle": "Everything you need to know about Mitsitsy",
+    "items": {
+      "availability": {
+        "question": "Is the app available now?",
+        "answer": "Yes! Mitsitsy is available now on Google Play Store for Android. Download it for free and start tracking your expenses in 10 seconds."
+      },
+      "free": {
+        "question": "Is the app free?",
+        "answer": "Yes. Mitsitsy is free, with no ads. An optional Premium version with cloud sync is coming later, but the basic app will always remain free."
+      },
+      "offline": {
+        "question": "Can I use the app without internet?",
+        "answer": "Absolutely. That's our main difference. Mitsitsy works entirely offline. Recording, viewing, charts - everything works without internet."
+      },
+      "security": {
+        "question": "Is my data secure?",
+        "answer": "Yes. All your data is stored locally on your phone in a secure SQLite database. No data is sent to external servers. We don't have access to your financial information."
+      },
+      "currencies": {
+        "question": "Which currencies are supported?",
+        "answer": "Malagasy Ariary (MGA), Euro (EUR), and US Dollar (USD) with automatic currency conversion included."
+      },
+      "platforms": {
+        "question": "On which platforms is the app available?",
+        "answer": "Mitsitsy is available now on Android (Google Play Store). An iOS version (App Store) is planned for later."
+      },
+      "notify": {
+        "question": "How can I hear about what's new?",
+        "answer": "Sign up for our newsletter above. You'll receive an email whenever something new comes to the app, plus exclusive tips to better manage your money."
+      },
+      "planning": {
+        "question": "How does budget planning work?",
+        "answer": "Create a plan with a target amount and deadline. Add items with their amounts. The app tracks your progress. When ready, convert the plan to real transactions in one tap."
+      }
+    }
+  },
+  "cta": {
+    "headline": "Ready to take back control?",
+    "subheadline": "Download Mitsitsy now and start seeing where your money really goes.",
+    "tagline": "Free. No ads. Works offline. Designed for Madagascar.",
+    "comingSoon": "Available now",
+    "guarantees": {
+      "notification": "Available on Google Play",
+      "earlyAccess": "Free, no ads",
+      "freeForever": "Free forever (basic features)",
+      "localData": "Your data stays on your phone"
+    }
+  },
+  "newsletter": {
+    "headline": "Stay informed",
+    "subheadline": "Get new features and our best tips to better manage your money. 1 email per month max. Zero spam.",
+    "benefits": {
+      "preview": "News in preview",
+      "tips": "Exclusive budget tips",
+      "earlyAccess": "Early access to new features"
+    },
+    "form": {
+      "email": "Email",
+      "emailPlaceholder": "your@email.com",
+      "firstName": "First Name",
+      "firstNamePlaceholder": "Your first name",
+      "optional": "(optional)",
+      "required": "*"
+    },
+    "button": "Subscribe to Newsletter",
+    "disclaimer": "Unsubscribe in one click. No data shared.",
+    "newsletterApprovalLabel": "I agree to receive the newsletter",
+    "subscribing": "Subscribing...",
+    "thankYou": "Thank you for subscribing!"
+  },
+  "footer": {
+    "description": "Offline-first mobile expense tracking app for Madagascar. Available now on Google Play.",
+    "columns": {
+      "product": {
+        "title": "Product",
+        "features": "Features",
+        "faq": "FAQ",
+        "newsletter": "Newsletter"
+      },
+      "support": {
+        "title": "Support",
+        "contact": "Contact",
+        "facebook": "Facebook",
+        "draw": "Prize draw rules"
+      },
+      "legal": {
+        "title": "Legal",
+        "privacy": "Privacy",
+        "terms": "Terms"
+      }
+    },
+    "copyright": "© 2026 Mitsitsy. Made by <author>Raymond Dzery Hago</author>."
+  }
+}

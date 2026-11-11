@@ -1,0 +1,111 @@
+/* Mitsitsy landing — refonte : identité de l'app (papier, encre, turquoise) */
+:root{
+  --papier:#F0EBE0; --feuille:#FBF9F4; --encre:#17201F; --encre-douce:#5C6460;
+  --trait:#DAD3C4; --accent:#0B7468; --accent-vif:#1FB5A3; --menthe:#DEE6DB;
+  --bloc:#17201F; --bloc-texte:#F4F0E6; --bloc-doux:#A9B3AE; --bloc-accent:#4FD1BF; --bloc-trait:#33403E;
+  --r-champ:12px; --r-carte:20px; --r-tel:34px; --marge:20px;
+  --ombre:0 24px 60px -28px rgba(60,48,20,.45);
+}
+@media (prefers-color-scheme:dark){:root{
+  --papier:#121817; --feuille:#1C2423; --encre:#EDE8DC; --encre-douce:#9BA6A1;
+  --trait:#2C3736; --accent:#4FD1BF; --accent-vif:#4FD1BF; --menthe:#1F2E2B;
+  --bloc:#1C2423; --bloc-texte:#EDE8DC; --bloc-doux:#9BA6A1; --bloc-trait:#33403E;
+  --ombre:none;
+}}
+*{box-sizing:border-box;margin:0}
+html{scroll-behavior:smooth}
+body{background:var(--papier);color:var(--encre);font:400 17px/1.55 "Plus Jakarta Sans",system-ui,sans-serif;-webkit-font-smoothing:antialiased;padding-bottom:76px}
+h1,h2,h3{font-family:Outfit,sans-serif;font-weight:600;line-height:1.08;letter-spacing:-.02em;text-wrap:balance}
+h1{font-size:clamp(36px,9.4vw,68px)}
+h2{font-size:clamp(28px,6.4vw,48px)}
+h3{font-size:20px;letter-spacing:-.01em;line-height:1.2}
+p{text-wrap:pretty}
+a{color:inherit}
+img{display:block;max-width:100%}
+.page{max-width:1180px;margin:0 auto;padding:0 var(--marge)}
+.sur{font-size:12.5px;font-weight:600;letter-spacing:.09em;text-transform:uppercase;color:var(--accent)}
+.doux{color:var(--encre-douce)}
+section{padding:72px 0}
+.ticket{border:0;border-top:2px dashed var(--trait);margin:0}
+
+/* Navigation */
+.nav{display:flex;align-items:center;gap:28px;height:64px}
+.nav .logo{display:flex;align-items:center;gap:10px;font:600 21px Outfit,sans-serif;text-decoration:none;margin-right:auto}
+.nav .logo img{width:30px;height:30px;border-radius:8px}
+.nav a.lien{display:none;text-decoration:none;font-size:15px;font-weight:600}
+.langue{display:flex;border:1px solid var(--trait);border-radius:99px;padding:3px;font-size:13px;font-weight:600}
+.langue span{padding:5px 11px;border-radius:99px;color:var(--encre-douce)}
+.langue .on{background:var(--encre);color:var(--papier)}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;min-height:52px;padding:0 26px;border-radius:14px;background:var(--encre);color:var(--papier);font-weight:600;font-size:16px;text-decoration:none;border:0}
+.btn svg{width:19px;height:19px}
+.btn.petit{min-height:42px;padding:0 18px;font-size:14.5px;border-radius:12px;display:none}
+.btn.clair{background:var(--bloc-texte);color:#17201F}
+
+/* Téléphone : vraie capture dans un cadre sobre */
+.tel{border:7px solid var(--encre);border-radius:var(--r-tel);overflow:hidden;background:var(--encre);box-shadow:var(--ombre)}
+@media (prefers-color-scheme:dark){.tel{border-color:#33403E}}
+.tel img{width:100%;border-radius:calc(var(--r-tel) - 8px)}
+.sombre-seul{display:none}
+@media (prefers-color-scheme:dark){.clair-seul{display:none}.sombre-seul{display:block}}
+
+/* Hero */
+.hero{padding:36px 0 0;overflow:hidden}
+.hero h1 em{font-style:normal;color:var(--accent)}
+.hero .chapo{font-size:18px;color:var(--encre-douce);margin:22px 0 26px;max-width:34em}
+.preuves{list-style:none;padding:0;display:grid;gap:10px;margin-bottom:30px;font-weight:600;font-size:15.5px}
+.preuves li{display:flex;gap:12px;align-items:baseline}
+.preuves li::before{content:"";flex:none;width:14px;border-top:2px solid var(--accent-vif);transform:translateY(-5px)}
+.hero .action{display:flex;flex-wrap:wrap;align-items:center;gap:14px}
+.hero .dispo{font-size:14px;font-weight:600;color:var(--accent)}
+.hero .scene{margin:44px auto 0;max-width:300px;position:relative}
+.hero .scene .tel{border-bottom:0;border-radius:var(--r-tel) var(--r-tel) 0 0;max-height:440px}
+.hero .action .btn{display:none}
+.hero .scene .tel.second{display:none}
+
+/* Barre mobile près du pouce */
+.pouce{position:fixed;left:0;right:0;bottom:0;z-index:5;padding:12px var(--marge);background:var(--papier);border-top:1px solid var(--trait)}
+.pouce .btn{width:100%}
+
+@media (min-width:900px){
+  body{font-size:18px;padding-bottom:0}
+  :root{--marge:40px}
+  section{padding:120px 0}
+  .nav{height:76px}.nav a.lien{display:block}.btn.petit{display:inline-flex}
+  .pouce{display:none}
+  .hero{padding-top:70px}
+  .hero .page{display:grid;grid-template-columns:1.2fr 1fr;gap:56px;align-items:end}
+  .hero .action .btn{display:inline-flex}
+  .hero .texte{padding-bottom:96px}
+  .hero .chapo{font-size:21px}
+  .hero .scene{margin:0;max-width:none;height:560px;overflow:hidden}
+  .hero .scene .tel{position:absolute;left:0;top:0;width:310px;max-height:none}
+  .hero .scene .tel.second{display:block;left:auto;right:0;top:150px;width:250px}
+}
+/* 11/11 Master : garder le cadre de téléphone de l'ancien site (coque sombre, encoche, téléphone entier) */
+.tel{position:relative;border:0;padding:8px;background:#111827;border-radius:48px;aspect-ratio:280/580;overflow:visible;box-shadow:0 25px 50px -12px rgba(23,32,31,.35)}
+.tel::before{content:"";position:absolute;top:0;left:50%;transform:translateX(-50%);width:46%;height:24px;background:#111827;border-radius:0 0 16px 16px;z-index:1}
+.tel img{width:100%;height:100%;object-fit:cover;object-position:top;border-radius:40px}
+@media (prefers-color-scheme:dark){.tel{outline:1px solid #33403E}}
+.hero .scene{max-width:250px}
+.hero .scene .tel{border-radius:48px;max-height:none}
+@media(min-width:900px){
+  .hero .page{align-items:center}
+  .hero .texte{padding-bottom:0}
+  .hero .scene{max-width:none;height:auto;overflow:visible;padding:56px 0}
+  .hero .scene .tel{position:relative;width:280px;margin:0 auto}
+  .hero .scene .tel.second{display:none}
+}
+/* capture entière dans la coque (pas de recadrage latéral) + lien auteur */
+.tel{aspect-ratio:auto}.tel img{height:auto;display:block}
+footer .bas a{display:inline;color:inherit;text-decoration:underline;text-underline-offset:3px}
+.tel img.sombre-seul{display:none}
+@media (prefers-color-scheme:dark){.tel img.clair-seul{display:none}.tel img.sombre-seul{display:block}}
+/* 11/11 (2) Master : cadre IDENTIQUE à l'ancien (280×580, coque gray-900, encoche, écran entier) + retour des deux téléphones */
+.tel{aspect-ratio:280/580;background:#111827;border-radius:3rem;padding:.5rem;box-shadow:0 25px 50px -12px rgba(0,0,0,.25)}
+.tel::before{width:8rem;max-width:46%;height:1.5rem;border-radius:0 0 1rem 1rem}
+.tel img{height:100%;object-fit:cover;object-position:top;border-radius:2.5rem}
+@media(min-width:900px){
+  .hero .scene{height:640px;padding:0;position:relative}
+  .hero .scene .tel{position:absolute;left:0;top:0;width:280px;margin:0;z-index:1}
+  .hero .scene .tel.second{display:block;left:auto;right:0;top:90px;width:250px;z-index:2}
+}

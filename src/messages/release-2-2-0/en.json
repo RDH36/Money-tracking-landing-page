@@ -1,0 +1,80 @@
+{
+  "tirage": {
+    "title": "Rules of the “Beta testers — Import” prize draw (Mitsitsy)",
+    "metaDescription": "Rules of the Beta testers prize draw for Mitsitsy's automatic import: free entry, 10 winners drawn at random.",
+    "backHome": "Back to home",
+    "sections": {
+      "organizer": {
+        "title": "1. Organiser",
+        "content": "The draw is organised by Mitsitsy Team, publisher of the Mitsitsy application. Contact: contact@dzeryhago.com."
+      },
+      "free": {
+        "title": "2. Free entry",
+        "content": "Entry is free and no purchase is necessary. Google is neither an organiser, nor a partner, nor a sponsor of this draw."
+      },
+      "who": {
+        "title": "3. Who can enter",
+        "content": "Anyone who uses Mitsitsy version 2.2.0 or later, aged 16 or over."
+      },
+      "how": {
+        "title": "4. How to enter",
+        "steps": [
+          "Use your 3 import reads of the cycle with the “Import from a screenshot” feature (beta).",
+          "Send your feedback from the application, giving your e-mail address and agreeing to its use for the draw."
+        ],
+        "content": "Each e-mail address gets one entry only. Feedback sent without an e-mail address is not entered in the draw."
+      },
+      "dates": {
+        "title": "5. Dates",
+        "content": "Entries open as soon as version 2.2.0 of Mitsitsy is released. They end with the draw of the 10 winners. The end of entries and the draw are announced on the Mitsitsy Facebook page:"
+      },
+      "prizes": {
+        "title": "6. Prizes",
+        "lead": "10 winners each receive ",
+        "prize": "unlimited import for life",
+        "rest": "in Mitsitsy. The prize is personal. It cannot be exchanged, sold or converted into money."
+      },
+      "winners": {
+        "title": "7. Selecting and informing the winners",
+        "content": "The 10 winners are drawn at random from the valid entries. Each winner receives an activation code by e-mail, to be entered in the application from the update that activates this code. A winner who does not reply or whose e-mail address is invalid may be replaced by a new draw."
+      },
+      "data": {
+        "title": "8. Personal data",
+        "content": "The e-mail address is used only for the draw and for sending the code. It is neither sold nor passed on. It is deleted 6 months after the draw. To view or delete it, write to contact@dzeryhago.com.",
+        "seeAlso": "See also"
+      },
+      "changes": {
+        "title": "9. Changes or cancellation",
+        "content": "The organiser may change, postpone or cancel the draw in the event of force majeure or fraud. In that case, participants are informed on this page."
+      }
+    }
+  },
+  "importBeta": {
+    "soon": "Coming soon to Mitsitsy",
+    "headline": "Import your expenses from a screenshot",
+    "subheadline": "A screenshot of the MCB Juice Transactions screen, or a photo of a withdrawal, card or till receipt. Mitsitsy reads the transactions on the phone, without internet, and you check everything before saving.",
+    "steps": {
+      "pick": {
+        "title": "Choose a screenshot or take a photo",
+        "description": "From the “New transaction” screen."
+      },
+      "check": {
+        "title": "Check each transaction",
+        "description": "Amount, account, category: you correct before saving."
+      },
+      "save": {
+        "title": "Save everything at once",
+        "description": "Transactions count on their real date in your budgets and reports."
+      }
+    },
+    "tester": {
+      "description": "<b>Beta testers.</b> Do your 3 imports, give your feedback and get a chance to win unlimited import for life: 10 testers drawn at random.",
+      "rules": "Read the prize draw rules"
+    },
+    "media": {
+      "videoLabel": "Teaser of Mitsitsy's automatic import",
+      "imageAlt": "End of an import in Mitsitsy: 4 transactions added",
+      "play": "Watch the import in 30 seconds"
+    }
+  }
+}
