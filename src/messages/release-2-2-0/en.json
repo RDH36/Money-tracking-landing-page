@@ -1,0 +1,90 @@
+{
+  "tirage": {
+    "title": "Rules of the “Beta testers — Import” prize draw (Mitsitsy)",
+    "metaDescription": "Rules of the Beta testers prize draw for Mitsitsy's automatic import: free entry, 10 winners drawn at random.",
+    "backHome": "Back to home",
+    "sections": {
+      "organizer": {
+        "title": "1. Organiser",
+        "content": "The draw is organised by [Raymond Dzery Hago - Labs], publisher of the Mitsitsy application. Contact: [contact e-mail]."
+      },
+      "free": {
+        "title": "2. Free entry",
+        "content": "Entry is free and no purchase is necessary. Google is neither an organiser, nor a partner, nor a sponsor of this draw."
+      },
+      "who": {
+        "title": "3. Who can enter",
+        "content": "Anyone who uses Mitsitsy version 2.2.0 or later, [aged 18 or over]."
+      },
+      "how": {
+        "title": "4. How to enter",
+        "steps": [
+          "Use your 3 import reads of the cycle with the “Import from a screenshot” feature (beta).",
+          "Send your feedback from the application, giving your e-mail address and agreeing to its use for the draw."
+        ],
+        "content": "Each e-mail address gets one entry only. Feedback sent without an e-mail address is not entered in the draw."
+      },
+      "dates": {
+        "title": "5. Dates",
+        "content": "Entries are open from [release date of 2.2.0] to [closing date]. The draw takes place after the closing date, before the next update of the application."
+      },
+      "prizes": {
+        "title": "6. Prizes",
+        "lead": "10 winners each receive ",
+        "prize": "unlimited import for life",
+        "rest": "in Mitsitsy. The prize is personal. It cannot be exchanged, sold or converted into money."
+      },
+      "winners": {
+        "title": "7. Selecting and informing the winners",
+        "content": "The 10 winners are drawn at random from the valid entries. Each winner receives an activation code by e-mail, to be entered in the application from the update that activates this code. A winner who does not reply or whose e-mail address is invalid may be replaced by a new draw."
+      },
+      "data": {
+        "title": "8. Personal data",
+        "content": "The e-mail address is used only for the draw and for sending the code. It is neither sold nor passed on. It is deleted [6 months] after the draw. To view or delete it, write to [contact e-mail].",
+        "seeAlso": "See also"
+      },
+      "changes": {
+        "title": "9. Changes or cancellation",
+        "content": "The organiser may change, postpone or cancel the draw in the event of force majeure or fraud. In that case, participants are informed on this page."
+      }
+    }
+  },
+  "importBeta": {
+    "soon": "Coming soon to Mitsitsy",
+    "beta": "Beta",
+    "headline": "Coming soon: import your expenses from a screenshot",
+    "subheadline": "Mitsitsy will soon read your app screenshots, receipts and bills to add your transactions for you. You check everything before saving.",
+    "points": {
+      "sources": {
+        "title": "App screenshots, receipts, bills",
+        "description": "Including screenshots of Orange Money and MVola text messages."
+      },
+      "fees": {
+        "title": "Fees filed under Bills",
+        "description": "Fees read from your screenshots are filed under Bills automatically."
+      },
+      "duplicates": {
+        "title": "Duplicates detected",
+        "description": "A transaction you have already saved is flagged before you confirm."
+      },
+      "offline": {
+        "title": "Everything happens on your phone",
+        "description": "Reading works without internet: your data stays 100% offline."
+      }
+    },
+    "quota": "During the beta: 3 reads per cycle.",
+    "tester": {
+      "title": "Beta tester programme",
+      "description": "Give your feedback in 1 minute for a chance to win unlimited import for life (10 winners drawn at random).",
+      "rules": "Prize draw rules"
+    },
+    "cta": {
+      "text": "In the meantime, try Mitsitsy right now.",
+      "button": "Download for free"
+    },
+    "media": {
+      "videoLabel": "Teaser of Mitsitsy's automatic import",
+      "imageAlt": "Mitsitsy “New transaction” screen with the automatic import in beta"
+    }
+  }
+}

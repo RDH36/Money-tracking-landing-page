@@ -1,5 +1,6 @@
 import { Navigation } from "@/components/sections/Navigation";
 import { Hero } from "@/components/sections/Hero";
+import { ImportBeta } from "@/components/sections/import-beta/ImportBeta";
 import { Problem } from "@/components/sections/Problem";
 import { Solution } from "@/components/sections/Solution";
 import { Features } from "@/components/sections/Features";
@@ -15,6 +16,7 @@ export default function Home() {
       <Navigation />
       <main>
         <Hero />
+        <ImportBeta />
         <Problem />
         <Solution />
         <Features />

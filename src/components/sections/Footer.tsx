@@ -28,6 +28,7 @@ export function Footer() {
       links: [
         { name: t("columns.legal.privacy"), href: `/${locale}/privacy` },
         { name: t("columns.legal.terms"), href: `/${locale}/terms` },
+        { name: t("columns.legal.draw"), href: `/${locale}/tirage` },
       ],
     },
   ];

@@ -10,6 +10,10 @@ export default getRequestConfig(async ({ requestLocale }) => {
 
   return {
     locale,
-    messages: (await import(`../messages/${locale}.json`)).default,
+    messages: {
+      ...(await import(`../messages/${locale}.json`)).default,
+      // Mitsitsy 2.2.0 content (draw rules, import section)
+      ...(await import(`../messages/release-2-2-0/${locale}.json`)).default,
+    },
   };
 });
