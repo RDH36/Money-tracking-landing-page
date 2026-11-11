@@ -6,7 +6,7 @@
     "sections": {
       "organizer": {
         "title": "1. Organiser",
-        "content": "The draw is organised by [Raymond Dzery Hago - Labs], publisher of the Mitsitsy application. Contact: contact@dzeryhago.com."
+        "content": "The draw is organised by Mitsitsy Team, publisher of the Mitsitsy application. Contact: contact@dzeryhago.com."
       },
       "free": {
         "title": "2. Free entry",
@@ -14,7 +14,7 @@
       },
       "who": {
         "title": "3. Who can enter",
-        "content": "Anyone who uses Mitsitsy version 2.2.0 or later, [aged 18 or over]."
+        "content": "Anyone who uses Mitsitsy version 2.2.0 or later, aged 16 or over."
       },
       "how": {
         "title": "4. How to enter",
@@ -26,7 +26,7 @@
       },
       "dates": {
         "title": "5. Dates",
-        "content": "Entries are open from [release date of 2.2.0] to [closing date]. The draw takes place after the closing date, before the next update of the application."
+        "content": "Entries open as soon as version 2.2.0 of Mitsitsy is released. They end with the draw of the 10 winners. The end of entries and the draw are announced on the Mitsitsy Facebook page:"
       },
       "prizes": {
         "title": "6. Prizes",
@@ -40,7 +40,7 @@
       },
       "data": {
         "title": "8. Personal data",
-        "content": "The e-mail address is used only for the draw and for sending the code. It is neither sold nor passed on. It is deleted [6 months] after the draw. To view or delete it, write to contact@dzeryhago.com.",
+        "content": "The e-mail address is used only for the draw and for sending the code. It is neither sold nor passed on. It is deleted 6 months after the draw. To view or delete it, write to contact@dzeryhago.com.",
         "seeAlso": "See also"
       },
       "changes": {

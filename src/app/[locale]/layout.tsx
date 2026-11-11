@@ -24,9 +24,9 @@ export async function generateMetadata({
   };
 
   const descriptions: Record<string, string> = {
-    en: "Take control of your finances in 10 seconds. Mitsitsy is the offline-first mobile expense tracking app. MGA, EUR, USD support. 100% free.",
-    fr: "Prenez le contrôle de vos finances en 10 secondes. Mitsitsy est l'app mobile offline-first de suivi des dépenses. Support MGA, EUR, USD. 100% gratuit.",
-    mg: "Tantano ny volanao anatin'ny 10 segondra. Mitsitsy dia rindranasa finday fanaraha-maso fandaniana offline-first. Tohanana MGA, EUR, USD. 100% maimaim-poana.",
+    en: "Take control of your finances in 10 seconds. Mitsitsy is the offline-first mobile expense tracking app. MGA, EUR, USD support. Free, no ads.",
+    fr: "Prenez le contrôle de vos finances en 10 secondes. Mitsitsy est l'app mobile offline-first de suivi des dépenses. Support MGA, EUR, USD. Gratuit, sans publicité.",
+    mg: "Tantano ny volanao anatin'ny 10 segondra. Mitsitsy dia rindranasa finday fanaraha-maso fandaniana offline-first. Tohanana MGA, EUR, USD. Maimaim-poana, tsy misy pub.",
   };
 
   const ogLocales: Record<string, string> = {

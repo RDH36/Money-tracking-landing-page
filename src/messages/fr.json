@@ -101,7 +101,7 @@
       },
       "accounts": {
         "title": "Gestion de comptes",
-        "description": "Gérez jusqu'à 3 comptes (portefeuille, épargne, mobile money) avec transferts."
+        "description": "Deux comptes de base (banque et espèces), 2 comptes personnalisés (épargne, mobile money…) et un de plus à débloquer, avec transferts."
       },
       "categories": {
         "title": "Catégories sur mesure",
@@ -129,7 +129,7 @@
       },
       "themes": {
         "title": "Thèmes & mode sombre",
-        "description": "4 thèmes de couleur (Turquoise, Bleu, Violet, Orange) + mode sombre automatique."
+        "description": "5 thèmes de couleur (Rose, Turquoise, Bleu, Violet, Orange), d'autres thèmes à débloquer + mode sombre automatique."
       },
       "unlimited": {
         "title": "Transactions illimitées",
@@ -174,7 +174,7 @@
       "price": {
         "label": "Prix",
         "traditional": "Freemium avec pubs",
-        "mitsitsy": "100% Gratuit, sans pub"
+        "mitsitsy": "Gratuit, sans publicité"
       },
       "privacy": {
         "label": "Vie privée",

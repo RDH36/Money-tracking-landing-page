@@ -8,28 +8,28 @@
         "answer": "Yes! Mitsitsy is available now on Google Play Store for Android. Download it for free and start tracking your expenses in 10 seconds."
       },
       "free": {
-        "question": "Will the app be free?",
-        "answer": "Yes. Mitsitsy is 100% free with no ads. All features are accessible without paying. We plan an optional Premium version with cloud sync, but the basic app will always remain free."
+        "question": "Is the app free?",
+        "answer": "Yes. Mitsitsy is free, with no ads. An optional Premium version with cloud sync is coming later, but the basic app will always remain free."
       },
       "offline": {
         "question": "Can I use the app without internet?",
         "answer": "Absolutely. That's our main difference. Mitsitsy works entirely offline. Recording, viewing, charts - everything works without internet."
       },
       "security": {
-        "question": "Will my data be secure?",
+        "question": "Is my data secure?",
         "answer": "Yes. All your data is stored locally on your phone in a secure SQLite database. No data is sent to external servers. We don't have access to your financial information."
       },
       "currencies": {
-        "question": "Which currencies will be supported?",
+        "question": "Which currencies are supported?",
         "answer": "Malagasy Ariary (MGA), Euro (EUR), and US Dollar (USD) with automatic currency conversion included."
       },
       "platforms": {
-        "question": "On which platforms will the app be available?",
+        "question": "On which platforms is the app available?",
         "answer": "Mitsitsy is available now on Android (Google Play Store). An iOS version (App Store) is planned for later."
       },
       "notify": {
-        "question": "How can I be notified of the launch?",
-        "answer": "Sign up for our newsletter above. You'll receive an email as soon as the app is available, plus exclusive tips to better manage your money."
+        "question": "How can I hear about what's new?",
+        "answer": "Sign up for our newsletter above. You'll receive an email whenever something new comes to the app, plus exclusive tips to better manage your money."
       },
       "planning": {
         "question": "How does budget planning work?",
@@ -44,7 +44,7 @@
     "comingSoon": "Available now",
     "guarantees": {
       "notification": "Available on Google Play",
-      "earlyAccess": "100% free, no ads",
+      "earlyAccess": "Free, no ads",
       "freeForever": "Free forever (basic features)",
       "localData": "Your data stays on your phone"
     }
@@ -83,6 +83,7 @@
       "support": {
         "title": "Support",
         "contact": "Contact",
+        "facebook": "Facebook",
         "draw": "Prize draw rules"
       },
       "legal": {

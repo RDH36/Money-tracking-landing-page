@@ -2,8 +2,10 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { ArrowLeft } from "lucide-react";
 import { getTranslations } from "next-intl/server";
+import { siteConfig } from "@/constants/content";
 
 const PRIVACY_URL = "https://www.mitsitsy.app/privacy";
+const FACEBOOK_URL = siteConfig.facebookUrl;
 
 export async function generateMetadata({
   params,
@@ -71,7 +73,23 @@ export default async function TiragePage({
             </section>
 
             {/* Section 5: Dates */}
-            {simpleSections(["dates"])}
+            <section className="mb-8">
+              <h2 className="text-xl font-semibold text-gray-900 mb-4">
+                {t("sections.dates.title")}
+              </h2>
+              <p className="text-gray-600 mb-4">
+                {t("sections.dates.content")}{" "}
+                <a
+                  href={FACEBOOK_URL}
+                  target="_blank"
+                  rel="noopener"
+                  className="text-primary hover:underline break-all"
+                >
+                  {FACEBOOK_URL}
+                </a>
+                .
+              </p>
+            </section>
 
             {/* Section 6: Prizes */}
             <section className="mb-8">

@@ -4,32 +4,32 @@
     "sectionSubtitle": "Izay rehetra tokony ho fantatrao momba an'i Mitsitsy",
     "items": {
       "availability": {
-        "question": "Rahoviana no hisy ilay rindranasa?",
-        "answer": "Mbola eo am-pamolavolana ny Mitsitsy. Misoratra anarana amin'ny gazetinay mba hampahafantarina anao rehefa mivoaka ary hahazo fidirana aloha."
+        "question": "Efa misy ve ilay rindranasa?",
+        "answer": "Eny! Efa azo alaina ao amin'ny Google Play Store ho an'ny Android ny Mitsitsy. Alaivo maimaim-poana dia manomboka manaraka ny fandanianao ao anatin'ny 10 segondra."
       },
       "free": {
-        "question": "Ho maimaim-poana ve ny rindranasa?",
-        "answer": "Eny. Mitsitsy dia ho 100% maimaim-poana tsy misy pub. Ny fampisehoana rehetra dia azo ampiasaina tsy andoa. Misy drafitra Premium tsy voatery miaraka amin'ny sync amin'ny cloud, fa ny rindranasa fototra dia ho maimaim-poana foana."
+        "question": "Maimaim-poana ve ny rindranasa?",
+        "answer": "Eny. Maimaim-poana ny Mitsitsy, tsy misy pub. Ho avy ny dika Premium tsy voatery miaraka amin'ny sync amin'ny cloud, fa ny rindranasa fototra dia ho maimaim-poana foana."
       },
       "offline": {
         "question": "Azoko ampiasaina ve ny rindranasa tsy misy internet?",
-        "answer": "Mazava ho azy. Izay no fahasamihafanay lehibe. Mitsitsy dia hiasa tanteraka offline. Firaketana, fijerena, grafika - ny rehetra dia hiasa tsy misy internet."
+        "answer": "Mazava ho azy. Izay no fahasamihafanay lehibe. Mitsitsy dia miasa tanteraka offline. Firaketana, fijerena, grafika - ny rehetra dia miasa tsy misy internet."
       },
       "security": {
-        "question": "Ho azo antoka ve ny datako?",
-        "answer": "Eny. Ny datanao rehetra dia tehirizina eo amin'ny findainao ao amin'ny tahiry SQLite azo antoka. Tsy misy data alefa any amin'ny server ivelany. Tsy hahazo ny fampahalalana ara-bolanao izahay."
+        "question": "Azo antoka ve ny datako?",
+        "answer": "Eny. Ny datanao rehetra dia tehirizina eo amin'ny findainao ao amin'ny tahiry SQLite azo antoka. Tsy misy data alefa any amin'ny server ivelany. Tsy mahazo ny fampahalalana ara-bolanao izahay."
       },
       "currencies": {
         "question": "Inona avy ny vola tohanana?",
-        "answer": "Amin'ny fanombohana: Ariary Malagasy (MGA), Euro (EUR), ary Dolara Amerikana (USD). Ny fanovana vola automatika dia ho voarakitra."
+        "answer": "Ariary Malagasy (MGA), Euro (EUR), ary Dolara Amerikana (USD), miaraka amin'ny fanovana vola automatika."
       },
       "platforms": {
-        "question": "Amin'ny sehatra inona no hisiany?",
-        "answer": "Mitsitsy dia ho hita amin'ny Android (Google Play Store) amin'ny fanombohana. Kinasa ho avy ny dika iOS (App Store)."
+        "question": "Amin'ny sehatra inona no misy azy?",
+        "answer": "Efa azo alaina amin'ny Android (Google Play Store) ny Mitsitsy. Kinasa ho avy any aoriana ny dika iOS (App Store)."
       },
       "notify": {
-        "question": "Ahoana no ahafahako ampahafantarina rehefa mivoaka?",
-        "answer": "Misoratra anarana amin'ny gazetinay etsy ambony. Hahazo mailaka ianao raha vao misy ny rindranasa, miaraka amin'ny torohevitra manokana hitantanana tsara kokoa ny volanao."
+        "question": "Ahoana no ahafantarako ny vaovao?",
+        "answer": "Misoratra anarana amin'ny gazetinay etsy ambony. Hahazo mailaka ianao isaky ny misy zava-baovao ao amin'ny rindranasa, miaraka amin'ny torohevitra manokana hitantanana tsara kokoa ny volanao."
       },
       "planning": {
         "question": "Ahoana ny fiasan'ny fandrindrana tetibola?",
@@ -44,7 +44,7 @@
     "comingSoon": "Efa azo alaina",
     "guarantees": {
       "notification": "Azo alaina ao amin'ny Google Play",
-      "earlyAccess": "Fidirana aloha manokana",
+      "earlyAccess": "Maimaim-poana, tsy misy pub",
       "freeForever": "Maimaim-poana mandrakizay (fampisehoana fototra)",
       "localData": "Ny datanao mijanona eo amin'ny findainao"
     }
@@ -72,7 +72,7 @@
     "thankYou": "Misaotra tamin'ny fisoratana anarana!"
   },
   "footer": {
-    "description": "Rindranasa finday fanaraha-maso fandaniana offline-first ho an'i Madagasikara. Ho avy tsy ho ela.",
+    "description": "Rindranasa finday fanaraha-maso fandaniana offline-first ho an'i Madagasikara. Efa azo alaina ao amin'ny Google Play.",
     "columns": {
       "product": {
         "title": "Vokatra",
@@ -83,6 +83,7 @@
       "support": {
         "title": "Fanohanana",
         "contact": "Fifandraisana",
+        "facebook": "Facebook",
         "draw": "Règlement du tirage"
       },
       "legal": {

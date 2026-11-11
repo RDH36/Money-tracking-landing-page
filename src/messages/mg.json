@@ -101,7 +101,7 @@
       },
       "accounts": {
         "title": "Fitantanana kaonty",
-        "description": "Tantano hatramin'ny kaonty 3 (kitapom-bola, tahiry, mobile money) miaraka amin'ny famindrana."
+        "description": "Kaonty fototra 2 (banky sy vola an-tanana), kaonty manokana 2 (tahiry, mobile money…) ary iray fanampiny azo sokafana, miaraka amin'ny famindrana."
       },
       "categories": {
         "title": "Sokajy manokana",
@@ -129,7 +129,7 @@
       },
       "themes": {
         "title": "Loko & mode maizina",
-        "description": "Loko 4 (Turquoise, Manga, Volomparasy, Orange) + mode maizina automatika."
+        "description": "Loko 5 (Rose, Turquoise, Manga, Volomparasy, Orange), loko hafa azo sokafana + mode maizina automatika."
       },
       "unlimited": {
         "title": "Transaction tsy misy fetra",
@@ -174,7 +174,7 @@
       "price": {
         "label": "Vidiny",
         "traditional": "Freemium miaraka amin'ny pub",
-        "mitsitsy": "100% Maimaim-poana, tsy misy pub"
+        "mitsitsy": "Maimaim-poana, tsy misy pub"
       },
       "privacy": {
         "label": "Tsiambaratelo",

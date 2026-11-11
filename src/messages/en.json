@@ -101,7 +101,7 @@
       },
       "accounts": {
         "title": "Account management",
-        "description": "Manage up to 3 accounts (wallet, savings, mobile money) with transfers."
+        "description": "Two basic accounts (bank and cash), 2 custom accounts (savings, mobile money…) and one more to unlock, with transfers."
       },
       "categories": {
         "title": "Custom categories",
@@ -129,7 +129,7 @@
       },
       "themes": {
         "title": "Themes & dark mode",
-        "description": "4 color themes (Turquoise, Blue, Purple, Orange) + automatic dark mode."
+        "description": "5 color themes (Pink, Turquoise, Blue, Purple, Orange), more themes to unlock + automatic dark mode."
       },
       "unlimited": {
         "title": "Unlimited transactions",
@@ -174,7 +174,7 @@
       "price": {
         "label": "Price",
         "traditional": "Freemium with ads",
-        "mitsitsy": "100% Free, no ads"
+        "mitsitsy": "Free, no ads"
       },
       "privacy": {
         "label": "Privacy",

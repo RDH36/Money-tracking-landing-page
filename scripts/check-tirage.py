@@ -13,6 +13,8 @@ ROOT = pathlib.Path(__file__).resolve().parent.parent
 FR = ROOT / "src/messages/release-2-2-0/fr.json"
 KEYS = ["organizer", "free", "who", "how", "dates", "prizes", "winners", "data", "changes"]
 PRIVACY_URL = "https://www.mitsitsy.app/privacy"
+FACEBOOK_URL = "https://www.facebook.com/profile.php?id=61588589952468"
+LOCALES = ["fr", "en", "mg"]
 
 
 def parse(path):
@@ -44,9 +46,34 @@ def build(title, sections):
             content, see = body[0].split(" Voir aussi ")
             assert see == PRIVACY_URL + ".", see
             out[key] = {"title": sec["title"], "content": content, "seeAlso": "Voir aussi"}
+        elif key == "dates":
+            content, url = " ".join(body).rsplit(" ", 1)
+            assert url == FACEBOOK_URL + ".", url
+            out[key] = {"title": sec["title"], "content": content}
         else:
             out[key] = {"title": sec["title"], "content": " ".join(body)}
     return {"title": title, "sections": out}
+
+
+def brackets():
+    """Locales whose draw rules still hold a [placeholder] left to fill in."""
+    bad = []
+    for locale in LOCALES:
+        data = json.loads((FR.parent / f"{locale}.json").read_text(encoding="utf-8"))
+        if any("[" in v or "]" in v for v in flatten(data["tirage"])):
+            bad.append(locale)
+    return bad
+
+
+def flatten(node):
+    if isinstance(node, str):
+        yield node
+    elif isinstance(node, dict):
+        for v in node.values():
+            yield from flatten(v)
+    elif isinstance(node, list):
+        for v in node:
+            yield from flatten(v)
 
 
 def main():
@@ -63,7 +90,10 @@ def main():
     actual = data["tirage"]
     ok = actual["title"] == expected["title"] and actual["sections"] == expected["sections"]
     print("OK: French rules identical to the source" if ok else "FAIL: French rules differ from the source")
-    return 0 if ok else 1
+    left = brackets()
+    if left:
+        print("FAIL: [placeholders] left in the draw rules: " + ", ".join(left))
+    return 0 if ok and not left else 1
 
 
 if __name__ == "__main__":

@@ -26,6 +26,9 @@ export function Footer() {
             <a href={`mailto:${siteConfig.contactEmail}`}>
               {t("columns.support.contact")}
             </a>
+            <a href={siteConfig.facebookUrl} target="_blank" rel="noopener">
+              {t("columns.support.facebook")}
+            </a>
             <Link href={`/${locale}/tirage`}>{t("columns.support.draw")}</Link>
           </div>
           <div>

@@ -8,28 +8,28 @@
         "answer": "Oui ! Mitsitsy est disponible maintenant sur Google Play Store pour Android. Téléchargez-la gratuitement et commencez à suivre vos dépenses en 10 secondes."
       },
       "free": {
-        "question": "L'application sera-t-elle gratuite ?",
-        "answer": "Oui. Mitsitsy est 100% gratuit sans publicité. Toutes les fonctionnalités sont accessibles sans payer. Nous prévoyons une version Premium optionnelle avec synchronisation cloud, mais l'app de base restera toujours gratuite."
+        "question": "L'application est-elle gratuite ?",
+        "answer": "Oui. Mitsitsy est gratuit, sans publicité. Une version Premium optionnelle avec synchronisation cloud est à venir, mais l'app de base restera toujours gratuite."
       },
       "offline": {
-        "question": "Pourrai-je utiliser l'app sans connexion internet ?",
+        "question": "Puis-je utiliser l'app sans connexion internet ?",
         "answer": "Absolument. C'est notre différence principale. Mitsitsy fonctionne entièrement hors ligne. Enregistrement, consultation, graphiques - tout marche sans internet."
       },
       "security": {
-        "question": "Mes données seront-elles sécurisées ?",
+        "question": "Mes données sont-elles sécurisées ?",
         "answer": "Oui. Toutes vos données sont stockées localement sur votre téléphone dans une base SQLite sécurisée. Aucune donnée n'est envoyée à des serveurs externes. Nous n'avons pas accès à vos informations financières."
       },
       "currencies": {
-        "question": "Quelles devises seront supportées ?",
+        "question": "Quelles devises sont supportées ?",
         "answer": "Ariary malgache (MGA), Euro (EUR), et Dollar américain (USD) avec conversion automatique entre devises incluse."
       },
       "platforms": {
-        "question": "Sur quelles plateformes l'app sera-t-elle disponible ?",
+        "question": "Sur quelles plateformes l'app est-elle disponible ?",
         "answer": "Mitsitsy est disponible maintenant sur Android (Google Play Store). Une version iOS (App Store) est prévue pour plus tard."
       },
       "notify": {
-        "question": "Comment être informé du lancement ?",
-        "answer": "Inscrivez-vous à notre newsletter ci-dessus. Vous recevrez un email dès que l'application sera disponible, ainsi que des conseils exclusifs pour mieux gérer votre argent."
+        "question": "Comment être informé des nouveautés ?",
+        "answer": "Inscrivez-vous à notre newsletter ci-dessus. Vous recevrez un email à chaque nouveauté de l'application, ainsi que des conseils exclusifs pour mieux gérer votre argent."
       },
       "planning": {
         "question": "Comment fonctionne la planification budgétaire ?",
@@ -44,7 +44,7 @@
     "comingSoon": "Disponible maintenant",
     "guarantees": {
       "notification": "Disponible sur Google Play",
-      "earlyAccess": "100% gratuit, sans publicité",
+      "earlyAccess": "Gratuit, sans publicité",
       "freeForever": "Gratuit à vie (fonctionnalités de base)",
       "localData": "Vos données restent sur votre téléphone"
     }
@@ -83,6 +83,7 @@
       "support": {
         "title": "Support",
         "contact": "Contact",
+        "facebook": "Facebook",
         "draw": "Règlement du tirage"
       },
       "legal": {

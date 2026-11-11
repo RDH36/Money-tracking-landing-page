@@ -6,7 +6,7 @@
     "sections": {
       "organizer": {
         "title": "1. Organisateur",
-        "content": "Le tirage est organisé par [Raymond Dzery Hago - Labs], éditeur de l'application Mitsitsy. Contact : contact@dzeryhago.com."
+        "content": "Le tirage est organisé par Mitsitsy Team, éditeur de l'application Mitsitsy. Contact : contact@dzeryhago.com."
       },
       "free": {
         "title": "2. Participation gratuite",
@@ -14,7 +14,7 @@
       },
       "who": {
         "title": "3. Qui peut participer",
-        "content": "Toute personne qui utilise Mitsitsy en version 2.2.0 ou plus récente, [âgée d'au moins 18 ans]."
+        "content": "Toute personne qui utilise Mitsitsy en version 2.2.0 ou plus récente, âgée d'au moins 16 ans."
       },
       "how": {
         "title": "4. Comment participer",
@@ -26,7 +26,7 @@
       },
       "dates": {
         "title": "5. Dates",
-        "content": "Les participations sont ouvertes du [date de sortie de la 2.2.0] au [date de clôture]. Le tirage a lieu après la clôture, avant la mise à jour suivante de l'application."
+        "content": "Les participations sont ouvertes dès la mise en ligne de la version 2.2.0 de Mitsitsy. Elles se terminent au tirage au sort des 10 gagnants. La fin des participations et le tirage sont annoncés sur la page Facebook de Mitsitsy :"
       },
       "prizes": {
         "title": "6. Lots",
@@ -40,7 +40,7 @@
       },
       "data": {
         "title": "8. Données personnelles",
-        "content": "L'adresse e-mail sert uniquement au tirage et à l'envoi du code. Elle n'est ni vendue ni cédée. Elle est supprimée [6 mois] après le tirage. Pour la consulter ou la supprimer, écrire à contact@dzeryhago.com.",
+        "content": "L'adresse e-mail sert uniquement au tirage et à l'envoi du code. Elle n'est ni vendue ni cédée. Elle est supprimée 6 mois après le tirage. Pour la consulter ou la supprimer, écrire à contact@dzeryhago.com.",
         "seeAlso": "Voir aussi"
       },
       "changes": {
