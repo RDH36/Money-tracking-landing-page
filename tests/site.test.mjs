@@ -57,14 +57,14 @@ test("tous les imports @/ des sources se resolvent", () => {
   }
 });
 
-test("emplacement VerticalVideo : poster, pas de video provisoire", () => {
+test("emplacement VerticalVideo : poster, seule video = teaser final", () => {
   const v = read("src/components/media/VerticalVideo.tsx");
   assert.match(v, /poster/);
   assert.ok(!fs.existsSync(path.join(root, "public/videos/teaser-import.mp4")) ||
     process.env.NEXT_PUBLIC_TEASER_IMPORT !== undefined);
   const dir = path.join(root, "public/videos");
   const vids = fs.existsSync(dir) ? fs.readdirSync(dir).filter((n) => /\.(mp4|webm|mov)$/.test(n)) : [];
-  assert.deepEqual(vids, [], "video provisoire presente");
+  assert.deepEqual(vids.filter((n) => n !== "teaser-import.mp4"), [], "video provisoire presente");
 });
 
 test("captures referencees existent", () => {
