@@ -15,7 +15,11 @@ export function Solution() {
           <p>{t("valueProposition")}</p>
         </div>
         <div className="lp-solution-body">
-          <PhoneFrame src="/app/add-light.jpg" alt={tShots("entry")} />
+          <PhoneFrame
+            src="/app/add-light.jpg"
+            darkSrc="/app/add-dark.jpg"
+            alt={tShots("entry")}
+          />
           <div className="lp-promises">
             {promiseKeys.map((key) => (
               <article key={key}>

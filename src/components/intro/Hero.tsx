@@ -43,6 +43,7 @@ export function Hero() {
           <PhoneFrame
             className="lp-phone-second"
             src="/app/add-light.jpg"
+            darkSrc="/app/add-dark.jpg"
             alt={tShots("add")}
             eager
           />
