@@ -8,15 +8,16 @@
     "faq": "FAQ",
     "openMenu": "Ouvrir le menu",
     "closeMenu": "Fermer le menu",
-    "getNotified": "Télécharger"
+    "getNotified": "Télécharger",
+    "import": "Import",
+    "language": "Langue"
   },
   "hero": {
     "headline": "Prenez le contrôle de vos finances en 10 secondes",
-    "subheadline": "Mitsitsy est l'application mobile qui vous permet de suivre chaque Ariary dépensé, même sans connexion internet. Conçue pour Madagascar, adaptée au monde entier.",
+    "subheadline": "Suivez chaque Ariary dépensé, même sans internet. Conçue pour Madagascar.",
     "benefits": {
-      "fast": "Enregistrez une dépense en moins de 10 secondes",
       "offline": "Fonctionne 100% hors ligne",
-      "multicurrency": "Support multi-devises (MGA, EUR, USD)"
+      "multicurrency": "Multi-devises : MGA, EUR, USD"
     },
     "stats": {
       "rating": "4.8/5",
@@ -28,6 +29,11 @@
     },
     "comingSoon": "Disponible maintenant sur Android",
     "notifyLaunch": "Télécharger gratuitement"
+  },
+  "screenshots": {
+    "home": "Écran d'accueil de Mitsitsy : solde net, série, comptes et budgets",
+    "add": "Écran Nouvelle transaction de Mitsitsy",
+    "entry": "Saisie d'une dépense dans Mitsitsy : montant, compte, catégorie"
   },
   "problem": {
     "headline": "Vous ne savez jamais où passe votre argent ?",
@@ -139,33 +145,6 @@
       }
     }
   },
-  "testimonials": {
-    "sectionTitle": "Ils ont repris le contrôle",
-    "sectionSubtitle": "Découvrez ce que nos utilisateurs disent",
-    "items": {
-      "rakoto": {
-        "quote": "Grâce à Mitsitsy, j'ai identifié que je dépensais 150 000 Ar par mois en taxi-be. J'ai commencé à marcher plus souvent et j'ai économisé pour un vélo.",
-        "author": "Rakoto A.",
-        "role": "Commerçant",
-        "location": "Antananarivo",
-        "result": "150 000 Ar/mois économisés"
-      },
-      "marie": {
-        "quote": "Enfin une app qui fonctionne sans internet ! Je note mes dépenses au marché, en brousse, partout. C'est devenu un réflexe.",
-        "author": "Marie L.",
-        "role": "Enseignante",
-        "location": "Fianarantsoa",
-        "result": "Utilisatrice depuis 8 mois"
-      },
-      "jean": {
-        "quote": "Avant, je ne savais jamais pourquoi j'étais toujours à sec en fin de mois. Maintenant je vois tout. La planification m'a aidé à économiser 500 000 Ar en 3 mois.",
-        "author": "Jean-Claude R.",
-        "role": "Fonctionnaire",
-        "location": "Toamasina",
-        "result": "500 000 Ar économisés en 3 mois"
-      }
-    }
-  },
   "comparison": {
     "headline": "Pourquoi Mitsitsy ?",
     "traditional": "Apps Traditionnelles",
@@ -209,218 +188,7 @@
       }
     }
   },
-  "faq": {
-    "sectionTitle": "Questions Fréquentes",
-    "sectionSubtitle": "Tout ce que vous devez savoir sur Mitsitsy",
-    "items": {
-      "availability": {
-        "question": "L'application est-elle disponible ?",
-        "answer": "Oui ! Mitsitsy est disponible maintenant sur Google Play Store pour Android. Téléchargez-la gratuitement et commencez à suivre vos dépenses en 10 secondes."
-      },
-      "free": {
-        "question": "L'application sera-t-elle gratuite ?",
-        "answer": "Oui. Mitsitsy est 100% gratuit sans publicité. Toutes les fonctionnalités sont accessibles sans payer. Nous prévoyons une version Premium optionnelle avec synchronisation cloud, mais l'app de base restera toujours gratuite."
-      },
-      "offline": {
-        "question": "Pourrai-je utiliser l'app sans connexion internet ?",
-        "answer": "Absolument. C'est notre différence principale. Mitsitsy fonctionne entièrement hors ligne. Enregistrement, consultation, graphiques - tout marche sans internet."
-      },
-      "security": {
-        "question": "Mes données seront-elles sécurisées ?",
-        "answer": "Oui. Toutes vos données sont stockées localement sur votre téléphone dans une base SQLite sécurisée. Aucune donnée n'est envoyée à des serveurs externes. Nous n'avons pas accès à vos informations financières."
-      },
-      "currencies": {
-        "question": "Quelles devises seront supportées ?",
-        "answer": "Ariary malgache (MGA), Euro (EUR), et Dollar américain (USD) avec conversion automatique entre devises incluse."
-      },
-      "platforms": {
-        "question": "Sur quelles plateformes l'app sera-t-elle disponible ?",
-        "answer": "Mitsitsy est disponible maintenant sur Android (Google Play Store). Une version iOS (App Store) est prévue pour plus tard."
-      },
-      "notify": {
-        "question": "Comment être informé du lancement ?",
-        "answer": "Inscrivez-vous à notre newsletter ci-dessus. Vous recevrez un email dès que l'application sera disponible, ainsi que des conseils exclusifs pour mieux gérer votre argent."
-      },
-      "planning": {
-        "question": "Comment fonctionne la planification budgétaire ?",
-        "answer": "Créez une planification avec un montant cible et une deadline. Ajoutez des articles avec leurs montants. L'app suit votre progression. Quand vous êtes prêt, convertissez la planification en transactions réelles en un tap."
-      }
-    }
-  },
-  "cta": {
-    "headline": "Prêt à reprendre le contrôle ?",
-    "subheadline": "Téléchargez Mitsitsy maintenant et commencez à voir où va réellement votre argent.",
-    "tagline": "Gratuit. Sans publicité. Fonctionne hors ligne. Conçu pour Madagascar.",
-    "comingSoon": "Disponible maintenant",
-    "guarantees": {
-      "notification": "Disponible sur Google Play",
-      "earlyAccess": "100% gratuit, sans publicité",
-      "freeForever": "Gratuit à vie (fonctionnalités de base)",
-      "localData": "Vos données restent sur votre téléphone"
-    }
-  },
-  "newsletter": {
-    "headline": "Restez informé",
-    "subheadline": "Recevez les nouvelles fonctionnalités et nos meilleurs conseils pour mieux gérer votre argent. 1 email par mois maximum. Zéro spam.",
-    "benefits": {
-      "preview": "Nouveautés en avant-première",
-      "tips": "Conseils budgétaires exclusifs",
-      "earlyAccess": "Accès anticipé aux nouvelles fonctionnalités"
-    },
-    "form": {
-      "email": "Email",
-      "emailPlaceholder": "votre@email.com",
-      "firstName": "Prénom",
-      "firstNamePlaceholder": "Votre prénom",
-      "optional": "(optionnel)",
-      "required": "*"
-    },
-    "button": "S'inscrire à la Newsletter",
-    "disclaimer": "Désabonnement en un clic. Aucune donnée partagée.",
-    "newsletterApprovalLabel": "J'accepte de recevoir la newsletter",
-    "subscribing": "Inscription en cours...",
-    "thankYou": "Merci pour votre inscription !"
-  },
-  "footer": {
-    "description": "Application mobile de suivi des dépenses offline-first pour Madagascar. Disponible maintenant sur Google Play.",
-    "columns": {
-      "product": {
-        "title": "Produit",
-        "features": "Fonctionnalités",
-        "faq": "FAQ",
-        "newsletter": "Newsletter"
-      },
-      "support": {
-        "title": "Support",
-        "contact": "Contact"
-      },
-      "legal": {
-        "title": "Légal",
-        "privacy": "Confidentialité",
-        "terms": "Conditions",
-        "draw": "Règlement du tirage"
-      }
-    },
-    "social": {
-      "facebook": "Facebook",
-      "twitter": "Twitter"
-    },
-    "copyright": "© 2026 Mitsitsy. Conçu avec ❤️ par Raymond Dzery Hago."
-  },
   "ui": {
     "backHome": "Retour à l'accueil"
-  },
-  "terms": {
-    "title": "Conditions d'utilisation",
-    "lastUpdated": "Dernière mise à jour : Janvier 2026",
-    "backHome": "Retour à l'accueil",
-    "sections": {
-      "acceptance": {
-        "title": "1. Acceptation des conditions",
-        "content": "En téléchargeant, installant ou utilisant l'application Mitsitsy, vous acceptez d'être lié par ces conditions d'utilisation. Si vous n'acceptez pas ces conditions, veuillez ne pas utiliser l'application."
-      },
-      "description": {
-        "title": "2. Description du service",
-        "content": "Mitsitsy est une application mobile de suivi des dépenses personnelles. Elle permet de :",
-        "items": ["Enregistrer vos transactions (revenus et dépenses)", "Catégoriser vos dépenses", "Gérer plusieurs comptes", "Visualiser vos statistiques financières", "Planifier vos budgets"],
-        "offline": "L'application fonctionne entièrement hors ligne. Vos données sont stockées localement sur votre appareil."
-      },
-      "usage": {
-        "title": "3. Utilisation de l'application",
-        "content": "Vous vous engagez à :",
-        "items": ["Utiliser l'application uniquement à des fins personnelles et légales", "Ne pas tenter de modifier, décompiler ou désassembler l'application", "Ne pas utiliser l'application pour des activités frauduleuses", "Assurer la sauvegarde de vos propres données"]
-      },
-      "intellectualProperty": {
-        "title": "4. Propriété intellectuelle",
-        "content": "L'application Mitsitsy, son code source, son design, ses icônes et son contenu sont protégés par les lois sur la propriété intellectuelle. Vous bénéficiez d'une licence d'utilisation personnelle, non exclusive et non transférable."
-      },
-      "dataResponsibility": {
-        "title": "5. Données et responsabilité",
-        "yourData": "Vos données : Toutes vos données financières sont stockées localement sur votre appareil. Nous n'avons pas accès à ces données.",
-        "backup": "Sauvegarde : Vous êtes responsable de la sauvegarde de vos données. En cas de perte, vol ou dommage de votre appareil, vos données pourraient être perdues.",
-        "accuracy": "Exactitude : L'application est un outil d'aide à la gestion financière. Nous ne garantissons pas l'exactitude des calculs ou des conversions de devises. Vérifiez toujours les informations importantes."
-      },
-      "liability": {
-        "title": "6. Limitation de responsabilité",
-        "content": "L'application est fournie \"en l'état\". Nous ne garantissons pas que l'application sera exempte d'erreurs ou fonctionnera sans interruption.",
-        "noLiability": "En aucun cas, Mitsitsy ne pourra être tenu responsable de :",
-        "items": ["Pertes de données", "Décisions financières basées sur l'utilisation de l'application", "Dommages indirects ou consécutifs"]
-      },
-      "free": {
-        "title": "7. Gratuité",
-        "content": "L'application de base est gratuite et le restera. Aucune publicité n'est affichée. Une version Premium avec des fonctionnalités supplémentaires (comme la synchronisation cloud) pourra être proposée ultérieurement de manière optionnelle."
-      },
-      "modifications": {
-        "title": "8. Modifications",
-        "content": "Nous nous réservons le droit de modifier ces conditions à tout moment. Les modifications prendront effet dès leur publication. L'utilisation continue de l'application après modification vaut acceptation des nouvelles conditions."
-      },
-      "termination": {
-        "title": "9. Résiliation",
-        "content": "Vous pouvez cesser d'utiliser l'application à tout moment en la désinstallant. Vos données locales seront supprimées avec l'application."
-      },
-      "law": {
-        "title": "10. Droit applicable",
-        "content": "Ces conditions sont régies par les lois de Madagascar. Tout litige sera soumis à la compétence exclusive des tribunaux d'Antananarivo."
-      },
-      "contact": {
-        "title": "11. Contact",
-        "content": "Pour toute question concernant ces conditions d'utilisation :",
-        "email": "Email :"
-      }
-    }
-  },
-  "privacy": {
-    "title": "Politique de confidentialité",
-    "lastUpdated": "Dernière mise à jour : Janvier 2026",
-    "backHome": "Retour à l'accueil",
-    "sections": {
-      "introduction": {
-        "title": "1. Introduction",
-        "content": "Mitsitsy (\"nous\", \"notre\", \"nos\") s'engage à protéger votre vie privée. Cette politique de confidentialité explique comment nous collectons, utilisons et protégeons vos informations lorsque vous utilisez notre application mobile et notre site web."
-      },
-      "dataCollected": {
-        "title": "2. Données collectées",
-        "appData": {
-          "title": "2.1 Données de l'application",
-          "content": "Mitsitsy est conçu selon le principe \"offline-first\". Toutes vos données financières (transactions, comptes, catégories, planifications) sont stockées localement sur votre appareil uniquement. Nous n'avons pas accès à ces données et elles ne sont jamais transmises à nos serveurs."
-        },
-        "newsletter": {
-          "title": "2.2 Newsletter",
-          "content": "Si vous vous inscrivez à notre newsletter, nous collectons :",
-          "items": ["Votre adresse email", "Votre prénom (optionnel)", "La date d'inscription"],
-          "usage": "Ces données sont utilisées uniquement pour vous envoyer des informations sur Mitsitsy (nouveautés, conseils, lancement). Vous pouvez vous désabonner à tout moment."
-        }
-      },
-      "dataStorage": {
-        "title": "3. Stockage des données",
-        "appData": "Données de l'application : Stockées localement sur votre appareil dans une base de données SQLite. Ces données ne quittent jamais votre téléphone sauf si vous choisissez explicitement de les exporter.",
-        "newsletterData": "Données newsletter : Stockées de manière sécurisée sur nos serveurs avec chiffrement."
-      },
-      "dataSharing": {
-        "title": "4. Partage des données",
-        "noSelling": "Nous ne vendons, ne louons et ne partageons jamais vos données personnelles avec des tiers à des fins commerciales.",
-        "localOnly": "Vos données financières dans l'application restent sur votre appareil et ne sont accessibles que par vous."
-      },
-      "yourRights": {
-        "title": "5. Vos droits",
-        "content": "Vous avez le droit de :",
-        "items": ["Accéder à vos données personnelles", "Rectifier vos données", "Supprimer vos données", "Vous désabonner de la newsletter", "Exporter vos données de l'application"],
-        "contact": "Pour exercer ces droits, contactez-nous à : raymond.dzeryhago36@gmail.com"
-      },
-      "security": {
-        "title": "6. Sécurité",
-        "content": "Nous prenons la sécurité de vos données au sérieux :",
-        "items": ["L'application fonctionne entièrement hors ligne", "Vos données financières ne transitent jamais par internet", "Possibilité de masquer votre solde pour protéger votre vie privée", "Aucune publicité ni traceur dans l'application"]
-      },
-      "modifications": {
-        "title": "7. Modifications",
-        "content": "Nous pouvons mettre à jour cette politique de confidentialité. Les modifications seront publiées sur cette page avec une nouvelle date de mise à jour."
-      },
-      "contact": {
-        "title": "8. Contact",
-        "content": "Pour toute question concernant cette politique de confidentialité :",
-        "email": "Email :"
-      }
-    }
   }
 }

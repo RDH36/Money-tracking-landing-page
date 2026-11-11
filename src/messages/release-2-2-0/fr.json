@@ -51,40 +51,30 @@
   },
   "importBeta": {
     "soon": "Bientôt dans Mitsitsy",
-    "beta": "Bêta",
-    "headline": "Bientôt : importe tes dépenses depuis une capture",
-    "subheadline": "Mitsitsy lira bientôt tes captures d'appli, tes tickets et tes factures pour ajouter tes opérations à ta place. Tu vérifies tout avant d'enregistrer.",
-    "points": {
-      "sources": {
-        "title": "Captures d'appli, tickets, factures",
-        "description": "Y compris les captures de SMS Orange Money et MVola."
+    "headline": "Importez vos dépenses depuis une capture d'écran",
+    "subheadline": "Une capture de l'écran Transactions de MCB Juice, ou la photo d'un ticket de retrait, de carte ou de caisse. Mitsitsy lit les opérations sur le téléphone, sans internet, et vous vérifiez tout avant d'enregistrer.",
+    "steps": {
+      "pick": {
+        "title": "Choisissez une capture ou prenez une photo",
+        "description": "Depuis l'écran « Nouvelle transaction »."
       },
-      "fees": {
-        "title": "Frais rangés en Factures",
-        "description": "Les frais lus sur tes captures sont classés tout seuls dans Factures."
+      "check": {
+        "title": "Vérifiez chaque opération",
+        "description": "Montant, compte, catégorie : vous corrigez avant d'enregistrer."
       },
-      "duplicates": {
-        "title": "Doublons détectés",
-        "description": "Une opération déjà enregistrée est signalée avant que tu valides."
-      },
-      "offline": {
-        "title": "Tout se passe sur ton téléphone",
-        "description": "La lecture se fait sans internet : tes données restent 100 % hors ligne."
+      "save": {
+        "title": "Enregistrez tout d'un coup",
+        "description": "Les opérations comptent à leur vraie date dans vos budgets et vos rapports."
       }
     },
-    "quota": "Pendant la bêta : 3 lectures par cycle.",
     "tester": {
-      "title": "Programme Testeur bêta",
-      "description": "Donne ton avis en 1 minute et tente de gagner l'import illimité à vie (10 gagnants tirés au sort).",
-      "rules": "Règlement du tirage"
-    },
-    "cta": {
-      "text": "En attendant, essaie Mitsitsy dès maintenant.",
-      "button": "Télécharger gratuitement"
+      "description": "<b>Testeurs bêta.</b> Faites vos 3 imports, donnez votre avis et tentez de gagner l'import illimité à vie : 10 testeurs tirés au sort.",
+      "rules": "Lire le règlement du tirage"
     },
     "media": {
       "videoLabel": "Teaser de l'import automatique de Mitsitsy",
-      "imageAlt": "Écran « Nouvelle transaction » de Mitsitsy avec l'import automatique en bêta"
+      "imageAlt": "Fin d'un import dans Mitsitsy : 4 opérations ajoutées",
+      "play": "Voir l'import en 30 secondes"
     }
   }
 }

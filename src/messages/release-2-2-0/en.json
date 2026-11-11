@@ -51,40 +51,30 @@
   },
   "importBeta": {
     "soon": "Coming soon to Mitsitsy",
-    "beta": "Beta",
-    "headline": "Coming soon: import your expenses from a screenshot",
-    "subheadline": "Mitsitsy will soon read your app screenshots, receipts and bills to add your transactions for you. You check everything before saving.",
-    "points": {
-      "sources": {
-        "title": "App screenshots, receipts, bills",
-        "description": "Including screenshots of Orange Money and MVola text messages."
+    "headline": "Import your expenses from a screenshot",
+    "subheadline": "A screenshot of the MCB Juice Transactions screen, or a photo of a withdrawal, card or till receipt. Mitsitsy reads the transactions on the phone, without internet, and you check everything before saving.",
+    "steps": {
+      "pick": {
+        "title": "Choose a screenshot or take a photo",
+        "description": "From the “New transaction” screen."
       },
-      "fees": {
-        "title": "Fees filed under Bills",
-        "description": "Fees read from your screenshots are filed under Bills automatically."
+      "check": {
+        "title": "Check each transaction",
+        "description": "Amount, account, category: you correct before saving."
       },
-      "duplicates": {
-        "title": "Duplicates detected",
-        "description": "A transaction you have already saved is flagged before you confirm."
-      },
-      "offline": {
-        "title": "Everything happens on your phone",
-        "description": "Reading works without internet: your data stays 100% offline."
+      "save": {
+        "title": "Save everything at once",
+        "description": "Transactions count on their real date in your budgets and reports."
       }
     },
-    "quota": "During the beta: 3 reads per cycle.",
     "tester": {
-      "title": "Beta tester programme",
-      "description": "Give your feedback in 1 minute for a chance to win unlimited import for life (10 winners drawn at random).",
-      "rules": "Prize draw rules"
-    },
-    "cta": {
-      "text": "In the meantime, try Mitsitsy right now.",
-      "button": "Download for free"
+      "description": "<b>Beta testers.</b> Do your 3 imports, give your feedback and get a chance to win unlimited import for life: 10 testers drawn at random.",
+      "rules": "Read the prize draw rules"
     },
     "media": {
       "videoLabel": "Teaser of Mitsitsy's automatic import",
-      "imageAlt": "Mitsitsy “New transaction” screen with the automatic import in beta"
+      "imageAlt": "End of an import in Mitsitsy: 4 transactions added",
+      "play": "Watch the import in 30 seconds"
     }
   }
 }

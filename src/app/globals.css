@@ -1,5 +1,10 @@
 @import "tailwindcss";
 @import "tw-animate-css";
+@import "./styles/lp-base.css";
+@import "./styles/lp-hero.css";
+@import "./styles/lp-import.css";
+@import "./styles/lp-content.css";
+@import "./styles/lp-end.css";
 
 @custom-variant dark (&:is(.dark *));
 

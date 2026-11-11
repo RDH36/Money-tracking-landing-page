@@ -1,7 +1,6 @@
 "use client";
 
 import { useState } from "react";
-import { cn } from "@/lib/utils";
 
 interface VerticalVideoProps {
   /** Video file (9:16). Leave undefined while the file is not available. */
@@ -10,51 +9,59 @@ interface VerticalVideoProps {
   fallbackSrc: string;
   fallbackAlt: string;
   videoLabel: string;
-  className?: string;
+  /** Text of the button that starts the video (only shown when there is one). */
+  playLabel: string;
 }
 
 /**
- * Vertical (9:16) video player inside a phone frame.
- * Shows the fallback picture when there is no video or when it fails to load.
+ * Vertical (9:16) video slot.
+ * Shows the poster alone when there is no video or when it fails to load;
+ * the play button only exists when a video can really be played.
  */
 export function VerticalVideo({
   src,
   fallbackSrc,
   fallbackAlt,
   videoLabel,
-  className,
+  playLabel,
 }: VerticalVideoProps) {
+  const [playing, setPlaying] = useState(false);
   const [failed, setFailed] = useState(false);
-  const showVideo = Boolean(src) && !failed;
+  const hasVideo = Boolean(src) && !failed;
+
+  if (hasVideo && playing) {
+    return (
+      <div className="lp-video">
+        <video
+          src={src}
+          poster={fallbackSrc}
+          controls
+          autoPlay
+          playsInline
+          aria-label={videoLabel}
+          onError={() => setFailed(true)}
+        />
+      </div>
+    );
+  }
 
   return (
-    <div
-      className={cn(
-        "relative mx-auto w-[260px] sm:w-[280px] bg-gray-900 rounded-[2.5rem] p-2 shadow-2xl",
-        className
+    <div className="lp-video">
+      <img
+        src={fallbackSrc}
+        alt={fallbackAlt}
+        width={540}
+        height={975}
+        loading="lazy"
+      />
+      {hasVideo && (
+        <button type="button" onClick={() => setPlaying(true)}>
+          <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+            <path d="M7 4.5v15l13-7.5z" />
+          </svg>
+          {playLabel}
+        </button>
       )}
-    >
-      <div className="aspect-[9/16] w-full rounded-[2rem] overflow-hidden bg-gray-900">
-        {showVideo ? (
-          <video
-            src={src}
-            poster={fallbackSrc}
-            controls
-            playsInline
-            preload="none"
-            aria-label={videoLabel}
-            onError={() => setFailed(true)}
-            className="w-full h-full object-cover"
-          />
-        ) : (
-          <img
-            src={fallbackSrc}
-            alt={fallbackAlt}
-            loading="lazy"
-            className="w-full h-full object-cover object-top"
-          />
-        )}
-      </div>
     </div>
   );
 }

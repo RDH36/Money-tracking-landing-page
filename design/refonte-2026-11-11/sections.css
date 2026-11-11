@@ -1,0 +1,96 @@
+/* Bientôt : l'import (bloc d'encre, comme la carte « Solde net » de l'app) */
+.bientot{background:var(--bloc);color:var(--bloc-texte);border-radius:28px;padding:36px 22px;display:grid;gap:36px}
+.bientot .sur{color:var(--bloc-accent)}
+.bientot h2{margin:12px 0 16px}
+.bientot p{color:var(--bloc-doux)}
+.video{position:relative;aspect-ratio:9/16;max-width:270px;width:100%;margin:0 auto;border-radius:24px;overflow:hidden;border:1px solid var(--bloc-trait);background:#0E1413}
+.video img{width:100%;height:100%;object-fit:cover}
+.video button{position:absolute;inset:auto 14px 14px 14px;min-height:48px;border-radius:12px;border:0;background:rgba(23,32,31,.92);color:#F4F0E6;font:600 15px "Plus Jakarta Sans",sans-serif;display:flex;align-items:center;justify-content:center;gap:10px}
+.video button svg{width:16px;height:16px}
+.etapes{list-style:none;padding:0;margin:26px 0;counter-reset:e;display:grid;gap:0}
+.etapes li{counter-increment:e;display:grid;grid-template-columns:44px 1fr;padding:16px 0;border-top:1px dashed var(--bloc-trait);color:var(--bloc-texte);font-weight:600}
+.etapes li::before{content:counter(e);font:600 26px/1 Outfit,sans-serif;color:var(--bloc-accent)}
+.etapes li span{display:block;font-weight:400;color:var(--bloc-doux);font-size:15.5px;margin-top:3px}
+.tirage{border:1px dashed var(--bloc-accent);border-radius:16px;padding:18px}
+.tirage b{color:var(--bloc-texte)}
+.tirage a{display:inline-block;margin-top:10px;color:var(--bloc-accent);font-weight:600;min-height:44px;line-height:44px}
+
+/* Problème : deux constats, pas deux cartes */
+.constats{display:grid;gap:0;margin-top:36px}
+.constats article{padding:26px 0;border-top:2px dashed var(--trait)}
+.constats h3{margin-bottom:8px}
+.constats p{color:var(--encre-douce);max-width:36em}
+
+/* Solution : capture à gauche, quatre promesses à droite */
+.solution .tete{max-width:44em}
+.solution .tete p{color:var(--encre-douce);margin-top:18px}
+.solution .corps{display:grid;gap:40px;margin-top:44px}
+.solution .tel{max-width:270px;margin:0 auto}
+.promesses{display:grid;gap:0}
+.promesses article{padding:22px 0;border-top:1px solid var(--trait)}
+.promesses p{color:var(--encre-douce);margin:6px 0 8px}
+.promesses .gain{font-size:14.5px;font-weight:600;color:var(--accent)}
+
+/* Fonctionnalités : une liste, deux colonnes sur grand écran */
+.outils{margin-top:36px;display:grid;gap:0}
+.outils div{display:grid;gap:4px;padding:18px 0;border-top:1px solid var(--trait)}
+.outils dt{font-weight:600}
+.outils dd{color:var(--encre-douce);font-size:15.5px}
+
+/* Comparatif */
+.compare{width:100%;table-layout:fixed;border-collapse:collapse;margin-top:32px;background:var(--feuille);border-radius:var(--r-carte);overflow:hidden;font-size:14px}
+.compare th,.compare td{text-align:left;padding:14px 10px;overflow-wrap:break-word;border-bottom:1px solid var(--trait);vertical-align:top}
+.compare tr:last-child td{border-bottom:0}
+.compare th{font-size:11px;letter-spacing:.04em;text-transform:uppercase;color:var(--encre-douce)}
+.compare td:first-child{font-weight:600}
+.compare td:nth-child(2){color:var(--encre-douce)}
+.compare td:last-child,.compare th:last-child{color:var(--accent);font-weight:600}
+
+/* FAQ */
+.faq{max-width:780px}
+.faq details{border-top:1px solid var(--trait);padding:4px 0}
+.faq summary{list-style:none;cursor:pointer;min-height:56px;display:flex;align-items:center;justify-content:space-between;gap:16px;font-weight:600}
+.faq summary::after{content:"+";font:400 26px/1 Outfit,sans-serif;color:var(--accent)}
+.faq details[open] summary::after{content:"−"}
+.faq details p{color:var(--encre-douce);padding:0 0 20px;max-width:40em}
+
+/* Fin : téléchargement + newsletter dans un seul bloc */
+.fin{background:var(--bloc);color:var(--bloc-texte);border-radius:28px;padding:40px 22px;display:grid;gap:40px}
+.fin p{color:var(--bloc-doux);margin:14px 0 24px}
+.fin .garanties{list-style:none;padding:0;margin-top:22px;display:grid;gap:8px;font-size:15px;color:var(--bloc-doux)}
+.fin form{display:grid;gap:12px;border-top:1px dashed var(--bloc-trait);padding-top:32px}
+.fin label{font-size:14px;font-weight:600}
+.fin input[type=email],.fin input[type=text]{min-height:52px;border-radius:var(--r-champ);border:1px solid #5B6966;background:transparent;color:var(--bloc-texte);padding:0 16px;font:400 16px "Plus Jakarta Sans",sans-serif;width:100%}
+.fin input::placeholder{color:#8C9692}
+.fin .accord{display:flex;gap:10px;align-items:center;font-weight:400;min-height:44px}
+.fin .accord input{width:20px;height:20px;accent-color:#4FD1BF}
+.fin small{color:var(--bloc-doux);font-size:13.5px}
+
+footer{padding:48px 0 32px;font-size:15px;color:var(--encre-douce)}
+footer .cols{display:grid;grid-template-columns:1fr 1fr;gap:28px}
+footer .cols>div:first-child{grid-column:1/-1;max-width:26em}
+footer b{display:block;color:var(--encre);margin-bottom:8px}
+footer a{display:block;text-decoration:none;min-height:36px}
+footer .bas{margin-top:28px;padding-top:20px;border-top:1px solid var(--trait);font-size:13.5px}
+
+@media (min-width:900px){
+  .bientot{grid-template-columns:320px 1fr;gap:72px;padding:72px;align-items:center}
+  .video{max-width:320px}
+  .constats{grid-template-columns:1fr 1fr;gap:56px}
+  .solution .corps{grid-template-columns:330px 1fr;gap:88px;align-items:start}
+  .solution .tel{max-width:none;position:sticky;top:40px}
+  .promesses article{padding:30px 0}
+  .promesses h3{font-size:26px}
+  .outils{grid-template-columns:1fr 1fr;column-gap:72px}
+  .compare{font-size:17px}.compare th,.compare td{padding:20px 28px}
+  .fin{grid-template-columns:1fr 1fr;gap:80px;padding:80px 72px}
+  .fin form{border-top:0;padding-top:0;border-left:1px dashed var(--bloc-trait);padding-left:80px}
+  footer .cols{grid-template-columns:2fr 1fr 1fr 1fr}
+  footer .cols>div:first-child{grid-column:auto}
+}
+/* retouches 11/11 : bouton vidéo sur une ligne, en-tête de tableau lisible en 360 */
+.video button{font-size:14px;white-space:nowrap;gap:8px;padding:0 10px}
+.compare th{text-transform:none;letter-spacing:0;font-size:12px}
+.compare th:first-child,.compare td:first-child{width:29%}
+.compare th:nth-child(2),.compare td:nth-child(2){width:38%}
+@media(min-width:900px){.compare th{font-size:14px}}

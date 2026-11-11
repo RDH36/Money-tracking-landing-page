@@ -1,0 +1,141 @@
+/* Phone frame: identical to the previous site (gray-900 shell 280×580, notch, whole screen) */
+.lp-phone {
+  position: relative;
+  aspect-ratio: 280 / 580;
+  padding: 0.5rem;
+  background: #111827;
+  border-radius: 3rem;
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+  outline: 1px solid var(--lp-phone-outline);
+}
+.lp-phone::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 8rem;
+  max-width: 46%;
+  height: 1.5rem;
+  background: #111827;
+  border-radius: 0 0 1rem 1rem;
+  z-index: 1;
+}
+.lp-phone img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: top;
+  border-radius: 2.5rem;
+}
+.lp-phone img.lp-dark-only {
+  display: none;
+}
+@media (prefers-color-scheme: dark) {
+  .lp-phone img.lp-light-only {
+    display: none;
+  }
+  .lp-phone img.lp-dark-only {
+    display: block;
+  }
+}
+
+/* Hero */
+.lp-hero {
+  padding: 36px 0 0;
+  overflow: hidden;
+}
+.lp-hero h1 em {
+  font-style: normal;
+  color: var(--lp-accent);
+}
+.lp-hero-intro {
+  font-size: 18px;
+  color: var(--lp-ink-soft);
+  margin: 22px 0 26px;
+  max-width: 34em;
+}
+.lp-proofs {
+  list-style: none;
+  padding: 0;
+  display: grid;
+  gap: 10px;
+  margin-bottom: 30px;
+  font-weight: 600;
+  font-size: 15.5px;
+}
+.lp-proofs li {
+  display: flex;
+  gap: 12px;
+  align-items: baseline;
+}
+.lp-proofs li::before {
+  content: "";
+  flex: none;
+  width: 14px;
+  border-top: 2px solid var(--lp-accent-bright);
+  transform: translateY(-5px);
+}
+.lp-hero-action {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 14px;
+}
+/* On mobile the fixed bar carries the download button */
+.lp-hero-action .lp-btn {
+  display: none;
+}
+.lp-hero-available {
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--lp-accent);
+}
+.lp-hero-scene {
+  position: relative;
+  max-width: 250px;
+  margin: 44px auto 0;
+}
+.lp-hero-scene .lp-phone-second {
+  display: none;
+}
+
+@media (min-width: 900px) {
+  .lp-hero {
+    padding-top: 70px;
+  }
+  .lp-hero .lp-page {
+    display: grid;
+    grid-template-columns: 1.2fr 1fr;
+    gap: 56px;
+    align-items: center;
+  }
+  .lp-hero-intro {
+    font-size: 21px;
+  }
+  .lp-hero-action .lp-btn {
+    display: inline-flex;
+  }
+  /* Two phones: home on the left, "New transaction" 90px lower on the right, overlapping */
+  .lp-hero-scene {
+    max-width: none;
+    height: 640px;
+    margin: 0;
+  }
+  .lp-hero-scene .lp-phone {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 280px;
+    z-index: 1;
+  }
+  .lp-hero-scene .lp-phone-second {
+    display: block;
+    left: auto;
+    right: 0;
+    top: 90px;
+    width: 250px;
+    z-index: 2;
+  }
+}

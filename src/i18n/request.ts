@@ -12,6 +12,8 @@ export default getRequestConfig(async ({ requestLocale }) => {
     locale,
     messages: {
       ...(await import(`../messages/${locale}.json`)).default,
+      ...(await import(`../messages/support/${locale}.json`)).default,
+      ...(await import(`../messages/legal/${locale}.json`)).default,
       // Mitsitsy 2.2.0 content (draw rules, import section)
       ...(await import(`../messages/release-2-2-0/${locale}.json`)).default,
     },

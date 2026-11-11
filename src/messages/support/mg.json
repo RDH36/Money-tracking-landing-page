@@ -1,0 +1,96 @@
+{
+  "faq": {
+    "sectionTitle": "Fanontaniana Apetraka Matetika",
+    "sectionSubtitle": "Izay rehetra tokony ho fantatrao momba an'i Mitsitsy",
+    "items": {
+      "availability": {
+        "question": "Rahoviana no hisy ilay rindranasa?",
+        "answer": "Mbola eo am-pamolavolana ny Mitsitsy. Misoratra anarana amin'ny gazetinay mba hampahafantarina anao rehefa mivoaka ary hahazo fidirana aloha."
+      },
+      "free": {
+        "question": "Ho maimaim-poana ve ny rindranasa?",
+        "answer": "Eny. Mitsitsy dia ho 100% maimaim-poana tsy misy pub. Ny fampisehoana rehetra dia azo ampiasaina tsy andoa. Misy drafitra Premium tsy voatery miaraka amin'ny sync amin'ny cloud, fa ny rindranasa fototra dia ho maimaim-poana foana."
+      },
+      "offline": {
+        "question": "Azoko ampiasaina ve ny rindranasa tsy misy internet?",
+        "answer": "Mazava ho azy. Izay no fahasamihafanay lehibe. Mitsitsy dia hiasa tanteraka offline. Firaketana, fijerena, grafika - ny rehetra dia hiasa tsy misy internet."
+      },
+      "security": {
+        "question": "Ho azo antoka ve ny datako?",
+        "answer": "Eny. Ny datanao rehetra dia tehirizina eo amin'ny findainao ao amin'ny tahiry SQLite azo antoka. Tsy misy data alefa any amin'ny server ivelany. Tsy hahazo ny fampahalalana ara-bolanao izahay."
+      },
+      "currencies": {
+        "question": "Inona avy ny vola tohanana?",
+        "answer": "Amin'ny fanombohana: Ariary Malagasy (MGA), Euro (EUR), ary Dolara Amerikana (USD). Ny fanovana vola automatika dia ho voarakitra."
+      },
+      "platforms": {
+        "question": "Amin'ny sehatra inona no hisiany?",
+        "answer": "Mitsitsy dia ho hita amin'ny Android (Google Play Store) amin'ny fanombohana. Kinasa ho avy ny dika iOS (App Store)."
+      },
+      "notify": {
+        "question": "Ahoana no ahafahako ampahafantarina rehefa mivoaka?",
+        "answer": "Misoratra anarana amin'ny gazetinay etsy ambony. Hahazo mailaka ianao raha vao misy ny rindranasa, miaraka amin'ny torohevitra manokana hitantanana tsara kokoa ny volanao."
+      },
+      "planning": {
+        "question": "Ahoana ny fiasan'ny fandrindrana tetibola?",
+        "answer": "Afaka mamorona drafitra miaraka amin'ny vola kendrena sy fe-potoana ianao. Ampio ny singa miaraka amin'ny vidiny. Hanaraka ny fandrosoanao ny rindranasa. Rehefa vonona, ovay ho transaction tena izy amin'ny tsindry iray ilay drafitra."
+      }
+    }
+  },
+  "cta": {
+    "headline": "Vonona hamerina ny fifehezana?",
+    "subheadline": "Aoka ho isan'ny voalohany mahita an'i Mitsitsy ary atombohy ny mahita hoe aiza marina no lasan'ny volanao.",
+    "tagline": "Maimaim-poana. Tsy misy pub. Miasa offline. Natao ho an'i Madagasikara.",
+    "comingSoon": "Ho avy tsy ho ela",
+    "guarantees": {
+      "notification": "Fampahafantarana rehefa mivoaka",
+      "earlyAccess": "Fidirana aloha manokana",
+      "freeForever": "Maimaim-poana mandrakizay (fampisehoana fototra)",
+      "localData": "Ny datanao mijanona eo amin'ny findainao"
+    }
+  },
+  "newsletter": {
+    "headline": "Mijanona mahalala",
+    "subheadline": "Mahazo fampisehoana vaovao sy torohevitra tsara indrindra hitantanana ny volanao. Mailaka 1 isan-bolana fara-fahabetsany. Tsy misy spam.",
+    "benefits": {
+      "preview": "Vaovao alohan'ny hafa",
+      "tips": "Torohevitra tetibola manokana",
+      "earlyAccess": "Fidirana aloha amin'ny fampisehoana vaovao"
+    },
+    "form": {
+      "email": "Mailaka",
+      "emailPlaceholder": "ny@mailaka.com",
+      "firstName": "Anarana",
+      "firstNamePlaceholder": "Ny anaranao",
+      "optional": "(tsy voatery)",
+      "required": "*"
+    },
+    "button": "Misoratra amin'ny Gazety",
+    "disclaimer": "Miala amin'ny tsindry iray. Tsy misy data zaraina.",
+    "newsletterApprovalLabel": "Manaiky handray ny gazety aho",
+    "subscribing": "Misoratra anarana...",
+    "thankYou": "Misaotra tamin'ny fisoratana anarana!"
+  },
+  "footer": {
+    "description": "Rindranasa finday fanaraha-maso fandaniana offline-first ho an'i Madagasikara. Ho avy tsy ho ela.",
+    "columns": {
+      "product": {
+        "title": "Vokatra",
+        "features": "Fampisehoana",
+        "faq": "Fanontaniana",
+        "newsletter": "Gazety"
+      },
+      "support": {
+        "title": "Fanohanana",
+        "contact": "Fifandraisana",
+        "draw": "Règlement du tirage"
+      },
+      "legal": {
+        "title": "Ara-dalana",
+        "privacy": "Tsiambaratelo",
+        "terms": "Fepetra"
+      }
+    },
+    "copyright": "© 2026 Mitsitsy. Nataon'i <author>Raymond Dzery Hago</author>."
+  }
+}
