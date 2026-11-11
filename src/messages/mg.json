@@ -8,7 +8,7 @@
     "faq": "Fanontaniana",
     "openMenu": "Sokafy ny menu",
     "closeMenu": "Hidio ny menu",
-    "getNotified": "Ampandrenesina",
+    "getNotified": "Alao",
     "import": "Import",
     "language": "Fiteny"
   },
@@ -27,8 +27,8 @@
       "primary": "Alao Maimaim-poana",
       "secondary": "Jereo ny Demo"
     },
-    "comingSoon": "Ho avy tsy ho ela",
-    "notifyLaunch": "Ampandrenesina rehefa mivoaka"
+    "comingSoon": "Efa azo alaina amin'ny Android",
+    "notifyLaunch": "Alao maimaim-poana"
   },
   "screenshots": {
     "home": "Pejy fandraisan'i Mitsitsy: vola sisa, andiany, kaonty ary tetibola",

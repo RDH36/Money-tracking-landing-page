@@ -49,7 +49,8 @@ export default async function TiragePage({
           </Link>
 
           <h1 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-8">
-            {t("title")}
+            {/* non-breaking spaces inside the French quotes: no orphan quote mark */}
+            {t("title").replace(/« /g, "«\u00a0").replace(/ »/g, "\u00a0»")}
           </h1>
 
           <div className="prose prose-gray max-w-none">
