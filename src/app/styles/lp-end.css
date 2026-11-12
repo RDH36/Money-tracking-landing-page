@@ -99,10 +99,26 @@
   margin-bottom: 8px;
   font-weight: 700;
 }
+/* Link columns: each row keeps the 36px tap height, but the link box keeps the
+   height of its text, so the focus ring hugs the label instead of the empty row
+   (it used to overflow onto the next link at 360px). */
+.lp-footer-cols > div + div {
+  display: grid;
+  grid-template-rows: auto;
+  grid-auto-rows: minmax(36px, auto);
+  align-content: start;
+  align-items: start;
+}
 .lp-footer-cols a {
   display: block;
-  min-height: 36px;
+  position: relative;
   text-decoration: none;
+}
+/* Tap area: back to the full 36px row height */
+.lp-footer-cols a::before {
+  content: "";
+  position: absolute;
+  inset: 0 0 calc(1lh - 36px);
 }
 .lp-footer-cols a:hover {
   color: var(--lp-ink);
