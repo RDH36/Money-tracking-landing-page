@@ -36,6 +36,13 @@ export async function generateMetadata({
     mg: "mg_MG",
   };
 
+  // Alt text of the share image, in the language of the page
+  const shareAlts: Record<string, string> = {
+    en: "Mitsitsy - Expense tracking app",
+    fr: "Mitsitsy - Application de suivi des dépenses",
+    mg: "Mitsitsy - Rindranasa fanaraha-maso fandaniana",
+  };
+
   return {
     title: {
       default: titles[locale] || titles.en,
@@ -44,7 +51,7 @@ export async function generateMetadata({
     description: descriptions[locale] || descriptions.en,
     openGraph: {
       locale: ogLocales[locale] || ogLocales.en,
-      images: [shareImage],
+      images: [{ ...shareImage, alt: shareAlts[locale] || shareAlts.en }],
     },
   };
 }

@@ -35,6 +35,6 @@ test("image de partage : PNG 1200x630 de moins de 300 Ko", () => {
 test("image de partage : aussi dans l'openGraph des pages par langue (sinon ecrase)", () => {
   assert.match(read("src/constants/content.ts"), /url: "\/og-image\.png"/);
   const local = read("src/app/[locale]/layout.tsx");
-  assert.match(local, /openGraph: \{[^}]*images: \[shareImage\]/);
+  assert.match(local, /openGraph: \{[^}]*images: \[\{ \.\.\.shareImage, alt: shareAlts\[locale\]/);
   assert.match(read("src/app/layout.tsx"), /images: \[shareImage\]/);
 });
