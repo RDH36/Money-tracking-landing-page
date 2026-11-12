@@ -51,7 +51,6 @@ export function NewsletterForm() {
           type="checkbox"
           name="newsletterApproval"
           value="true"
-          defaultChecked
           disabled={isPending}
         />
         {t("newsletterApprovalLabel")}
