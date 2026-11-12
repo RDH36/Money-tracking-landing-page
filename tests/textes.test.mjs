@@ -20,7 +20,10 @@ test("tirage : aucun crochet dans les 3 langues", () => {
 test("tirage fr : organisateur, age, dates, conservation", () => {
   const f = all.fr;
   assert.match(f["tirage.sections.organizer.content"], /organisé par Mitsitsy Team,/);
-  assert.match(f["tirage.sections.who.content"], /âgée d'au moins 16 ans\.$/);
+  assert.match(
+    f["tirage.sections.who.content"],
+    /âgée d'au moins 16 ans\. Les mineurs participent avec l'accord d'un parent ou d'un représentant légal\.$/,
+  );
   assert.equal(
     f["tirage.sections.dates.content"],
     "Les participations sont ouvertes dès la mise en ligne de la version 2.2.0 de Mitsitsy. Elles se terminent au tirage au sort des 10 gagnants. La fin des participations et le tirage sont annoncés sur la page Facebook de Mitsitsy :",
