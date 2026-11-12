@@ -3,6 +3,7 @@ import { NextIntlClientProvider } from "next-intl";
 import { getMessages, getTranslations } from "next-intl/server";
 import { notFound } from "next/navigation";
 import { routing } from "@/i18n/routing";
+import { shareImage } from "@/constants/content";
 
 type Props = {
   children: React.ReactNode;
@@ -43,6 +44,7 @@ export async function generateMetadata({
     description: descriptions[locale] || descriptions.en,
     openGraph: {
       locale: ogLocales[locale] || ogLocales.en,
+      images: [shareImage],
     },
   };
 }
